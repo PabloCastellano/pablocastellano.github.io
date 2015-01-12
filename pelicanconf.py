@@ -93,7 +93,7 @@ SITEMAP_SAVE_AS = 'sitemap.xml'
 EXTRA_TEMPLATES_PATHS = ['templates']
 
 # Specify theme
-#THEME = "themes/myidea"
+THEME = "themes/myidea"
 #THEME = "themes/notmyidea"
 
 # ----------------------------------------------------------------------
