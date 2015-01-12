@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /author/
+Disallow: /theme/
+Disallow: /img/
+Disallow: /js/
+Disallow: /css/
