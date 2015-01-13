@@ -6,11 +6,10 @@ Tags: gsoc2012, guifi.net
 I have added some checkbuttons that allow you to show and hide the labels and the points of the nodes. Apart from that, there aren't more
 features this week.
 
-### Libchamplain
+# Libchamplain
 
 I have subscribed to [their mailing list](https://mail.gnome.org/archives/libchamplain-list/) and I have the pending task of reading its
-archive.
-
+archive.  
 The other patches I sent, were merged into master as well :)
 
 Other things that I had not considered are:
@@ -31,7 +30,7 @@ For the first issue I have two solutions in mind:
 Libchamplain uses [Clutter](http://www.clutter-project.org/) to draw widgets on the map. I'm getting familiarized with it too. A good widget
 to implement would be a smaller world map that allowed you to click on it and move quickly through the map, as a magnifying glass.
 
-### APIs and GObject
+# APIs and GObject
 
 I've started drawing some UML diagrams to design an API that deals with CNML files without having to deal with XML at the same time. I will
 also do the same for the API to interact with the Guifi.net website.
@@ -43,8 +42,8 @@ It will be harder as I don't have any real previous experience with GObject but 
 I found a talk given by [**Tal Liron**](http://emblemparade.net/) in December 2011 during a Chicago Python User Group
 ([**ChiPy**](http://chipy.org/)) conference. He gives a good explanation of GObject Introspection.
 
-\
-[**GObject and Vala**](https://www.youtube.com/watch?v=6QrGmA_RR4E)
+
+<p style="text-align: center; "><iframe allowfullscreen="" frameborder="1" height="315" src="https://www.youtube.com/embed/6QrGmA_RR4E" width="420"></iframe><br /><a href="https://www.youtube.com/watch?v=6QrGmA_RR4E"><strong>GObject and Vala</strong></a></p>  
 
 By the way, the current version of GObject Introspection doesn't support default parameters in languages that are allowed (like Python).
 
@@ -56,15 +55,9 @@ because it will complain about the number of parameters. You have to specify all
 
 > self.embedBox.pack\_start(self.embed, True, True, 0)
 
- 
-
 It's already reported, see [bug 558620](https://bugzilla.gnome.org/show_bug.cgi?id=558620).
 
- 
-
-### Useful links
-
- 
+# Useful links
 
 More about GObject and Introspection in the GNOME Wiki:
 
@@ -80,11 +73,9 @@ Others:
 -   [Genie](https://live.gnome.org/Genie), like Vala but with Pythonic syntax
 -   [https://github.com/antono/vala-object](https://github.com/antono/vala-object)
 
-### Next week
+# Next week
 
 To be honest I won't do so much, I start my exams in two days from now. I will continue with the diagrams and thinking about the APIs.
-
-[](http://lainconscienciadepablo.net/content/gsoc-report-2-libs-and-apis)
 
 [![Flattr
 this](http://api.flattr.com/button/flattr-badge-large.png "Flattr this")](http://flattr.com/thing/712478/GSOC-Report-2-libs-and-APIs)
