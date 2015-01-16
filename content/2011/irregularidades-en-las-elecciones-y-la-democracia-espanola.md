@@ -1,23 +1,21 @@
 Title: Irregularidades en las elecciones y la democracia española
 Date: 2011-11-28
 Category: TODO
-Tags: españa
+Tags: España
 
 Hace una semana, el 20 de noviembre de 2011, se celebraron las [XI Elecciones Generales en
 España](https://es.wikipedia.org/wiki/Elecciones_generales_de_Espa%C3%B1a_de_2011). Semanas antes, los partidos políticos (dos
 principalmente) volvieron a derrochar dinero en publicidad para afear las ciudades de toda España usando carteles con sus caras pero ¡por
 fin, se acabó el espectáculo!
 
-Para asimilar por lo que estamos pasando recomiendo leer el siguiente artículo del abogado Carlos Sánchez Almeida.\
-“[\#19N, Jornada de Reflexión](http://www.elmundo.es/blogs/elmundo/jaqueperpetuo/2011/11/19/19n-jornada-de-reflexion.html)” es un resumen
-con ejemplos de**lo podrida que está la democracia en este país** **y la impunidad con la que actúan los grandes medios y partidos
-políticos** (Almeida pone ejemplos como el percance del voto por correo o el despiste de la papeleta del Senado desordenada). Todos ellos
+Para asimilar por lo que estamos pasando recomiendo leer el siguiente artículo del abogado Carlos Sánchez Almeida.  
+[#19N, Jornada de Reflexión](http://www.elmundo.es/blogs/elmundo/jaqueperpetuo/2011/11/19/19n-jornada-de-reflexion.html) es un resumen
+con ejemplos de **lo podrida que está la democracia en este país** **y la impunidad con la que actúan los grandes medios y partidos
+políticos**. Almeida pone ejemplos como el percance del voto por correo o el despiste de la papeleta del Senado desordenada. Todos ellos
 ocurrieron antes de las elecciones.
 
-El panorama después de las elecciones es más desalentador si cabe: "[Pasamos de tener al peor presidente de la historia a tener al garrulo
-que perdió 2 veces contra él](https://twitter.com/#%21/schinmm/status/138387113686212608)" y no parece que vaya a mejorar.
-
- 
+El panorama después de las elecciones es más desalentador si cabe: *"[Pasamos de tener al peor presidente de la historia a tener al garrulo
+que perdió 2 veces contra él](https://twitter.com/#%21/schinmm/status/138387113686212608)"* y no parece que vaya a mejorar.
 
 He ido recopilando una lista de hechos ocurridos durante y después de las elecciones que demuestran igualmente lo podrida que está esta
 democracia. Dejo el juicio a cargo del lector:
@@ -57,12 +55,10 @@ democracia. Dejo el juicio a cargo del lector:
 > derecho de voto por el elector. Asimismo, insta a la Mesa a que si el elector insiste en poner reclamación se le invite a deponer su
 > actitud o, en caso contrario, se requiera la actuación de la fuerza policial para que abandone el Colegio Electoral.*
 
--   Votantes del PP celebran la victoria de su partido en las elecciones[ondeando una **bandera
+-   Votantes del PP celebran la victoria de su partido en las elecciones [ondeando una **bandera
     franquista**](http://www.publico.es/espana/407987/20-n-las-imagenes-de-la-noche-electoral/slideshow#32)
 
- 
-
-BONUS:
+## BONUS
 
 -   [La caravana del PSOE, multada en Triana por carecer de licencia de
     megafonía](http://www.abcdesevilla.es/20111112/sevilla/sevi-ayuntamiento-dice-policia-actuo-201111121835.html) (durante la campaña
@@ -83,14 +79,10 @@ BONUS:
 > centro**, ha sido denunciada por irregular pero de momento la Junta Electoral no ha decidido su impugnación, según indicaron a Europa
 > Press fuentes del Ayuntamiento.*
 
- 
-
 Y para terminar, ver [la cara de pardillos que se les queda](https://www.youtube.com/watch?v=gJkXY_HxzCY) tanto al secretario de Estado de
 Comunicación como a la subsecretaria de Interior cuando un periodista les pregunta en inglés en una rueda de prensa sobre el dispositivo
-electoral.
+electoral. Pincha para ver el vídeo.
 
-[![](/pictures/elecciones2011_y_el_ingles.gif)](http://www.youtube.com/watch?v=gJkXY_HxzCY)
-
- 
+[![](/img/elecciones2011_y_el_ingles.gif)](http://www.youtube.com/watch?v=gJkXY_HxzCY)
 
 Lo llaman democracia y no lo es.

@@ -1,25 +1,25 @@
 Title: Norwegian super stars [traducción al español]
 Date: 2011-1-29
 Category: TODO
+
 *Esto es una libre traducción de una entrada publicada ayer en el [blog de autistici.org](https://cavallette.noblogs.org/2011/01/7117). Me
 he tomado la molestia de tirarme un buen rato traduciéndolo porque merece la pena leerla y porque usando el traductor más famoso de la red
-es imposible enterarse de nada.\
- [Autistici/Inventati](https://www.autistici.org/it/) (A/I) es una organización de activistas italianos que autogestionan servidores y dan
+es imposible enterarse de nada.*
+
+*[Autistici/Inventati](https://www.autistici.org/it/) (A/I) es una organización de activistas italianos que autogestionan servidores y dan
 [servicios](https://www.autistici.org/it/services/index.html) a la gente que lo pide. Entre esos servicios gratuitos se encuentran cuentas
 de correo (con unos dominios muy chulos :)), espacio para webs, blogs o canales de chat seguros. Aunque esta gente merezca una entrada solo
 para ellos, porque hay cosas de sobra que contar de otras movidas que han tenido, os pongo en situación: en noviembre de 2010 se enteran de
 que la policía noruega les ha copiado los discos duros de una de sus máquinas en Noruega que formaba parte de su infraestructura distribuida
 A/I. El motivo es una investigación sobre hechos "intimidatorios y difamatorios" hacia la asociación [Casa
 Pound](http://secure.wikimedia.org/wikipedia/es/wiki/Casa_Pound) (una asociación italiana de extrema derecha y "de promoción social",
-bastante curiosa, ya que entre otras cosas okupa casas para dárselas a familias italianas sin techo).\
+bastante curiosa, ya que entre otras cosas okupa casas para dárselas a familias italianas sin techo).  
  A/I es también la organización donde desde hace unos meses tengo mi principal cuenta de correo electrónico autogestionada (¡ya era hora de
 tener una!). Aquí os lo dejo.*
 
- 
-
-Sin quererlo y gracias a la comisaría de Avezzano [provincia italiana de L'Aquila] y al señor Iannone, nos hemos hecho famosísimos en
+Sin quererlo y gracias a la comisaría de Avezzano (provincia italiana de L'Aquila) y al señor Iannone, nos hemos hecho famosísimos en
 Noruega. Solos no lo habríamos conseguido nunca, habéis estado magníficos. La
-[rogatoria](https://secure.wikimedia.org/wikipedia/es/wiki/Carta_rogatoria) internacional que provocó el secuestro y la copia [del disco
+[rogatoria](https://es.wikipedia.org/wiki/Carta_rogatoria) internacional que provocó el secuestro y la copia [del disco
 duro] de una máquina de A/I en Noruega [artículo original: [Norwegian Crackdown](https://cavallette.noblogs.org/2010/11/7029)], nos ha
 llevado a la *mirada pública* y ha generado más debate en aquellas lejanas tierras de descendencia vikinga.
 
@@ -29,7 +29,7 @@ contra:
 -   En el evento no hay tetas ni culos implicados. ¡Sin chuminos no hay audiencia!
 -   Hablar de legitimidad de secuestros, de privacidad y de críticas a acciones de la policía es complicado. Si ya lo es cuando por medio
     hay muertos en cárceles o por las calles, imaginemos por una cuestión como la copia de un disco duro. Estamos acostumbrados a un "os ha
-    ido bien, ni siquiera os han     pegado"  .
+    ido bien, ni siquiera os han pegado"  .
 
 En Noruega en cambio, donde están más emancipados sexualmente que nosotros, en medio del debate sobre la retención de datos que está
 atravesando el país, nuestro caso ha sido elegido como emblema de un negativo escenario, en el que la libertad de expresión y de opinión
@@ -45,9 +45,9 @@ atravesando el país, nuestro caso ha sido elegido como emblema de un negativo e
 
 Están en noruego [menos Slashdot], pero en todos los artículos se preguntan cómo con una rogatoria internacional ambigua, vergonzosa (por no
 decir escandalosa y sin sentido) así como torpe y poco precisa en las acusaciones, se ha conseguido secuestrar toda una máquina para
-proporcionar datos sensibles de los autores de un [*noblog*](http://noblogs.org/)[el servicio de blogs que ellos proporcionan]. La policía
+proporcionar datos sensibles de los autores de un [*noblog*](http://noblogs.org/) (el servicio de blogs que ellos proporcionan). La policía
 se justifica diciendo que por cuestiones de tiempo ha decidido actuar de este modo. En los periódicos publican "La policía secuestra 7000
-cuentas para   acabar antes  . No creemos que haga falta comentar de nuevo este hecho: podéis leer nuestra posición en los dos comunicados
+cuentas para acabar antes. No creemos que haga falta comentar de nuevo este hecho: podéis leer nuestra posición en los dos comunicados
 anteriores. Lo más importante es el interés del propio debate.
 
 Al principio, el caso empezó a tomar importancia gracias a Jon Wessel-Aas, líder de la [**sección noruega de la comisión internacional de
@@ -76,7 +76,7 @@ A las cuales se añaden:
     se halla en la cima de la popularidad pero están revueltos por desacuerdos internos, precisamente en este tipo de decisiones.
 
 En efecto, parecería que prácticamente solo el gobierno y la policía son los verdaderos partidarios de la directiva, publicitada sonando
-[*ad nauseam*](https://secure.wikimedia.org/wikipedia/es/wiki/Argumento_ad_nauseam)el tambor de la desinformación con el clásico "guau guau"
+[*ad nauseam*](https://es.wikipedia.org/wiki/Argumento_ad_nauseam) el tambor de la desinformación con el clásico "guau guau"
 de pedófilos y terroristas. Esto y mucho más (y entre esas cosas, nosotros) animan a la discusión y la contra/propaganda, por la posible
 aprobación en primavera.
 
@@ -139,5 +139,3 @@ informaremos". A lo mejor no es solo por los datos que se intercambian las polic
 miles de personas. A lo mejor no es solo por un nombre que se dejan miles de euros y de francos y de coronas de los contribuyentes, sino
 también y sobre todo para lanzar una advertencia. **Quedaros calladitos, no protestéis, en todo caso, colaborad. Pero nosotros no estamos
 acostumbrados a seguir los buenos consejos.**
-
-[](http://lainconscienciadepablo.net/es/content/norwegian-super-stars)

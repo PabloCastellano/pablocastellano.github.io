@@ -15,7 +15,7 @@ Esta es una lista de mis impresiones:
 -   En el aeropuerto me tocó un control “aleatorio” de equipaje. La última vez aprendí que el mismo policía que te lo saca todo tiene la
     obligación de recolocártelo (con la suerte de que te lo suelen dejar incluso más ordenado de lo que lo llevas). Cuál fue mi sorpresa
     cuando al terminar, me dijo que “ya podía recolocarlo”. ¿Yo? Y sí, por desgracia, es así. Me señaló uno de los varios carteles repetidos
-    que decían que en Suecia la ley es totalmente al contrario, así que eres tú el que tienes que hacer y deshacer la maleta. Por lo menos
+    que decían que en Suecia la ley es al contrario, así que eres tú el que tienes que hacer y deshacer la maleta. Por lo menos
     me la deshizo él... qué amable.
 -   La siguiente cosa que me chocó ese mismo día es que por donde iba pasando veía a gente joven trabajando: vigilantes en el metro,
     cafeterías... ([algo](http://www.euribor.com.es/2010/01/12/espana-lidera-el-paro-joven-en-europa/comment-page-1/) debe ir
@@ -59,19 +59,19 @@ Esta es una lista de mis impresiones:
     mes a los estudiantes, pudiendo percebir esta ayuda hasta 6 años. Por ello, muchos estudiantes están independizados y el problema para
     independizarte si eres estudiante no es el dinero, sino encontrar una casita o estudio. Una vez que empiezan a trabajar, tienen que ir
     devolviendo la mitad de lo que han recibido durante sus estudios. Los ingenieros suelen salir de la universidad cobrando los (30.000SEK)
-    \~3.400€. Mi amiga, sin embargo, me comentó que el país iba mal ultimamente :P. ¿Fuga de cerebros? ¿Qué es eso?
--   El Estado tiene el monopolio del alcohol en sus tiendas ”Systembolaget” (que significa, la compañía del sistema) y abren hasta las 7 de
+    ~3.400€. Mi amiga, sin embargo, me comentó que el país iba mal ultimamente :P. ¿Fuga de cerebros? ¿Qué es eso?
+-   El Estado tiene el monopolio del alcohol en sus tiendas ”Systembolaget” (que significa "la compañía del sistema") y abren hasta las 7 de
     la tarde de lunes a viernes, hasta las 3 de la tarde los sábados, y no abre los domingos, por lo que tienes que planear bien tus
     borracheras. Estuve en una un viernes 25. Por ser día 25, que es cuando cobran los estudiantes, y viernes, en la tienda no se cabía y
     tuvimos que hacer cola para entrar. ¡Flipante!
 -   Estocolmo es bastante cosmopolita y no son comunes los restaurantes de comida sueca, así que no pude probar nada ”típico”, excepto:
-    -   Strömming på knäckebröd (arenques en [knäckerbröd](https://secure.wikimedia.org/wikipedia/es/wiki/Knäckebröd), un pan crujiente)\
-         ![](http://lainconscienciadepablo.net/pictures/strömming%20knäckerbröd.jpg)
-    -   Semla\
-         ![](http://lainconscienciadepablo.net/pictures/semla.jpg)
--   ¡¡Encontré citronpepper en el supermercado!!
+    -   Strömming på knäckebröd (arenques en [knäckerbröd](https://secure.wikimedia.org/wikipedia/es/wiki/Knäckebröd), un pan crujiente)  
+         ![](/img/strömming%20knäckerbröd.jpg)
+    -   Semla  
+         ![](/img/semla.jpg)
+-   ¡¡Encontré mi sazonador favorito en el supermercado: Citronpepper!!
 -   [Ice bath sauna](http://www.youtube.com/watch?v=zCpVB_gDv2M)
--   Para hacer un poco de turismo hacker, el lunes me pasé por [Proxxi](http://hackerspaces.org/wiki/Proxxi), donde encontré a gente
+-   Para hacer un poco de turismo hacker, el lunes me pasé por el hackerspace [Proxxi](http://hackerspaces.org/wiki/Proxxi), donde encontré a gente
     interesante con la que charlar.
 
 Después de esto, mi mapa de viajes queda así: 
@@ -80,7 +80,5 @@ Después de esto, mi mapa de viajes queda así: 
 
 :D
 
-*Foto strömming på knäckebröd tomada del usuario barolo en [Flickr](http://www.flickr.com/photos/barolo/208104867/). CC-By-NC.\
- Foto Semla tomada del usuario Frugan en [Flickr](http://www.flickr.com/photos/67047805@N00/382693637). CC-by.*
-
-[](http://www.lainconscienciadepablo.net/content/impresiones-sueciaestocolmo)
+*Foto strömming på knäckebröd tomada del usuario barolo en [Flickr](http://www.flickr.com/photos/barolo/208104867/), con licencia CC BY-NC.  
+ Foto Semla tomada del usuario Frugan en [Flickr](http://www.flickr.com/photos/67047805@N00/382693637), con licencia CC BY.*
