@@ -18,6 +18,7 @@ TIMEZONE = 'Europe/Madrid'
 DEFAULT_LANG = u'es'
 
 DEFAULT_CATEGORY = 'misc'
+DISPLAY_CATEGORIES_ON_MENU = False
 
 # Blogroll
 #LINKS = (('Pelican', 'http://getpelican.com/'),
@@ -76,7 +77,8 @@ YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
 # Atom and RSS feeds
 CATEGORY_FEED_ATOM = ''
 CATEGORY_FEED_RSS = '%s.rss.xml'
-FEED_ALL_ATOM = 'atom.xml'
+#FEED_ALL_ATOM = 'atom.xml'
+FEED_ALL_ATOM = None
 FEED_ALL_RSS = 'rss.xml'
 FEED_MAX_ITEMS = 15
 TRANSLATION_FEED_ATOM = None
