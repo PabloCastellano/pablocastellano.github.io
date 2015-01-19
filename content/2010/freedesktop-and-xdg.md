@@ -55,5 +55,5 @@ actual](http://nouveau.freedesktop.org/wiki/FeatureMatrix) de Nouveau. Como curi
 4.  Para modificar su wiki en lugar de captchas hay preguntas sobre tarjetas gráficas al estilo trivial :D
 5.  Tras no pocas discusiones, Nouveau vendrá incluido en el kernel 2.6.33.
 
-Enlaces: [Portland points desktop Linux at \$10 billion market.](http://desktoplinux.com/news/NS7435528984.html) [freedesktop.org interview
+Enlaces: [Portland points desktop Linux at $10 billion market.](http://desktoplinux.com/news/NS7435528984.html) [freedesktop.org interview
 in 2003.](http://www.osnews.com/story/5215/The_Big_freedesktop_org_Interview) [](/content/freedesktop-xdg)

@@ -17,6 +17,6 @@ Hay varios tipos de contestadores:
 
 Si quieres desactivar todos los tipos de contestador al parecer existe un número estándar:
 
-**\#\#002\#**
+**##002#**
 
 Al menos vale para Movistar, Orange, Vodafone y Yoigo [](/content/desactivar-el-contestador).

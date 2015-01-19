@@ -10,7 +10,7 @@ Puedo parecer rallante pero bueno, no tiene desperdicio ni le falta razón a est
 > camino, y programas como los que dices son más una corriente que nosotros mismos arrastramos desde hace unos años...La sociedad está
 > "sucia", nos hemos dejado los valores humanos y el respeto por ellos por el camino de nuestra madurez... Sin duda, yo creo que lo peor aún
 > no ha llegado... Pero el camino sigue, y pronto nos lo encontraremos...Este el mundo que hemos construido, todos nosotros, aquí no se
-> salva nadie. 04.03.2008 - 10:07h - **Audry** - \#1
+> salva nadie. 04.03.2008 - 10:07h - **Audry** - #1
 
 Visto en:
 [http://www.20minutos.es/carta/357072/0/programas/publico/juvenil/](http://www.20minutos.es/carta/357072/0/programas/publico/juvenil/) Yo me

@@ -26,15 +26,15 @@ Here's an example of how to use it (notice again that the API will change after 
 > filename = 'test.cnml'  
 > cnmlp = CNMLParser(filename)  
 >   
-> print cnmlp.nodes[99]['name'] \#name of node with id 99  
-> print cnmlp.nodes[99]['lat'] \#latitude of node with id 99  
-> print cnmlp.nodes[99]['lon'] \#longitude of node with id 99  
-> print cnmlp.nodes[99]['devices'][77]['firmware'] \#firmware of device id 77 that belongs to node 99  
+> print cnmlp.nodes[99]['name'] #name of node with id 99  
+> print cnmlp.nodes[99]['lat'] #latitude of node with id 99  
+> print cnmlp.nodes[99]['lon'] #longitude of node with id 99  
+> print cnmlp.nodes[99]['devices'][77]['firmware'] #firmware of device id 77 that belongs to node 99  
 >   
-> root = cnmlp.rootzone \# id of root zone of cnml file loaded  
-> print cnmlp.zones[root]['title'] \# title of root zone  
-> print cnmlp.zones[3996]['nlinks'] \# number of links between nodes in zone with id 3996  
-> print cnmlp.zones[3996]['nservices'] \# number of services in zone with id 3996
+> root = cnmlp.rootzone # id of root zone of cnml file loaded  
+> print cnmlp.zones[root]['title'] # title of root zone  
+> print cnmlp.zones[3996]['nlinks'] # number of links between nodes in zone with id 3996  
+> print cnmlp.zones[3996]['nservices'] # number of services in zone with id 3996
 
 #  
 

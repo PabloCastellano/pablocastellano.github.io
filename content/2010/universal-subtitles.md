@@ -63,7 +63,7 @@ el idioma de los subtítulos. El código es algo así:
 
  
 
-\<script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js"\> 
+<script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js"\> 
 
 (
 
@@ -71,7 +71,7 @@ el idioma de los subtítulos. El código es algo así:
 
 )
 
-\</script\>
+</script\>
 
  
 

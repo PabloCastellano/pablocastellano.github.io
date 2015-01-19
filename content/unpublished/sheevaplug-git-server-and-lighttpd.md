@@ -17,15 +17,15 @@ Sheevaplug by default runs on Ubuntu 9.04 Jaunty.
 Here's how I set up the git server. Currently, there are some mistakes in the documention that made the setup harder :(. I still have to
 report them.  
   
-\# apt-get install gitosis  
-\# ssh-keygen  
-\# sudo -H -u gitosis gitosis-init &lt; .ssh/id_rsa.pub  
-\# cd /tmp  
+# apt-get install gitosis  
+# ssh-keygen  
+# sudo -H -u gitosis gitosis-init &lt; .ssh/id_rsa.pub  
+# cd /tmp  
   
-\# git clone ssh://gitosis@localhost:PortIfNot22/gitosis-admin.git  
+# git clone ssh://gitosis@localhost:PortIfNot22/gitosis-admin.git  
   
 Here, README.Debian is incorrect. It said to use:  
-\# git clone gitosis@localhost:gitosis-admin.git  
+# git clone gitosis@localhost:gitosis-admin.git  
 But it may not work under some circumstances and is not the right way to do it. According to the man page:  
 1- You must specify the protocol (git://, ssh://, http://, ...).  
 2- ssh syntax uses colon (":") to specify the port so you cannot use it as separator  
@@ -33,13 +33,13 @@ But it may not work under some circumstances and is not the right way to do it. 
 Changes to your git server configuration are made using git commits (how geek!). So, once you are have cloned the gitosis-admin repository,
 you need to add the sshkeys of people that will have access to the git server.  
   
-\$ scp \~/.ssh/id_rsa.pub root@sheeva:/tmp/gitosis-admin/keydir/pablo@tabasco.pub  
+$ scp ~/.ssh/id_rsa.pub root@sheeva:/tmp/gitosis-admin/keydir/pablo@tabasco.pub  
   
 Y una vez copiada, añadir, hacer commit y push (no olvidar nunca el push o no se salvan los cambios!)  
-\# git add keydir/pablo@tabasco.pub \<b\>(double-check it's the public key!!)\</b\>  
-\# git commit -a  
-\# git push  
-\<i\>\# git config push.default matching\</i\>  
+# git add keydir/pablo@tabasco.pub <b\>(double-check it's the public key!!)</b\>  
+# git commit -a  
+# git push  
+<i\># git config push.default matching</i\>  
   
 README.rst.gz is also wrong, because it says that you must copy your public sshkeys to the keys/ directory instead of keydir/, but that was
 easier...  

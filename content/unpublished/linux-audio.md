@@ -6,4 +6,4 @@ Takashi Iwai [http://www.ladspa.org/](http://www.ladspa.org/) [http://lad.linuxa
 [http://www.ukuug.org/events/linux2003/prog/abstract-TIwai-1.shtml](http://www.ukuug.org/events/linux2003/prog/abstract-TIwai-1.shtml)
 [http://www.metadecks.org/events/lca2005/](http://www.metadecks.org/events/lca2005/)
 [http://planet.linuxaudio.org/](http://planet.linuxaudio.org/)
-[http://www.alsa-project.org/\~tiwai/writing-an-alsa-driver/index.html](http://www.alsa-project.org/~tiwai/writing-an-alsa-driver/index.html)
+[http://www.alsa-project.org/~tiwai/writing-an-alsa-driver/index.html](http://www.alsa-project.org/~tiwai/writing-an-alsa-driver/index.html)

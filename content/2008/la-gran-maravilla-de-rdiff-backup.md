@@ -15,6 +15,6 @@ par de comandos de ejemplo que me han sigo útiles. Recuperan la carpeta con la 
 
 Elegir el archivo de incremento deseado y restaurarlo:
 
-> rdiff-backup .purple.2008-10-31T19:19:57+01:00.dir \~/.purple
+> rdiff-backup .purple.2008-10-31T19:19:57+01:00.dir ~/.purple
 
 Finito!

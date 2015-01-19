@@ -16,10 +16,10 @@ I know it crashes a lot (for example if you change the view before the map is fu
 At the end of the study of the libchamplain API I have sent some patches to the project (two to improve the documentation and another one to
 fix the Python example) :-)
 
--   [Typo in documentation](https://bugzilla.gnome.org/show_bug.cgi?id=676892) (bug \#676892, already merged
+-   [Typo in documentation](https://bugzilla.gnome.org/show_bug.cgi?id=676892) (bug #676892, already merged
     into [*master*](http://git.gnome.org/browse/libchamplain/commit/?id=ba3e573539939ae02ec686901b452c466b0c4e4e)) 
--   [Improvements in documentation](https://bugzilla.gnome.org/show_bug.cgi?id=676908) (bug \#676908)
--   [launcher-gtk.py: get_coords() method doesn't exist](https://bugzilla.gnome.org/show_bug.cgi?id=676893) (bug \#676893)
+-   [Improvements in documentation](https://bugzilla.gnome.org/show_bug.cgi?id=676908) (bug #676908)
+-   [launcher-gtk.py: get_coords() method doesn't exist](https://bugzilla.gnome.org/show_bug.cgi?id=676893) (bug #676893)
 
 I really like the libchamplain API design.
 

@@ -1,7 +1,7 @@
 Title: Sesión de AVR
 Date: 2009-3-30
 Category: TODO
-usbtinyisp cheap programmer (22\$): [BUY HERE](http://www.adafruit.com/index.php?main_page=product_info&cPath=16&products_id=46) [DIY
+usbtinyisp cheap programmer (22$): [BUY HERE](http://www.adafruit.com/index.php?main_page=product_info&cPath=16&products_id=46) [DIY
 HERE](http://www.ladyada.net/make/usbtinyisp/) or arduino as avr programmer [HERE](http://www.ladyada.net/make/usbtinyisp/) arduino as
 avr-isp programmer [HERE](http://tinker.it/now/2006/12/04/turn-arduino-into-an-avr-isp-programmer/) Otros sitios interesantes:
 

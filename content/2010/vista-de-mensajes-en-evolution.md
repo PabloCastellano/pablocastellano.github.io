@@ -13,4 +13,4 @@ configurado mal. En Evolution puedes definir varias formas de ver y ordenar los 
 predefinidas, y luego también puedes hacerte las tuyas personalizadas. Los cambios que he hecho han sido: 1. Cambiar la posición de la
 columna Subject por la columna From. 2. Pinchar en Date hasta que sale la flechita hacia abajo para que queden ordenados (esto es lo que me
 faltaba, **¡EL BOTÓN TIENE 3 ESTADOS!**). 3. Con Ctrl+T los agrupas en threads (hilos). Para que sea la predeterminada he borrado la carpeta
-\~/.evolution/mail/views y ahora te vas a View-\>Current View-\>Save Custom View y reemplazas "Messages" que es la que abre por defecto.
+~/.evolution/mail/views y ahora te vas a View-\>Current View-\>Save Custom View y reemplazas "Messages" que es la que abre por defecto.

@@ -20,7 +20,7 @@ hacer 'debuild clean' aunque no muestra error aparente, hay algo que no hace bie
 hora de construir el paquete. Y esto luego es un problema, porque al siguiente 'debuild' se nos queja diciendo que los parches "parece" que
 ya estan aplicados. Solucón 2,5: Estuve un buen rato intentando arreglar la fase de unpatch pero no lo conseguí. En la fase de patch se
 crean en debian/ unos archivos que empiezan por "stamp=" y que significan que se han aplicado así como otros archivos acabados en
-"-level.y.log" que no son más que la salida al aplicar patch -py \< . Bien, pues cuando llega la fase de unpatch ¡ya se han borrado esos
+"-level.y.log" que no son más que la salida al aplicar patch -py < . Bien, pues cuando llega la fase de unpatch ¡ya se han borrado esos
 archivos! de manera que el script cree que esos parches nunca fueron aplicados y por lo tanto no se invierten. Esto lo muestra en pantalla
 "\*not applied\*". Intuyo que el problema está en debian/rules. Así que ninguna solución por el momento. [TOREPORT&FIX] Problema 3:
 Readaptando parches. Si intentamos construir (debuild) nos daremos cuenta de que ahora no se construye, sino que da un error aplicando
