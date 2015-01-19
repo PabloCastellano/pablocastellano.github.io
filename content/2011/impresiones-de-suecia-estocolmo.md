@@ -12,9 +12,9 @@ Esta es una lista de mis impresiones:
 -   Nada más bajar del avión estaba todo repleto de nieve. Habían hecho hueco para la pista de aterrizaje, como con las carreteras, y la
     habían amontonado a los lados. Montículos de nieve de hasta más de un metro. Mi amiga me contó que realmente es un problema cuando nieva
     tanto, ya que no saben dónde meter la nieve y no pueden echarla toda al mar, porque está bastante contaminada.
--   En el aeropuerto me tocó un control “aleatorio” de equipaje. La última vez aprendí que el mismo policía que te lo saca todo tiene la
+-   En el aeropuerto me tocó un control "aleatorio" de equipaje. La última vez aprendí que el mismo policía que te lo saca todo tiene la
     obligación de recolocártelo (con la suerte de que te lo suelen dejar incluso más ordenado de lo que lo llevas). Cuál fue mi sorpresa
-    cuando al terminar, me dijo que “ya podía recolocarlo”. ¿Yo? Y sí, por desgracia, es así. Me señaló uno de los varios carteles repetidos
+    cuando al terminar, me dijo que "ya podía recolocarlo". ¿Yo? Y sí, por desgracia, es así. Me señaló uno de los varios carteles repetidos
     que decían que en Suecia la ley es al contrario, así que eres tú el que tienes que hacer y deshacer la maleta. Por lo menos
     me la deshizo él... qué amable.
 -   La siguiente cosa que me chocó ese mismo día es que por donde iba pasando veía a gente joven trabajando: vigilantes en el metro,
@@ -22,7 +22,7 @@ Esta es una lista de mis impresiones:
     [mal](http://www.elpais.com/articulo/economia/Paro/juvenil/exito/fracaso/anos/elpepueco/20110126elpepueco_7/Tes) en nuestro
     [país](http://www.nolesvotes.com) si me pasa esto). 
 -   Los precios también me chocaron. Esperaba las cosas más caras en general pero la sensación que tuve en todo momento fue que los precios
-    son mucho más razonables que en España. Y más teniendo en cuenta que su nivel de vida y poder adquisitivos son “algo” mayor que el
+    son mucho más razonables que en España. Y más teniendo en cuenta que su nivel de vida y poder adquisitivos son "algo" mayor que el
     nuestro. Cuando he estado, 1 euro equivalían a casi 9 coronas suecas (1.00 EUR = 8.73209 SEK). Unos ejemplos, ya en euros directamente:
     -   Ida y vuelta desde el aeropuerto de Skavsta hasta Estocolmo: 22,50€ ida y vuelta.
     -   Billete de metro (un viaje): 3,40€ (esto sí me pareció una pasada, pero existen tarjetas para varios días)
@@ -60,11 +60,11 @@ Esta es una lista de mis impresiones:
     independizarte si eres estudiante no es el dinero, sino encontrar una casita o estudio. Una vez que empiezan a trabajar, tienen que ir
     devolviendo la mitad de lo que han recibido durante sus estudios. Los ingenieros suelen salir de la universidad cobrando los (30.000SEK)
     ~3.400€. Mi amiga, sin embargo, me comentó que el país iba mal ultimamente :P. ¿Fuga de cerebros? ¿Qué es eso?
--   El Estado tiene el monopolio del alcohol en sus tiendas ”Systembolaget” (que significa "la compañía del sistema") y abren hasta las 7 de
+-   El Estado tiene el monopolio del alcohol en sus tiendas "Systembolaget" (que significa "la compañía del sistema") y abren hasta las 7 de
     la tarde de lunes a viernes, hasta las 3 de la tarde los sábados, y no abre los domingos, por lo que tienes que planear bien tus
     borracheras. Estuve en una un viernes 25. Por ser día 25, que es cuando cobran los estudiantes, y viernes, en la tienda no se cabía y
     tuvimos que hacer cola para entrar. ¡Flipante!
--   Estocolmo es bastante cosmopolita y no son comunes los restaurantes de comida sueca, así que no pude probar nada ”típico”, excepto:
+-   Estocolmo es bastante cosmopolita y no son comunes los restaurantes de comida sueca, así que no pude probar nada "típico", excepto:
     -   Strömming på knäckebröd (arenques en [knäckerbröd](https://secure.wikimedia.org/wikipedia/es/wiki/Knäckebröd), un pan crujiente)  
          ![](/img/strömming%20knäckerbröd.jpg)
     -   Semla  

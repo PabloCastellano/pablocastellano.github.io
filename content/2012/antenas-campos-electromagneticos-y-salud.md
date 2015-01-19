@@ -69,7 +69,7 @@ un teléfono móvil.
 -   [Radiación no ionizante](http://en.wikipedia.org/wiki/es:Radiaci%C3%B3n_no_ionizante "wikipedia:es:Radiación no ionizante")
 -   [International Agency for Research on
     Cancer](http://en.wikipedia.org/wiki/en:International_Agency_for_Research_on_Cancer "wikipedia:en:International Agency for Research on Cancer")
--   [Escépticos S01E03 - "¿Ondas del mal?"](http://vimeo.com/30358149)\
+-   [Escépticos S01E03 - "¿Ondas del mal?"](http://vimeo.com/30358149)  
     Documental de Escépticos, emitido por eitb. Capítulo dedicado a las ondas electromagnéticas y su supuesta implicancia en cáncer.
 -   [¿Por qué el 'wifi' no hace daño a los bebés (ni a nadie)?](http://www.elmundo.es/elmundo/2012/01/05/ciencia/1325783194.html), El Mundo,
     5 de enero de 2012. [[2]](http://www.meneame.net/story/wifi-no-hace-dano-bebes-ni-nadie/1)

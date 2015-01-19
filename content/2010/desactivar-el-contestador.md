@@ -19,4 +19,4 @@ Si quieres desactivar todos los tipos de contestador al parecer existe un númer
 
 **\#\#002\#**
 
-Al menos vale para Movistar, Orange, Vodafone y Yoigo [](http://lainconscienciadepablo.net/content/desactivar-el-contestador).
+Al menos vale para Movistar, Orange, Vodafone y Yoigo [](/content/desactivar-el-contestador).

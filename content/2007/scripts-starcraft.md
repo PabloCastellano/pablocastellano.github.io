@@ -16,4 +16,4 @@ como partida perdida. El segundo puede joder mucho...
 
 Algunas combinaciones son: A=2, B=1: prácticamente injugable. La pantalla de lag parpadea y no muestra tu nick. A=2, B=4: jugable pero como
 cuando hay un listo con el p2p puesto Como es lógico, no me responsabilizo de los malos usos ;-) Fair Play!
-[](http://lainconscienciadepablo.net/content/scripts-starcraft)
+[](/content/scripts-starcraft)

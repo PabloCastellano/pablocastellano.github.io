@@ -4,7 +4,7 @@ Category: TODO
 Tags: gnome
 
 One thing that was disturbing me is that by default, in [GNOME bugzilla](https://bugzilla.gnome.org/) you won't receive an email
-notification if you, e.g. add a comment in a bugreport, or change the priority of a bugreport, because it's YOU who have done it.\
+notification if you, e.g. add a comment in a bugreport, or change the priority of a bugreport, because it's YOU who have done it.  
 Instead, in [FreeDesktop bugzilla](https://bugs.freedesktop.org/) you will receive it by default.
 
 I find it useful, because you can follow in your mailbox all the changes and contributions you have done in one evening and because it eases
@@ -15,4 +15,4 @@ Fortunately it was easy. It's enough going to ["Preferences"](https://bugzilla.g
 Preferences"](https://bugzilla.gnome.org/userprefs.cgi?tab=email) and then uncheck all the checkboxes in the last row, which says "The
 change was made by me".
 
-[![](/pictures/receiving_mails_with_your_changes1.png)](/pictures/receiving_mails_with_your_changes1.png)
+[![](/img/receiving_mails_with_your_changes1.png)](/img/receiving_mails_with_your_changes1.png)

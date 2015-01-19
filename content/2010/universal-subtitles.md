@@ -3,9 +3,9 @@ Date: 2010-10-11
 Category: TODO
 Tags: TODO, projects, guifi.net
 
-[![](http://lainconscienciadepablo.net/pictures/universal_subtitles_globe.jpg)](http://lainconscienciadepablo.net/pics/universal_subtitles_globe.jpg)
+[![](/img/universal_subtitles_globe.jpg)](/pics/universal_subtitles_globe.jpg)
 
-Hoy, buscando sobre *“editores de subtítulos colaborativos”* (algo así como un programa para poder traducir un vídeo entre mucha gente a la
+Hoy, buscando sobre *"editores de subtítulos colaborativos"* (algo así como un programa para poder traducir un vídeo entre mucha gente a la
 vez conectada a Internet desde distintas partes del mundo y todo de manera colaborativa) he conocido el proyecto Universal Subtitles.
 
  
@@ -18,10 +18,10 @@ software que estamos haciendo es libre y de código abierto y puede ser usado y 
 
  
 
-El proyecto cuenta con el apoyo tanto de la organización sin ánimo de lucro “Participatory Culture Foundation” como de “Mozilla Drumbeat”.
+El proyecto cuenta con el apoyo tanto de la organización sin ánimo de lucro "Participatory Culture Foundation" como de "Mozilla Drumbeat".
 PCF es, entre otras cosas, fundador de la coalición "Open Video Alliance". Drumbeat me ha gustado cómo se autodefine: 
 
-> “Drumbeat es un movimiento para mantener la web abierta durante los próximos 100 años”
+> "Drumbeat es un movimiento para mantener la web abierta durante los próximos 100 años"
 
 En definitiva, suena bien eso de imaginar que todos los vídeos disponibles en Internet estén subtitulados en tu idioma, ¿no? Sin duda es uno
 de los gran avances del html5 y su etiqueta de vídeo. :)
@@ -106,7 +106,7 @@ Lo del editor de subtítulos colaborativo queda pendiente... ¿o alguien conoce 
 
  
 
-[http://universalsubtitles.org/about\
- http://dev.universalsubtitles.org/faq](http://universalsubtitles.org/about)\
+[http://universalsubtitles.org/about  
+ http://dev.universalsubtitles.org/faq](http://universalsubtitles.org/about)  
  [https://www.drumbeat.org/project/universal-subtitles](https://www.drumbeat.org/project/universal-subtitles) (de donde he tomado prestada
 la primera imagen)

@@ -16,7 +16,7 @@ Things I like:
 -   The beer.
 -   Understanding how things work.
 
-\
+  
  Apart from that, I am (in alphabetical order):
 
 -   [Atheist](http://en.wikipedia.org/wiki/Atheism)
@@ -48,15 +48,15 @@ the Spanish band Extremoduro, [Uoho](http://es.wikipedia.org/wiki/Iñaki_Antón)
 If you have any suggestion, question, you have discovered a bug in this site, you want to offer me a job o you simply want to tell me
 something that you think I might be interested, contact me:
 
-Pablo Castellano ![](http://www.lainconscienciadepablo.net/sites/default/files/pictures/mail1.png). [My PGP key
+Pablo Castellano ![](/img/mail1.png). [My PGP key
 463F919C](http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x78F44F3A463F919C).
 
 You can also find me as "pablog" in FreeNode.
 
-Last, but not least:\
+Last, but not least:  
  In this site you will find [Flattr](http://en.wikipedia.org/wiki/Flattr/) buttons. Flattr is an innovative micropayments system invented by
 one of the co-founders of The Pirate Bay and that for sure will revolution the financing system of websites and virtual communities in the
-Internet **without using commercials**.\
+Internet **without using commercials**.  
  It allows you to "share" a monthly amount of money (e.g. 2€) between the contents of all the web pages that you want. You should really try
-it!\
+it!  
  So, if I have written something that you haved liked or that has helped to you, *Flattr me* ;-)

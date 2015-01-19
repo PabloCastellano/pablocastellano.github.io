@@ -73,9 +73,9 @@ algo en lo que piensas que puedo estar interesado, contáctame. [Mi clave PGP
 
 También me puedes encontrar como "pablog" en IRC (redes Freenode y irc.guifi.net principalmente).
 
-Y por último, en este sitio encontrarás botones de [Flattr](http://es.wikipedia.org/wiki/Flattr/).\
+Y por último, en este sitio encontrarás botones de [Flattr](http://es.wikipedia.org/wiki/Flattr/).  
 Flattr es un novedoso sistema de micropagos desarrollado por uno de los co-fundadores de The Pirate Bay y que poco a poco acabará
 revolucionando el sistema de financiación de los sitios y comunidades virtuales en Internet **sin usar publicidad** ;-). Con él, eliges una
 cantidad de dinero al mes (2€ por ejemplo) y la repartes entre las páginas webs que has visitado y te han gustado y ayudas a financiarlas.
-¡Te aconsejo probarlo!\
+¡Te aconsejo probarlo!  
 Ya sabes, si encuentras uno de estos botones y lo que he escrito te ha gustado/ayudado, *flattéame* ;-)

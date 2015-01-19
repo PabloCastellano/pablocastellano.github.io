@@ -7,7 +7,7 @@ Desde hace algunos días, los módulo de Drupal guifi y budgets cumplen con los 
 Drupal](http://drupal.org/coding-standards).
 
 Para corregirlo, he usado un módulo llamado [Coder](https://drupal.org/project/coder), que te examina el código de los módulos, temas y todo
-lo que le digas, y luego te da una lista con las cosas que hay que cambiar.\
+lo que le digas, y luego te da una lista con las cosas que hay que cambiar.  
  Por desgracia las herramientas automáticas fallan mucho así que he tenido que hacerlo a mano y con expresiones regulares y me ha llevado
 más tiempo.
 

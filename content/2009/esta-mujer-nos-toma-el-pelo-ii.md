@@ -1,7 +1,7 @@
 Title: Esta mujer nos toma el pelo (II)
 Date: 2009-3-18
 Category: TODO
-![pobre](http://lainconscienciadepablo.net/pictures/EsperanzaAguirre.jpg)
+![pobre](/img/EsperanzaAguirre.jpg)
 
 [La pobre no llega a fin de mes con 9000€ :(](http://www.20minutos.es/noticia/175054/0/Aguirre/sueldo/trabajo/) (millon y medio de pesetas,
 señores)

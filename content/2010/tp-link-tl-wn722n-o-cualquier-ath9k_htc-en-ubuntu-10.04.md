@@ -3,7 +3,7 @@ Date: 2010-8-6
 Category: TODO
 Tags: ubuntu, linux, howto
 
-![](/pictures/tlwn722g200x150.jpg)
+![](/img/tlwn722g200x150.jpg)
 
 El adaptador wifi usb [TP-LINK TL-WN722N](http://www.tp-link.com/products/productDetails.asp?pmodel=TL-WN722N) usa un chipset llamado AR9271
 y requiere un nuevo controlador de Atheros llamado [ath9k\_htc](http://linuxwireless.org/en/users/Drivers/ath9k_htc). Dicho controlador ha
@@ -25,10 +25,10 @@ Ubuntu con los siguientes pasos
 
 Para otras distribuciones, ajustar simplemente los pasos 1 y 2 con sus respectivos métodos para descargar e instalar el kernel 2.6.35.
 
-**Actualización 14/Agosto/2010:**\
+**Actualización 14/Agosto/2010:**  
 Me ha sucedido de repente que el rendimiento ha bajado drásticamente. Al principio he pensado que era porque el bitrate estaba a 1M pero no
 es cierto. Resulta que del manejo del bitrate se encarga el firmware y no hay ninguna manera de obtener el bitrate actual del dispositivo
 así que está fijado a 1M y cuando intentas cambiarlo (iwconfig wlan0 rate 54M) te dice que la operación no está soportada. Reiniciando se ha
-solucionado.\
+solucionado.  
 Al parecer [hay gente](http://sourceforge.net/apps/mediawiki/ndiswrapper/index.php?title=TP-Link_TL-WN722N) que ha conseguido hacerlo
 funcionar con ndiswrapper pero no he encontrado ningún driver que fuera fino y todos petaban.

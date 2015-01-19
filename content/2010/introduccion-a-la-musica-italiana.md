@@ -4,21 +4,21 @@ Category: TODO
 Tags: erasmus
 
 Durante mi estancia en Italia, una de las cosas que más me ha gustado ha sido introducirme en su cultura musical y que me enseñaran a sus
-“clásicos” (además de cuáles son sus bailes regionales).\
+"clásicos" (además de cuáles son sus bailes regionales).  
  Me han gustado sobre todo los grandes cantautores italianos como en España uno de ellos podría ser Joan Manuel Serrat. Sin embargo, me ha
 dejado un mal sabor de boca no haber conocido demasiados grupos de rock italiano. ¿Dónde están?
 
 Aunque sean más sátiras que canciones, merecen mención las siguientes canciones y vídeos sobre Berlusconi (cómo no).
 
-En 2008 el PdL (“Popolo della Libertà”, el partido político de Silvio Berlusconi) saca una canción de lo más pegadiza para su campaña.
+En 2008 el PdL ("Popolo della Libertà", el partido político de Silvio Berlusconi) saca una canción de lo más pegadiza para su campaña.
 Sinceramente, cuando me la pusieron por primera vez pensé que era una broma y la había hecho alguien ajeno para cachondearse, pero es real.
 
 En el vídeo se ve a gente de todas las clases sociales y sobre todo trabajadores (el heladero, el profesor, el panadero, el albañil, el
 estudiante...) agradeciendo a Berlusconi que esté ahí y le dan las gracias por todo. Salen además un montón de chicas guapas y todos son
 felices.
 
-\
- Atentos al momento del minuto 1:58 donde todos los de la clase se dan la vuelta y cantan a coro. ¿No es genial?\
+  
+ Atentos al momento del minuto 1:58 donde todos los de la clase se dan la vuelta y cantan a coro. ¿No es genial?  
  Una vez que la has escuchado dos veces no puedes parar de cantarla.
 
 Otro vídeo sátira de Berlusconi con la música de la [Vespa Special](http://www.youtube.com/watch?v=Md702EbjnkY).
@@ -38,7 +38,7 @@ empezar:
 -   Gianna Nannini
 
 Mi grupo favorito es **Modena City Ramblers.**Tocan folk-rock. No pude ir al concierto gratuito que daban a 10km de donde vivía porque me
-pilló de viaje :(. Los conocí porque un italiano dijo que Mago de Öz se parecía a este grupo (bueno, según qué disco...).\
+pilló de viaje :(. Los conocí porque un italiano dijo que Mago de Öz se parecía a este grupo (bueno, según qué disco...).  
  Aquí una lista de canciones (algunas son versiones de otros autores):
 
 -   Bella Ciao
@@ -53,8 +53,8 @@ pilló de viaje :(. Los conocí porque un italiano dijo que Mago de Öz se parec
 
  
 
-**Por qué, por qué... los Domingos por el fútbol me abandonas.**\
- Fue también mítico el momento en que descubrimos (somos demasiado jóvenes) que la canción “El Partido de Fútbol” (que por el nombre poca
+**Por qué, por qué... los Domingos por el fútbol me abandonas.**  
+ Fue también mítico el momento en que descubrimos (somos demasiado jóvenes) que la canción "El Partido de Fútbol" (que por el nombre poca
 gente reconocería) tiene su versión en italiano (y que es la original) cantada por la misma Rita Pavone. Fue igual de mítico para los
 italianos descubrir que había versión en español.
 
@@ -114,7 +114,7 @@ Letra (varía un poco, además cada uno tiene sus propias rimas):
 > *Osteria del **GALLO D'ORO** - è uno stronzo chi fa il coro...- (coro) ma il più stronzo della lista - è colui che fa il solista.*
 > *Dammela a me, biondina, dammela a me, bionda!*
 
--   [Briganti si more](http://www.youtube.com/watch?v=uKSd0lMZvrA). ([versión pizzica](http://www.youtube.com/watch?v=TvC3DcUtiUE))\
+-   [Briganti si more](http://www.youtube.com/watch?v=uKSd0lMZvrA). ([versión pizzica](http://www.youtube.com/watch?v=TvC3DcUtiUE))  
      Es una canción popular de Nápoles, aunque se extendió por todo el sur de Italia. Hay muchas versiones distintas, tanto en italiano como
     en otros dialectos y lenguas propias de la península. No he podido encontrar con certeza quién es el autor. Se piensa que no es una
     canción de los 70, sino una readaptación de una canción original del siglo XIX, que la cantaban para protestar contra el reinado de los
@@ -122,34 +122,34 @@ Letra (varía un poco, además cada uno tiene sus propias rimas):
 
 Letra:
 
-> *Ammo pusato chitarre e tamburo \
->  pecchè 'sta musica s'adda cagnà. \
->  Simmo briganti e facimm' paura, \
+> *Ammo pusato chitarre e tamburo   
+>  pecchè 'sta musica s'adda cagnà.   
+>  Simmo briganti e facimm' paura,   
 >  e cu 'a scupetta vulimmo cantà. *
 >
-> *E mo cantammo 'sta nova canzone, \
->  tutta la gente se l'adda 'mpara. \
->  Nun ce ne fotte d'o re Burbone \
+> *E mo cantammo 'sta nova canzone,   
+>  tutta la gente se l'adda 'mpara.   
+>  Nun ce ne fotte d'o re Burbone   
 >  ma 'a terra 'a nostra e nun s'adda tucca. *
 >
-> *Tutte e paise d'a Basilicata \
->  se so scetati e vonno luttà, \
->  pure 'a Calabria mo s'è arrevotata; \
+> *Tutte e paise d'a Basilicata   
+>  se so scetati e vonno luttà,   
+>  pure 'a Calabria mo s'è arrevotata;   
 >  e stu nemico 'o facimmo tremmà. *
 >
-> *Chi a visto o lupo e s'è miso paura, \
->  nun sape buono qual'è verità. \
->  O vero lupo ca magna 'e creature, \
+> *Chi a visto o lupo e s'è miso paura,   
+>  nun sape buono qual'è verità.   
+>  O vero lupo ca magna 'e creature,   
 >  e 'o piemontese c'avimma caccià. *
 >
-> *Femmene belle ca date lu core, \
->  si lu brigante vulite salvà; \
->  nun 'o cercate scurdateve 'o nome; \
+> *Femmene belle ca date lu core,   
+>  si lu brigante vulite salvà;   
+>  nun 'o cercate scurdateve 'o nome;   
 >  cai ce fà guerra nun tene pietà. *
 >
-> *Omo se nasce, brigante se more, \
->  ma fino all'ultimo avimma sparà. \
->  E se murimmo menate nu fiore \
+> *Omo se nasce, brigante se more,   
+>  ma fino all'ultimo avimma sparà.   
+>  E se murimmo menate nu fiore   
 >  e na bestemmia pe' 'sta libertà. *
 
  
@@ -157,6 +157,6 @@ Letra:
 ¡Redactando esta entrada he descubierto que Wikipedia tiene su propia [versión en
 napolitano](http://nap.wikipedia.org/wiki/Paggena_prencepale)!
 
-\
+  
 
 Estoy seguro de que me dejo muchos temas y artistas. ¿Sugerencias?

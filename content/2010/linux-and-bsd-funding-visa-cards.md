@@ -12,6 +12,6 @@ and launch a card in Europe. Without any doubt, I would get one. Nice idea!
 
 Here are the images:
 
-![](/pictures/bsdcard250.jpg)   ![](/pictures/cardbig.jpg)
+![](/img/bsdcard250.jpg)   ![](/img/cardbig.jpg)
 
 Cute, aren't they? ;)

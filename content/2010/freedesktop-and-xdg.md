@@ -33,12 +33,12 @@ explica [aquí](http://socghop.appspot.com/gsoc/student_project/show/google/gsoc
 de TV previa ingeniería inversa:
 
   ------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Title: \      Reverse engineering of Nvidia TV encoders. \
+  Title: \      Reverse engineering of Nvidia TV encoders.   
                 
 
-  Abstract: \   The TV output present on several Nvidia graphics cards lacks support from the nv and nouveau open source device drivers. This forces most users wanting to use their TV out to stick with the proprietary Nvidia software. \
-                \
-                This project will aim to reverse engineer the operation of the TV encoder integrated on some recent Nvidia chips, and provide a RandR1.3 compliant implementation based on the nouveau driver. \
+  Abstract: \   The TV output present on several Nvidia graphics cards lacks support from the nv and nouveau open source device drivers. This forces most users wanting to use their TV out to stick with the proprietary Nvidia software.   
+                  
+                This project will aim to reverse engineer the operation of the TV encoder integrated on some recent Nvidia chips, and provide a RandR1.3 compliant implementation based on the nouveau driver.   
                 
   ------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -56,4 +56,4 @@ actual](http://nouveau.freedesktop.org/wiki/FeatureMatrix) de Nouveau. Como curi
 5.  Tras no pocas discusiones, Nouveau vendrá incluido en el kernel 2.6.33.
 
 Enlaces: [Portland points desktop Linux at \$10 billion market.](http://desktoplinux.com/news/NS7435528984.html) [freedesktop.org interview
-in 2003.](http://www.osnews.com/story/5215/The_Big_freedesktop_org_Interview) [](http://lainconscienciadepablo.net/content/freedesktop-xdg)
+in 2003.](http://www.osnews.com/story/5215/The_Big_freedesktop_org_Interview) [](/content/freedesktop-xdg)

@@ -28,7 +28,7 @@ proyectos y tesis que ha hecho la gente sobre el tema (que no es nuevo, para nad
 Nueva York. La gente con la que he hablado ya y he intercambiado correos me han dado muy buenas impresiones de ser gente comprometida.
 Estamos todos ilusionados, es una mezcla entre esperanza de algo que lleva la gente pidiendo hace mucho tiempo y la cosilla de... ¿saldrá
 bien? ya que es una iniciativa totalmente experimental :-) Los medios y la tecnología están ahí, así que aprovechémoslos!
-[![](/sites/default/files/pictures/logo_def.png)](http://partidodeinternet.es/) ¿Qué? ¿Te apuntas? **Actualización: [los partidos
+[![](/sites/default/files/img/logo_def.png)](http://partidodeinternet.es/) ¿Qué? ¿Te apuntas? **Actualización: [los partidos
 mayoritarios no aceptan el juego de la democracia.](http://www.adn.es/politica/20100223/NWS-3061-IU-Congreso-UPyD-diputados-reclamar.html)
 http://es.wikipedia.org/wiki/Partido\_de\_Internet http://servicio.mir.es/registro-partidos/loadDetallesFormacion.htm?protocolo=3966
-[](http://lainconscienciadepablo.net/content/partido-internet)**
+[](/content/partido-internet)**

@@ -5,8 +5,8 @@ Tags: guifi.net
 
 Hola a todos! Me presento... soy Pablo, futuro guifero de Málaga.
 
-Hace unos días me dieron permisos de colaborador y traductor en guifi.net y también cuenta en el repositorio.\
- Intentaré echar una mano en todo lo que sea de desarrollo. \
+Hace unos días me dieron permisos de colaborador y traductor en guifi.net y también cuenta en el repositorio.  
+ Intentaré echar una mano en todo lo que sea de desarrollo.   
  De momento estoy intentando que los módulos de drupal guifi y budgets cumplan los estándares de Drupal.
 
 También me gustaría dejar listo un sistema que sea fácil y colaborativo para traducir los módulos. Tonic (Alex Martín) y yo llevamos unos
@@ -21,8 +21,8 @@ spammear por toda la ciudad! ![Smiling](http://guifi.net/misc/smileys/smile.png
 
 He abierto hoy también tres bugs en trac:
 
-[Aclarar licencias](http://trac.guifi.net/trac/ticket/67)\
- [Página de fácil acceso "Mis nodos" y "nodos favoritos"](http://trac.guifi.net/trac/ticket/65)\
+[Aclarar licencias](http://trac.guifi.net/trac/ticket/67)  
+ [Página de fácil acceso "Mis nodos" y "nodos favoritos"](http://trac.guifi.net/trac/ticket/65)  
  [Enlace "estático" en el mapa de distancias](http://trac.guifi.net/trac/ticket/66)
 
 Nada más de momento, seguiré informando de los avances que hagamos. Nos vemos por el IRC, mi nick es "pablog"!
