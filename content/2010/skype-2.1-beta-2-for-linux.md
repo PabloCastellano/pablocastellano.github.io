@@ -10,4 +10,4 @@ integration with GTK+!!) and also several PulseAudio bugfixes (I bet I am not th
 at 100%)... Their plans are to release an open source UI to use with a closed source Skype library. I have no complains, open source
 community win! It even makes sense to start thinking about skype integrated in [empathy](http://live.gnome.org/Empathy) through
 telepathy-skype :) There was already a project to do more or less the same with pidgin, but you had to have skype running, which is not so
-beautiful: [skype4pidgin](http://code.google.com/p/skype4pidgin/). http://share.skype.com/sites/linux/2010/01/flowers\_become\_screens.html
+beautiful: [skype4pidgin](http://code.google.com/p/skype4pidgin/). http://share.skype.com/sites/linux/2010/01/flowers_become_screens.html

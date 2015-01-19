@@ -5,4 +5,4 @@ I'm looking for a stave widget in GTK+ to code some kind of music software. It s
 what I found: http://wingtk.sourceforge.net/ishan/widget.html
 http://web.archive.org/web/20080311012104/http://www.gtk.org/\~otaylor/gtk/tutorial/ http://developer.gnome.org/doc/GGAD/cha-widget.html
 http://www.zetcode.com/tutorials/cairographicstutorial/customgtkwidget/
-http://www.linuxquestions.org/linux/articles/Technical/New\_GTK\_Widgets\_GtkAssistant
+http://www.linuxquestions.org/linux/articles/Technical/New_GTK_Widgets_GtkAssistant

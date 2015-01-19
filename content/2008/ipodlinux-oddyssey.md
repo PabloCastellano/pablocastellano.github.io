@@ -6,4 +6,4 @@ wget http://www.felixbruns.de/iPod/iPodLinux/svnbuilds/ipodlinux-installer-2.31
 finaliza podzilla: not found instalar podzilla2 no podemos reproducir musica instalar mpd y mpdc da error, se cuelga
 fsck muchas veces por los hard reset... no instalar terminal, slideshow y otro mas porque falta dependencia borrar pacman porque se cuelga
 instala mpd http://ipodlinux.org/modules/mpd/mpd-0.3-beta.tar.gz eject /dev/sdc sudo /dev/sdc password...
-http://www.acc.umu.se/\~hyarion/highbw/iDoom1\_3.zip total: mas de 1 hora
+http://www.acc.umu.se/\~hyarion/highbw/iDoom1_3.zip total: mas de 1 hora

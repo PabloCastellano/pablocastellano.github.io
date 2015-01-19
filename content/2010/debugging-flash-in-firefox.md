@@ -6,11 +6,11 @@ Tags: TODO, linux, flash, debugging
 Install [Adobe Flash Player Debugging Version](http://www.adobe.com/support/flashplayer/downloads.html):  
 (first I recommend you to uninstall any flash version you have installed)
 
-> wget http://download.macromedia.com/pub/flashplayer/updaters/10/flash\_player\_10\_linux\_dev.tar.gz  
-> tar zxvf flash\_player\_10\_linux\_dev.tar.gz  
-> cd flash\_player\_10\_linux\_dev/plugin/debugger  
-> tar zxvf install\_flash\_player\_10\_linux.tar.gz  
-> cd install\_flash\_player\_10\_linux/  
+> wget http://download.macromedia.com/pub/flashplayer/updaters/10/flash_player_10_linux_dev.tar.gz  
+> tar zxvf flash_player_10_linux_dev.tar.gz  
+> cd flash_player_10_linux_dev/plugin/debugger  
+> tar zxvf install_flash_player_10_linux.tar.gz  
+> cd install_flash_player_10_linux/  
 > ./flashplayer-installer  
 > Follow instructions.
 

@@ -67,7 +67,7 @@ el idioma de los subtítulos. El código es algo así:
 
 (
 
-  {'video\_url': 'http://webmademovies.etherworks.ca/guillermo.ogv'}
+  {'video_url': 'http://webmademovies.etherworks.ca/guillermo.ogv'}
 
 )
 

@@ -19,9 +19,9 @@ minimal answer 5 months later. I wonder how important are users for them once th
 > MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-     Status: Cap+ 66MHz+ UDF- FastB2B+ ParErr- DEVSEL=fast \>TAbort- SERR-
 >     Latency: 0 (500ns min, 1250ns max)     Interrupt: pin B routed to IRQ 17     Region 0: Memory at 80020000 (32-bit, non-prefetchable)
 > [size=16K]    Capabilities:     Kernel driver in use: HDA Intel     Kernel modules: snd-hda-intel I have seen there is a macro
-> SND\_PCI\_QUIRK in /usr/src/linux-source-2.6.31/sound/pci/hda/patch\_realtek.c that is used with specific models of this laptop:
-> patch\_realtek.c:12526:    SND\_PCI\_QUIRK\_MASK(0x103c, 0xff00, 0x3000, "HP TX25xx series", ALC268\_TOSHIBA), patch\_realtek.c:15171:   
-> SND\_PCI\_QUIRK(0x103c, 0x30bf, "HP TX1000", ALC861VD\_HP), But there's no QUIRK for 103c:30e5 (my model) I hope I explained well myself
+> SND_PCI_QUIRK in /usr/src/linux-source-2.6.31/sound/pci/hda/patch_realtek.c that is used with specific models of this laptop:
+> patch_realtek.c:12526:    SND_PCI_QUIRK_MASK(0x103c, 0xff00, 0x3000, "HP TX25xx series", ALC268_TOSHIBA), patch_realtek.c:15171:   
+> SND_PCI_QUIRK(0x103c, 0x30bf, "HP TX1000", ALC861VD_HP), But there's no QUIRK for 103c:30e5 (my model) I hope I explained well myself
 > and you could understand my problem (well, the problem of all owners of this model) and you can now help us to solve it. I have no
 > experience with the kernel. Please contact me if you need to test new patches or you need more information. Thanks in advance. Regards,
 >     Pablo. 

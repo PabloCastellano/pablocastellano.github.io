@@ -19,6 +19,6 @@ from the header. I played with a bit of advantage as I knew for sure the file st
 file. The length field is not so important but I knew that I had not written 10K of code. Run scalpel: scalpel -c scalpel.conf -o recovered
 pendrive.iso After that, in the *recovered* folder I had a log file named "audit.txt" and a folder named "c-0-0". Inside the folder there
 were a lot of ".c" files, all with length 11000 and that started with "/\*\*" and manually I have found the one that I searched and removed
-the trailing 11000-true\_bytes bytes. Appart from this manual usage I did, it has preconfigured headers for a lot of filetypes like jpg,
+the trailing 11000-true_bytes bytes. Appart from this manual usage I did, it has preconfigured headers for a lot of filetypes like jpg,
 avi, doc, pdf, pgp, zip... so that you only need to uncomment the line in scalpel.conf of the files that you are searching. My pendrive was
 formatted with FAT32 but it's filesystem-independent. Kudos to Scalpel!

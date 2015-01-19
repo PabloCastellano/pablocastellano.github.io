@@ -49,11 +49,11 @@ By the way, the current version of GObject Introspection doesn't support default
 
 For this reason at the moment you cannot write:
 
-> self.embedBox.pack\_start(self.embed)
+> self.embedBox.pack_start(self.embed)
 
 because it will complain about the number of parameters. You have to specify all of them:
 
-> self.embedBox.pack\_start(self.embed, True, True, 0)
+> self.embedBox.pack_start(self.embed, True, True, 0)
 
 It's already reported, see [bug 558620](https://bugzilla.gnome.org/show_bug.cgi?id=558620).
 

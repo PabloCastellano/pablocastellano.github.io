@@ -15,7 +15,7 @@ iniciativa así, y por eso me he puesto en contacto con ellos para ayudar en tod
 infraestructura, así que echaré una mano con todo el tema informático-telemático y cuando vuelva a España me afiliaré si sigo con las mismas
 ilusiones :). Trataremos de usar todo el software libre posible y hacer el partido lo más transparente posible. De momento puedes seguir el
 desarrollo de la parte del registro web (la idea es integrar OpenID con el wiki, la página principal y el foro) y hacer un fork del
-repositorio **público** en github. Chulo, ¿eh? ;-) git clone git://github.com/voodoorai2000/pdi\_registro.git Las cuentas del partido se
+repositorio **público** en github. Chulo, ¿eh? ;-) git clone git://github.com/voodoorai2000/pdi_registro.git Las cuentas del partido se
 llevan en el wiki: http://partidodeinternet.es/wiki/Finanzas De momento, estamos liados con una
 [discusión](http://es.wikipedia.org/wiki/Wikipedia:Consultas_de_borrado/Partido_de_Internet) que nos ha surgido recientemente en Wikipedia
 porque un bibliotecario nos ha tachado de irrelevantes y quiere borrar la página. El que quiera puede pasarse por la discusión y dejar un
@@ -30,5 +30,5 @@ Estamos todos ilusionados, es una mezcla entre esperanza de algo que lleva la ge
 bien? ya que es una iniciativa totalmente experimental :-) Los medios y la tecnología están ahí, así que aprovechémoslos!
 [![](/sites/default/files/img/logo_def.png)](http://partidodeinternet.es/) ¿Qué? ¿Te apuntas? **Actualización: [los partidos
 mayoritarios no aceptan el juego de la democracia.](http://www.adn.es/politica/20100223/NWS-3061-IU-Congreso-UPyD-diputados-reclamar.html)
-http://es.wikipedia.org/wiki/Partido\_de\_Internet http://servicio.mir.es/registro-partidos/loadDetallesFormacion.htm?protocolo=3966
+http://es.wikipedia.org/wiki/Partido_de_Internet http://servicio.mir.es/registro-partidos/loadDetallesFormacion.htm?protocolo=3966
 [](/content/partido-internet)**

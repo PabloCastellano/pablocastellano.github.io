@@ -6,7 +6,7 @@ Tags: ubuntu, linux, howto
 ![](/img/tlwn722g200x150.jpg)
 
 El adaptador wifi usb [TP-LINK TL-WN722N](http://www.tp-link.com/products/productDetails.asp?pmodel=TL-WN722N) usa un chipset llamado AR9271
-y requiere un nuevo controlador de Atheros llamado [ath9k\_htc](http://linuxwireless.org/en/users/Drivers/ath9k_htc). Dicho controlador ha
+y requiere un nuevo controlador de Atheros llamado [ath9k_htc](http://linuxwireless.org/en/users/Drivers/ath9k_htc). Dicho controlador ha
 sido incluído en la reciente versión del kernel 2.6.35. Si tenemos un adaptador que trabaje con este módulo podemos hacer que funcione en
 Ubuntu con los siguientes pasos
 

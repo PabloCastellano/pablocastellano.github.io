@@ -17,7 +17,7 @@ shoddy piece of work that they did with the rt3070 driver**[*(see this other pos
 ndiswrapper with the winXP drivers. It works like a charm and I recommend it to everyone having this issue.You can download the Windows
 drivers here:  
 http://www.realtek.com/downloads/downloadsView.aspx?Langid=1&PNid=21&PFid=40&Level=5&Conn=4&ProdID=172&DownTypeID=3&GetDown=false&Downloads=true  
-Direct link: ftp://WebUser:Ds8MtJ3@202.134.71.22/cn/wlan/8187SE\_WindowsDriver\_5\_6.9109.1029.2009.zip
+Direct link: ftp://WebUser:Ds8MtJ3@202.134.71.22/cn/wlan/8187SE_WindowsDriver_5_6.9109.1029.2009.zip
 
 I also discovered that there's a pyGTK GUI for ndiswrapper very suitable for your granma who wants to connect to her WPA wireless at home,
 but she can't do it out-of-the-box because Realtek didn't care about providing a decent driver. It's called

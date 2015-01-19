@@ -19,7 +19,7 @@ report them.
   
 \# apt-get install gitosis  
 \# ssh-keygen  
-\# sudo -H -u gitosis gitosis-init &lt; .ssh/id\_rsa.pub  
+\# sudo -H -u gitosis gitosis-init &lt; .ssh/id_rsa.pub  
 \# cd /tmp  
   
 \# git clone ssh://gitosis@localhost:PortIfNot22/gitosis-admin.git  
@@ -33,7 +33,7 @@ But it may not work under some circumstances and is not the right way to do it. 
 Changes to your git server configuration are made using git commits (how geek!). So, once you are have cloned the gitosis-admin repository,
 you need to add the sshkeys of people that will have access to the git server.  
   
-\$ scp \~/.ssh/id\_rsa.pub root@sheeva:/tmp/gitosis-admin/keydir/pablo@tabasco.pub  
+\$ scp \~/.ssh/id_rsa.pub root@sheeva:/tmp/gitosis-admin/keydir/pablo@tabasco.pub  
   
 Y una vez copiada, añadir, hacer commit y push (no olvidar nunca el push o no se salvan los cambios!)  
 \# git add keydir/pablo@tabasco.pub \<b\>(double-check it's the public key!!)\</b\>  

@@ -19,7 +19,7 @@ fix the Python example) :-)
 -   [Typo in documentation](https://bugzilla.gnome.org/show_bug.cgi?id=676892) (bug \#676892, already merged
     into [*master*](http://git.gnome.org/browse/libchamplain/commit/?id=ba3e573539939ae02ec686901b452c466b0c4e4e)) 
 -   [Improvements in documentation](https://bugzilla.gnome.org/show_bug.cgi?id=676908) (bug \#676908)
--   [launcher-gtk.py: get\_coords() method doesn't exist](https://bugzilla.gnome.org/show_bug.cgi?id=676893) (bug \#676893)
+-   [launcher-gtk.py: get_coords() method doesn't exist](https://bugzilla.gnome.org/show_bug.cgi?id=676893) (bug \#676893)
 
 I really like the libchamplain API design.
 
@@ -32,7 +32,7 @@ necessary steps in the [README](https://gitorious.org/guifi-altres/guifinetstudi
 > sudo apt-get install python2.7 gir1.2-gtkchamplain-0.12 git  
 > git clone git://gitorious.org/guifi-altres/guifinetstudio.git  
 > cd guifinetstudio  
-> ./guifinet\_studio.py  
+> ./guifinet_studio.py  
 >  
 
 # Next week

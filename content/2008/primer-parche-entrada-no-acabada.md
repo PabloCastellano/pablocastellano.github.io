@@ -3,7 +3,7 @@ Date: 2008-11-12
 Category: TODO
 Tags: TODO, linux, español
 
-Realmente no es el primer, pero lo considero 100% mío :-). **default mmap\_min\_addr breaks dosemu**
+Realmente no es el primer, pero lo considero 100% mío :-). **default mmap_min_addr breaks dosemu**
 https://bugs.launchpad.net/ubuntu/+source/dosemu/+bug/216398 En este parche me tuve que enfrentar a varios desconocidos. Hablaremos de
 debian/{install,rules}, patchs y diffs entre otros. Bajar el código fuente e instalar sus build-dep's. apt-get source dosemu Problema 2: La
 misión del parche es tan simple como crear el archivo /etc/sysctl.d/90-dosemu.conf con una línea. Ahora bien, el paquete tiene una
@@ -24,9 +24,9 @@ crean en debian/ unos archivos que empiezan por "stamp=" y que significan que se
 archivos! de manera que el script cree que esos parches nunca fueron aplicados y por lo tanto no se invierten. Esto lo muestra en pantalla
 "\*not applied\*". Intuyo que el problema está en debian/rules. Así que ninguna solución por el momento. [TOREPORT&FIX] Problema 3:
 Readaptando parches. Si intentamos construir (debuild) nos daremos cuenta de que ahora no se construye, sino que da un error aplicando
-"debian/patches/01\_debianize.diff". Es normal ya que hemos modificado src/arch/linux/Makefile.main Ya que Solución 3: Si ejecutamos
+"debian/patches/01_debianize.diff". Es normal ya que hemos modificado src/arch/linux/Makefile.main Ya que Solución 3: Si ejecutamos
 what-patch en el directorio donde hemos descomprimido nos dice que dosemu usa el gestor de parches 'cdbs'. Me ha gustado bastante su forma
-de uso, es bastante facilita. Simplemente cdbs-edit-patch debian/patches/01\_debianize.diff para editar ese parche. Esto copia en /tmp el
+de uso, es bastante facilita. Simplemente cdbs-edit-patch debian/patches/01_debianize.diff para editar ese parche. Esto copia en /tmp el
 directorio descomprimido de dosemu y aplica todos los parches (incluido el que vas a modificar!!) ahí ya modificas lo que tú quieras y
 cuando termines pulsas Ctrl+D. Ahora el parche que también contendrá tu último cambio. Al final mi parche y el que se aplicó se parecían en
 poco, pero sirve de lección (más en el sentido de estudio que de amonestación). Aquí están los dos en cuestión: [El

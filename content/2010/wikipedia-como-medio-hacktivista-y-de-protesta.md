@@ -27,4 +27,4 @@ condene ya. La historia es bastante turbia y se ve que cuando lo hizo tenía tod
 
 Que lo disfrutéis.
 
-[http://es.wikipedia.org/wiki/Caso\_Tabacalera](http://es.wikipedia.org/wiki/Caso_Tabacalera)
+[http://es.wikipedia.org/wiki/Caso_Tabacalera](http://es.wikipedia.org/wiki/Caso_Tabacalera)
