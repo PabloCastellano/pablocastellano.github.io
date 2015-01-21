@@ -11,7 +11,7 @@ SITEURL = 'http://127.0.0.1:8000'
 
 PATH = 'content'
 STATIC_PATHS = ['css', 'img', 'js']
-STATIC_PATHS.extend(['extra/robots.txt', 'extra/htaccess.txt'])
+STATIC_PATHS.extend(['extra/robots.txt', 'extra/htaccess.txt', 'extra/favicon.ico'])
 
 TIMEZONE = 'Europe/Madrid'
 
