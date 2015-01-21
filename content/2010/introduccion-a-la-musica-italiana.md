@@ -17,11 +17,14 @@ En el vídeo se ve a gente de todas las clases sociales y sobre todo trabajadore
 estudiante...) agradeciendo a Berlusconi que esté ahí y le dan las gracias por todo. Salen además un montón de chicas guapas y todos son
 felices.
 
+YOUTUBE
   
- Atentos al momento del minuto 1:58 donde todos los de la clase se dan la vuelta y cantan a coro. ¿No es genial?  
- Una vez que la has escuchado dos veces no puedes parar de cantarla.
+Atentos al momento del minuto 1:58 donde todos los de la clase se dan la vuelta y cantan a coro. ¿No es genial?  
+Una vez que la has escuchado dos veces no puedes parar de cantarla.
 
 Otro vídeo sátira de Berlusconi con la música de la [Vespa Special](http://www.youtube.com/watch?v=Md702EbjnkY).
+
+YOUTUBE
 
 La canción de Lunapop en versión original en italiano ([50 Special](http://www.youtube.com/watch?v=8bN2-DgXk3U)).
 
@@ -50,8 +53,6 @@ pilló de viaje :(. Los conocí porque un italiano dijo que Mago de Öz se parec
 -   [Quarant'anni](http://www.youtube.com/watch?v=f_wYdY5-A0c)
 -   I cento passi
 -   Il Testamento di Tito
-
- 
 
 **Por qué, por qué... los Domingos por el fútbol me abandonas.**  
  Fue también mítico el momento en que descubrimos (somos demasiado jóvenes) que la canción "El Partido de Fútbol" (que por el nombre poca
@@ -152,11 +153,7 @@ Letra:
 >  E se murimmo menate nu fiore   
 >  e na bestemmia pe' 'sta libertà. *
 
- 
-
 ¡Redactando esta entrada he descubierto que Wikipedia tiene su propia [versión en
 napolitano](http://nap.wikipedia.org/wiki/Paggena_prencepale)!
-
-  
 
 Estoy seguro de que me dejo muchos temas y artistas. ¿Sugerencias?

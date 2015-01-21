@@ -39,7 +39,7 @@ videos](http://www.rtve.es/buscador/GoogleServlet?q=sinde&modo=1&pagina=1) in th
 sorting last [news](http://www.rtve.es/noticias/telediario-en-4/) videos by [category](http://www.rtve.es/television/eurovision/). To sum
 up, the same that the current youtube plugin does in Totem.
 
-**Updated 2/Jun/2010:**  
+**Updated June 2nd 2010:**  
 [I've found in a blog](http://gargadon.teufansub.net/2010/03/baja-videos-de-tve-a-la-carta-con-rtmpdump/) how to download RTVE videos using
 [RTMDump](http://rtmpdump.mplayerhq.hu/).  
 Actually [it seems](https://bugzilla.gnome.org/show_bug.cgi?id=566604) that there're some people working to get rtmp support in GStreamer,

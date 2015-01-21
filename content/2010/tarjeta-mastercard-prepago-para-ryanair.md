@@ -1,7 +1,9 @@
 Title: Tarjeta Mastercard Prepago para Ryanair
 Date: 2010-8-23
 Category: TODO
-![](/sites/default/files/img/cybertarjeta.png)  
+
+![cybertarjeta caixa](/img/cybertarjeta.png)
+
  El 1 de enero de 2010, Ryanair volvió a cambiar el tipo de tarjeta con la que no te cobran comisión.  
  Antes, los afortunados eran los poseedores de una Visa Electrón. Ahora en cambio, el tipo de tarjeta elegida es la Mastercard Prepaid
 (Prepago).
@@ -23,7 +25,7 @@ minutos](http://portal.lacaixa.es/tarjetas/cybertarjetafaq_es.html#pregunta04).
 contratar tarjetas :).  
  A continuación te imprime en un papel el número de tarjeta y la fecha de caducidad. Una vez que la
 [recargas](http://portal.lacaixa.es/tarjetas/cybertarjetafaq_es.html#pregunta07), te proporciona también el CVV, necesario para comprar
-cualquier cosa. Además, no te pide datos personales por lo que puede ser considerada una tarjeta *""""anónima""""* **\***.
+cualquier cosa. Además, no te pide datos personales por lo que puede ser considerada una tarjeta *""""anónima""""* (*).
 
 El problema es que te pueden expedir una Visa o una Mastercard Prepago (como les venga). De hecho fue lo que me pasó a mí [me expidieron una
 Visa] y no pude comprar el vuelo.  
@@ -35,7 +37,8 @@ OJO! Esta tarjeta sólo sirve para pagar por Internet.
 mirar). El único gasto será la comisión que te aplican al recargarla, [1% sobre el importe recargado con un mínimo de
 1€](http://portal.lacaixa.es/tarjetas/cybertarjetafaq_es.html#pregunta00).
 
-**Puedes saber si tu Cybertarjeta es Visa o Mastercard:**  
+## Puedes saber si tu Cybertarjeta es Visa o Mastercard
+
  Si el número empieza por 4670, entonces es Visa.  
  Si el número empieza por 5449, entonces es Mastercard. Así que con esto, ya tengo comprado mi vuelo a Zaragoza para el [Hackmeeting
 2010](http://sindominio.net/hackmeeting/index.php?title=Portada), donde daré la primera charla de mi vida :) *(más información
@@ -44,8 +47,7 @@ próximamente...)*.
 Por último, esta es la segunda vez que escribo todo esta entrada, porque justo cuando iba a publicarla antes,
 [epiphany](http://projects.gnome.org/epiphany/) ha petado :(
 
-**\*** No es anónima porque para empezar, ya te han grabado con la cámara de seguridad y tienen el número de la tarjeta con la que
+(*) No es anónima porque para empezar, ya te han grabado con la cámara de seguridad y tienen el número de la tarjeta con la que
 solicitaste la Cybertarjeta en el cajero.
-[![](/sites/default/files/img/Baner_gozahack.png)](http://sindominio.net/hackmeeting/index.php?title=Portada)
 
-[](/content/tarjeta-mastercard-prepago-ryanair)
+[![banner gozahack](/img/Baner_gozahack.png)](http://sindominio.net/hackmeeting/index.php?title=Portada)

@@ -15,6 +15,4 @@ RT307X](http://www.ralinktech.com/license_us.php?n=1&p=1&t=U0wyRnpjMlYwY3k4eU1ER
 un EXE de 28MB. Al final lo que pasa es que los drivers que te instala el EXE, aunque son también rt2870.\* están más actualizados.
 
 He hecho yo un zip de 1,1MB para quien le pueda servir.  
- [Descargar aquí](/files/RT2870%20Wireless%20LAN%20Card.zip)
-
-[](/content/drivers-rt3070-para-windows-xp)
+[Descargar aquí](/files/RT2870%20Wireless%20LAN%20Card.zip)

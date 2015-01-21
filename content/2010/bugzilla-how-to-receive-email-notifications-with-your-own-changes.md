@@ -15,4 +15,4 @@ Fortunately it was easy. It's enough going to ["Preferences"](https://bugzilla.g
 Preferences"](https://bugzilla.gnome.org/userprefs.cgi?tab=email) and then uncheck all the checkboxes in the last row, which says "The
 change was made by me".
 
-[![](/img/receiving_mails_with_your_changes1.png)](/img/receiving_mails_with_your_changes1.png)
+[![bugzilla table](/img/receiving_mails_with_your_changes1.png)](/img/receiving_mails_with_your_changes1.png)

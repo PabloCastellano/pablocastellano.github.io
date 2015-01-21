@@ -1,6 +1,8 @@
 Title: Wikipedia como medio hacktivista y de protesta
 Date: 2010-12-2
 Category: TODO
+Tags: wikipedia, activismo, corrupcion
+
 Si no recuerdo mal, mi cabreo/rabia/tirria empezó al ver el vídeo de un chistoso [César
 Alierta](http://es.wikipedia.org/wiki/C%C3%A9sar_Alierta) (también conocido por ser el presidente de la multinacional Telefónica) en el que
 comenta que están barajando la posibilidad de cobrarle un cánon a empresas como Google ya que ganan dinero gracias a ellos, que ponen la

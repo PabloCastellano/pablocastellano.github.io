@@ -15,7 +15,7 @@ belong to them anymore, except the one from Carlos). They told me it had started
 they didn't have any time to maintain it, but that they would feel very happy if someone else took the maintaining responsibility. We would
 also move it to git.gnome.org.
 
-Migrating from CVS to Git was a little odyssey too. I tried with the cvs2git script but I couldn't because certain "\*,v" files were missing
+Migrating from CVS to Git was a little odyssey too. I tried with the cvs2git script but I couldn't because certain "*,v" files were missing
 and also the directory tree wasn't correct at all. Boh. I also tried with "git cvsimport" without much more luck, but then I don't know what
 I changed in the parameters and it worked :). See one of the links in the bottom of this post.
 
@@ -28,7 +28,9 @@ I will keep working on it in the next days taking advantage of the moment becaus
 
 I have also plans in 2010 to become a [Debian New Maintainer](https://nm.debian.org/) and buoh is a perfect candidate package to maintain :)
 
-http://git.gnome.org/browse/buoh/  
-http://buoh.steve-o.org/screenshots.html  
-http://issaris.blogspot.com/2005/11/cvs-to-git-and-back.html  
-http://joaquin.axai.mx/cvs-desde-git-y-como-mantenerlos-sincronizados (spanish)
+Related links:
+
+- [http://git.gnome.org/browse/buoh/](http://git.gnome.org/browse/buoh/)
+- [http://buoh.steve-o.org/screenshots.html](http://buoh.steve-o.org/screenshots.html)
+- [http://issaris.blogspot.com/2005/11/cvs-to-git-and-back.html](http://issaris.blogspot.com/2005/11/cvs-to-git-and-back.html)
+- [http://joaquin.axai.mx/cvs-desde-git-y-como-mantenerlos-sincronizados](http://joaquin.axai.mx/cvs-desde-git-y-como-mantenerlos-sincronizados) (Spanish)

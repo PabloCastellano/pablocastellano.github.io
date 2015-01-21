@@ -20,21 +20,22 @@ Today, touching gconf I have discovered that there is a workaround and it is dis
 really into account the battery percentage instead of the time that SHOULD remain, according to your previous battery statistics.  
  Run gconf-editor:
 
-[![](/img/pantallazo-editordeconfiguracic3b3n-general.png)  ](/img/pantallazo-editordeconfiguracic3b3n-general.png)
+[![](/img/pantallazo-editordeconfiguracic3b3n-general.png)](/img/pantallazo-editordeconfiguracic3b3n-general.png)
 
-You can tune up a bit more this behaviour with the keys located in /apps/gnome-power-manager/thresholds/.
+You can tune up a bit more this behaviour with the keys located in */apps/gnome-power-manager/thresholds/*.
 
 [![](/img/pantallazo-editordeconfiguracic3b3n-thresholds.png)](/img/pantallazo-editordeconfiguracic3b3n-thresholds.png)
 
 The screenshots are in Spanish but there's not to much to understand.  
- In any case, you can do the same with the command line tool running:  
- *gconftool-2 -s /apps/gnome-network-manager/general/use_time_for_policy --type bool False*
+In any case, you can do the same with the command line tool running:
+
+> gconftool-2 -s /apps/gnome-network-manager/general/use_time_for_policy --type bool False
 
 Note that G-P-M has [migrated from GConf to GSettings](http://live.gnome.org/GnomeGoals/GSettingsMigration) recently. I'm not used to
 gsettings but there should be similar editors.
 
-**UPDATE 25-11-2011:**
+**UPDATE 2011-11-25:**
 
 For gsettings use:
 
-> **gsettings set org.gnome.settings-daemon.plugins.power use-time-for-policy false**
+> gsettings set org.gnome.settings-daemon.plugins.power use-time-for-policy false
