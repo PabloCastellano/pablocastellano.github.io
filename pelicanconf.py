@@ -21,9 +21,9 @@ DEFAULT_CATEGORY = 'misc'
 DISPLAY_CATEGORIES_ON_MENU = False
 
 # Blogroll
-#LINKS = (('Pelican', 'http://getpelican.com/'),
-#         ('Python.org', 'http://python.org/'),
-#         ('Jinja2', 'http://jinja.pocoo.org/'),)
+LINKS = (('BitValley', 'http://bitvalley.cc'),
+         ('Marsupi', 'http://marsupi.org'),
+         ('Autistici/Inventati', 'http://autistici.org'),)
 
 # Social widget
 SOCIAL = (('twitter', 'https://twitter.com/_pablog'),
