@@ -303,7 +303,6 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 		.social a[href*='twitter.com']:before {content: url('../images/icons/twitter.png'); margin-right: 2px; vertical-align: -3px;}
 		.social a[href*='linkedin.com']:before {content: url('../images/icons/linkedin.png'); margin-right: 2px; vertical-align: -3px;}
         .social a[href*='gitorious.org']:before {content: url('../images/icons/gitorious.png'); margin-right: 2px; vertical-align: -3px;}
-        .social a[href*='reddit.com'] {background-image: url('../images/icons/reddit.png');}
         .social a[href*='github.com']:before,
         .social a[href*='git.io']:before {content: url('../images/icons/github.png'); margin-right: 2px; vertical-align: -3px;}
 
