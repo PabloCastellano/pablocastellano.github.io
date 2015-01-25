@@ -1,6 +1,8 @@
 Title: Educación informática I (verificando certificados digitales)
 Date: 2010-9-10
-Category: TODO
+Category: Informática
+Tags: seguridad, certificados digitales, muface
+
 Ayer, dando vueltas por la página de [muface](http://muface.es), veo que puedes [hacer
 solicitudes](http://www.mpr.es/muface/oficina_virtual/solicitudes_por_internet/solicitudes_por_internet-ides-idweb.html) por Internet, bien
 sea con certificado digital o sin él.  

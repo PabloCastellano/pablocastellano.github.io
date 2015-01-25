@@ -1,6 +1,6 @@
 Title: Última campaña de la FSFE: Stop a la publicidad injusta.
 Date: 2010-9-29
-Category: TODO
+Category: Misc
 
 **FSFE: Stop a la publicidad injusta : ¡haga a sus gobiernos apoyar los lectores PDF libres!**
 

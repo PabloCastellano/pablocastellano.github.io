@@ -1,6 +1,7 @@
 Title: La presunta detención de Anonymous por la cúpula de la Policía
 Date: 2011-6-11
-Category: TODO
+Category: Sociedad
+Tags: españa, anonymous, policía, ridículo
 Flattr: http://flattr.com/thing/307580/La-presunta-detencion-de-Anonymous-por-la-cupula-de-la-Policia
 
 Me levanto esta mañana. Lo primero que hago es meterme en Menéame y me encuentro con lo siguiente (la captura es posterior):
@@ -120,7 +121,7 @@ puede llegar a ser rastrear el usuario final de una IP, pero no por repetirlo m�
     investigación **muy muy compleja**."* (minuto 34:08)
 
 -   *"Bueno pero en los chats, siempre habrá una IP detrás y en esa IP habrá que identificar a qué país corresponde, quién está
-    relacionado, etc. Eso es un trabajo bastante arduo. Doblemente que hay IPs que no son nacionales. Si eso es lo que quiere decirme."* 
+    relacionado, etc. Eso es un trabajo bastante arduo. Doblemente que hay IPs que no son nacionales. Si eso es lo que quiere decirme."*
     (minuto 36:55) a lo que sigue un *"tampoco se lo vamos a explicar desde aquí, no? Lo que hay detrás"*
 
 # Citation needed
@@ -144,7 +145,7 @@ puede llegar a ser rastrear el usuario final de una IP, pero no por repetirlo m�
 
 -   *"Y yo creo que es función de los cuerpos de policías, y en eso estamos, colaborar en el ámbito de la seguridad que nosotros tenemos
     encomendado a un Internet abierto y un Internet sostenible donde efectivamente la libertad de expresión pues sea algo inherente a la
-    propia red pero que al fin y al cabo que debemos combatir todas aquellas actividades que son delictivas, y esta sin duda lo es."* 
+    propia red pero que al fin y al cabo que debemos combatir todas aquellas actividades que son delictivas, y esta sin duda lo es."*
     (minuto 13:50)  
     Sín duda que lo es, pero desde hace 6 meses, que es cuando se reformó el Código Penal para que estuviera contemplada como una actividad
     delictiva. La ley es bastante ambigua como

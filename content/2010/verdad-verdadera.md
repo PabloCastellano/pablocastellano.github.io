@@ -1,6 +1,6 @@
 Title: Verdad verdadera
 Date: 2010-9-28
-Category: TODO
+Category: Misc
 Tags: yoigo, bugofeature
 
 Desactivo por la página de cliente de Yoigo el bono de Internet móvil, pero acto seguido escribo les escribo mediante el formulario porque

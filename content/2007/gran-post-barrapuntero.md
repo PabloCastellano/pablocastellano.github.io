@@ -1,7 +1,7 @@
 Title: Gran post barrapuntero!!
 Date: 2007-12-2
-Category: TODO
-Tags: General
+Category: Sociedad
+Tags: barrapunto, cine
 
 Yo no voy ya nunca al cine, principalmente por el tema del canon, pero antes de que los de la innombrable impusieran su impuesto
 revolucionario yo ya estaba hasta los mismísimos cojones (se puede decir "cojones" en barrapunto?) de los niñatos (y no tan niñatos) que se

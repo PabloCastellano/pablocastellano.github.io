@@ -1,7 +1,7 @@
 Title: Drupal Coding Standards
 Date: 2010-8-31
-Category: TODO
-Tags: TODO, guifi.net, español, drupal
+Category: Development
+Tags: Guifi.net, drupal
 
 Desde hace algunos días, los módulo de Drupal guifi y budgets cumplen con los [estándares de programación en
 Drupal](http://drupal.org/coding-standards).

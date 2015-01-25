@@ -1,6 +1,6 @@
 Title: Fill in the blank
 Date: 2010-4-10
-Category: TODO
+Category: Misc
 Tags: retos
 
 What's the missing number in this sequence?  

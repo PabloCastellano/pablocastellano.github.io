@@ -1,7 +1,7 @@
 Title: Downgrade a feisty
 Date: 2007-8-7
-Category: TODO
-Tags: Linux
+Category: Linux
+Tags: Ubuntu
 
 Te levantas un día con *versionitis*, decides actualizar a gutsy. Media hora bajando paquetes y otra media instalándolos... y ahora firefox
 [peta](https://bugs.launchpad.net/ubuntu/+source/hunspell/+bug/111940). Puedes esperarte hasta que lo arreglen, arreglarlo tú mismo [...], o

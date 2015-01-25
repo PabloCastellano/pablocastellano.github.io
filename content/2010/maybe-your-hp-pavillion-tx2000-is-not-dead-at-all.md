@@ -1,6 +1,6 @@
 Title: Maybe your HP Pavillion tx2000 is not dead at all...
 Date: 2010-5-5
-Category: TODO
+Category: Misc
 Tags: tx2000, life, hp
 
 (End of March 2010...)  

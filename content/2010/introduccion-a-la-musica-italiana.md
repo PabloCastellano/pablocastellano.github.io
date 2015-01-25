@@ -1,6 +1,6 @@
 Title: Introducción a la música italiana
 Date: 2010-10-31
-Category: TODO
+Category: Misc
 Tags: erasmus
 
 Durante mi estancia en Italia, una de las cosas que más me ha gustado ha sido introducirme en su cultura musical y que me enseñaran a sus
@@ -18,7 +18,7 @@ estudiante...) agradeciendo a Berlusconi que esté ahí y le dan las gracias por
 felices.
 
 YOUTUBE
-  
+
 Atentos al momento del minuto 1:58 donde todos los de la clase se dan la vuelta y cantan a coro. ¿No es genial?  
 Una vez que la has escuchado dos veces no puedes parar de cantarla.
 

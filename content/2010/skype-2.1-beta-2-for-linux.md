@@ -1,7 +1,7 @@
 Title: Skype 2.1 Beta 2 for Linux
 Date: 2010-1-25
-Category: TODO
-Tags: skype, linux
+Category: Linux
+Tags: skype
 
 As Skype surprised the open source community two months ago, [recognizing that they were working in a linux open source version of their
 client](http://share.skype.com/sites/linux/2009/11/skype_open_source.html), today I found that on 20th January they released a new version

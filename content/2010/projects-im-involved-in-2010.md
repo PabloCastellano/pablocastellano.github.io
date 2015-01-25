@@ -1,6 +1,6 @@
 Title: Projects I'm involved in 2010
 Date: 2010-1-22
-Category: TODO
+Category: Free software
 Tags: erasmus, projects
 
 In the last months, thanks to the less work in university I'm having (I'm doing Erasmus), I am getting involved in many free software /
@@ -17,4 +17,3 @@ follow the development of these ones:
     screens.
 -   Debian: this new year I will prepare myself to be Debian Maintainer.
 -   CAcert.org: I'll be a CAcert assurer soon!
-

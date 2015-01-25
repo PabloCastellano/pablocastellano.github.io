@@ -1,7 +1,7 @@
 Title: Irregularidades en las elecciones y la democracia española
 Date: 2011-11-28
-Category: TODO
-Tags: España
+Category: Spain
+Tags: elecciones, democracia
 
 Hace una semana, el 20 de noviembre de 2011, se celebraron las [XI Elecciones Generales en
 España](https://es.wikipedia.org/wiki/Elecciones_generales_de_Espa%C3%B1a_de_2011). Semanas antes, los partidos políticos (dos

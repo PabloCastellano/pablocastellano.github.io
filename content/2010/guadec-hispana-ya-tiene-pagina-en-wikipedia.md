@@ -1,7 +1,7 @@
 Title: GUADEC Hispana ya tiene página en Wikipedia
 Date: 2010-5-26
-Category: TODO
-Tags: TODO, linux, life, gnome
+Category: Documentación
+Tags: linux, life, gnome
 
 Me he enterado esta misma tarde de que la **VII GUADEC Hispana** se hará en [La Coruña](http://es.wikipedia.org/wiki/La%20Coru%C3%B1a)
 durante los días 22 y 23 de julio. Aunque casi seguro que para esa fecha haya ya vuelto a España, no sé si iré porque no sé cómo andaré de

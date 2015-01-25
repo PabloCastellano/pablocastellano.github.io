@@ -1,6 +1,6 @@
 Title: GSOC Report #1: Maps
 Date: 2012-5-27
-Category: TODO
+Category: GSoC2012
 Tags: guifi.net, gsoc2012
 
 Today I have finished adding the libchamplain support to the old interface. Here I leave a screenshot:

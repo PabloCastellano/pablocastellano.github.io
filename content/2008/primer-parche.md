@@ -1,7 +1,7 @@
 Title: Primer parche
 Date: 2008-11-12
-Category: TODO
-Tags: TODO, linux, español
+Category: Linux
+Tags: dosemu, ubuntu
 
 Realmente no es el primero, pero lo considero 100% mío :-).  
 **default mmap_min_addr breaks dosemu**  

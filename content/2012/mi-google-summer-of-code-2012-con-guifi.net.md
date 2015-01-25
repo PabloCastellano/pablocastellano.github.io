@@ -1,6 +1,6 @@
 Title: Mi Google Summer of Code 2012 con Guifi.net
 Date: 2012-4-24
-Category: TODO
+Category: GSoC2012
 Tags: guifi.net, gsoc2012
 
 ![](/img/Gsoc2012_logo.png)

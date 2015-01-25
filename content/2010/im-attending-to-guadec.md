@@ -1,6 +1,6 @@
 Title: I'm attending to GUADEC
 Date: 2010-6-9
-Category: TODO
+Category: Free software
 Tags: linux, life, guadec, gnome, debian
 
 ![attending to guadec](/img/guadec-oranje.png)  

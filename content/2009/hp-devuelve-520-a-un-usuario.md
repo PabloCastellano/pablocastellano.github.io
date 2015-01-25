@@ -1,6 +1,7 @@
 Title: HP devuelve 520$ a un usuario
 Date: 2009-3-18
-Category: TODO
+Category: Linux
+Tags: licencia, windows, HP
 
 La historia se vuelve a repetir.
 

@@ -1,7 +1,7 @@
 Title: gnome-rss-applet
 Date: 2009-12-1
-Category: TODO
-Tags: TODO, gnome-rss-applet, github
+Category: Free software
+Tags: gnome-rss-applet, gnome, github
 
 I had been some time thinking about it and finally I have decided to create a repository for **gnome-rss-applet** in GitHub.
 You can read more about it in the [wiki](http://wiki.github.com/PabloCastellano/gnome-rss-applet).

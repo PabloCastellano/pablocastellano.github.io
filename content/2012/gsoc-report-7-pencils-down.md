@@ -1,6 +1,6 @@
 Title: GSOC Report #7: Pencils down!
 Date: 2012-8-19
-Category: TODO
+Category: GSoC2012
 Tags: guifi.net, gsoc2012
 
 This week has been the suggested 'Pencils down period'.  

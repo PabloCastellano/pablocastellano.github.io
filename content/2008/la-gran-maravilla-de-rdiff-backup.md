@@ -1,7 +1,7 @@
 Title: La gran maravilla de rdiff-backup
 Date: 2008-11-5
-Category: TODO
-Tags: Linux
+Category: Linux
+Tags: rdiff-backup, backup
 
 Nadie hace copias de seguridad de sus datos hasta que pasa lo que pasa.
 

@@ -1,7 +1,7 @@
 Title: Pésimo servicio técnico de Acer
 Date: 2010-9-10
-Category: TODO
-Tags: español
+Category: Misc
+Tags: acer, servicio técnico
 
 Hoy he tenido que llamar al servicio técnico de Acer. Es la primera vez que me pongo en contacto con un servicio técnico para enviar un
 portátil estropeado y lo hacía con cierto temor.

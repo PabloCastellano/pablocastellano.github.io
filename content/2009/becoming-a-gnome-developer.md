@@ -1,6 +1,7 @@
 Title: Becoming a GNOME developer
 Date: 2009-11-18
-Category: TODO
+Category: Free software
+Tags: GNOME
 
 I am interested about joining the gnome team since some months ago and it looks like I'm going to get it kind of soon... :)
 

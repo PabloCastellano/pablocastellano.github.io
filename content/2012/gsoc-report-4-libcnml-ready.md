@@ -1,6 +1,6 @@
 Title: GSOC Report #4: libcnml ready
 Date: 2012-7-9
-Category: TODO
+Category: GSoC2012
 Tags: guifi.net, gsoc2012
 
 Not so many changes but important advances:

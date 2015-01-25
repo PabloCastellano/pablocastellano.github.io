@@ -1,6 +1,7 @@
 Title: NO A LA LEY SINDE
 Date: 2011-1-9
-Category: TODO
+Category: Política
+Tags: ley sinde, psoe
 
 El 21 de diciembre del ya pasado 2010 se rechazó en el congreso La Disposición Final Segunda (DF2) de la Ley de Economía Sostenible (LES).
 

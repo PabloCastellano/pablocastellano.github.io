@@ -1,6 +1,6 @@
 Title: GSOC Report #0: Documentation
 Date: 2012-5-22
-Category: TODO
+Category: GSoC2012
 Tags: guifi.net, gsoc2012
 
 -Note: I forgot to say in my last post that all coming posts about GSOC will be in English-  

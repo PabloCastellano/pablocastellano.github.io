@@ -1,6 +1,6 @@
 Title: GSOC Final Report
 Date: 2012-8-22
-Category: TODO
+Category: GSoC2012
 Tags: guifi.net, gsoc2012
 
 And this is a summary of the features implemented during this summer into Guifi.net Studio.  
@@ -11,7 +11,7 @@ I have taken the list of features that I wrote when I was doing the proposal for
 
 Implementation status: 75%  
 
-Filtering by node title is possible   
+Filtering by node title is possible
 Advanced filtering is not available but will be (filtering by node/supernode, number of links, links length, type of devices...)
 
 # View nodes in map

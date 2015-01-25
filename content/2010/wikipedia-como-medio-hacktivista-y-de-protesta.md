@@ -1,6 +1,6 @@
 Title: Wikipedia como medio hacktivista y de protesta
 Date: 2010-12-2
-Category: TODO
+Category: Misc
 Tags: wikipedia, activismo, corrupcion
 
 Si no recuerdo mal, mi cabreo/rabia/tirria empezó al ver el vídeo de un chistoso [César

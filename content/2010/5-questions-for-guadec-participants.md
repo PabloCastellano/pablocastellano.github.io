@@ -1,6 +1,6 @@
 Title: 5 questions for GUADEC participants
 Date: 2010-7-7
-Category: TODO
+Category: Free software
 Tags: portland, linux, guadec, gnome
 
 As requested [here](http://www.guadec.org/index.php/guadec/index/announcement/view/10), here there are my 5 answers.

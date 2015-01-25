@@ -1,6 +1,8 @@
 Title: Cambio de servidor
 Date: 2011-10-27
-Category: TODO
+Category: Misc
+Tags: marsupi, wikileaks
+
 ![](/img/marsupi1.png)
 
 En los últimos días, el blog ha estado inaccesible y en continuas modificaciones.

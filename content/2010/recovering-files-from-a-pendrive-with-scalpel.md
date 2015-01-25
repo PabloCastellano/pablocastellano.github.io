@@ -1,6 +1,6 @@
 Title: Recovering files from a pendrive with scalpel
 Date: 2010-4-14
-Category: TODO
+Category: Free software
 Tags: linux, life
 
 I have no idea how it happened but I had to give today a homework in the university and it wasn't in the pendrive. At the moment I have
@@ -21,7 +21,7 @@ Create an iso image from your pendrive:
 
 Have a look to the example configuration file (required) or copy it to *$PWD*:
 
-> cp /etc/scalpel/scalpel.conf 
+> cp /etc/scalpel/scalpel.conf
 
 As I had to recover a C file I added to the end of the config file this line:
 

@@ -1,7 +1,7 @@
 Title: Vergüenza
 Date: 2008-2-24
-Category: TODO
-Tags: politica
+Category: Política
+Tags: SGAE, Chile, barrapunto
 
 > por [medeshago (36275)](http://barrapunto.com/%7Emedeshago/) el Sábado, 23 Febrero de 2008, 02:07h
 > ([#1018839](http://ciberderechos.barrapunto.com/comments.pl?sid=75494&cid=1018839))  

@@ -1,7 +1,7 @@
 Title: Huawei U8110 (Android)
 Date: 2010-8-30
-Category: TODO
-Tags: android, yoigo, software libre
+Category: Android
+Tags: yoigo, software libre
 
 [![](/img/Huawei_U8110_Yoigo.JPG)](https://es.wikipedia.org/wiki/Huawei_U8110)
 

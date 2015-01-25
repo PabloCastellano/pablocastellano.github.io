@@ -1,6 +1,6 @@
 Title: GSOC Report #6: GUI + Guifi.net API
 Date: 2012-8-6
-Category: TODO
+Category: GSoC2012
 Tags: guifi.net, gsoc2012
 Flattr: http://flattr.com/thing/814187/GSOC-Report-6-GUI-Guifi-net-API
 

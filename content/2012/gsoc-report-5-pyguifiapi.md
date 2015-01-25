@@ -1,6 +1,6 @@
 Title: GSOC Report #5: pyGuifiAPI
 Date: 2012-7-23
-Category: TODO
+Category: GSoC2012
 Tags: guifi.net, gsoc2012
 
 Big changes during these 2 weeks :)
@@ -54,19 +54,19 @@ You can test it by your own:
 > $ cat cnml1.py  
 > from libcnml import *  
 > c = CNMLParser('tests/detail')
-> 
+>
 > $ time python cnml1.py  
 > Using lxml which is more efficient  
 > Loaded OK  
-> 
+>
 > real    0m3.974s  
 > user    0m3.728s  
 > sys     0m0.188s  
-> 
+>
 > $ time python cnml1.py  
 > lxml module not found. Falling back to minidom  
 > Loaded OK  
-> 
+>
 > real    0m22.984s  
 > user    0m21.997s  
 > sys     0m0.868s  

@@ -1,6 +1,7 @@
 Title: Writing a new GtkWidget
 Date: 2009-11-6
-Category: TODO
+Category: Development
+Tags: GNOME, GTK
 
 I'm looking for a stave widget in GTK+ to code some kind of music software.  
 It seems like I will have to create it. At the moment this is what I found:

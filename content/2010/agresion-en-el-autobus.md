@@ -1,7 +1,7 @@
 Title: Agresión en el autobús
 Date: 2010-10-14
-Category: TODO
-Tags: sociedad, malaga
+Category: Sociedad
+Tags: Málaga, agresión
 
 Lo que me he presenciado hoy no lo había presenciado nunca.
 

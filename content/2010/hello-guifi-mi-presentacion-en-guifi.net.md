@@ -1,7 +1,7 @@
 Title: Hello guifi (Mi presentación en guifi.net)
 Date: 2010-8-13
-Category: TODO
-Tags: guifi.net
+Category: Guifi.net
+Tags: presentación
 
 Hola a todos! Me presento... soy Pablo, futuro guifero de Málaga.
 

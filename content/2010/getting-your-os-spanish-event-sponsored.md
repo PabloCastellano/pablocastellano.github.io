@@ -1,6 +1,6 @@
 Title: Getting your OS spanish event sponsored
 Date: 2010-5-2
-Category: TODO
+Category: Free software
 Tags: politica, linux, life, gnome, españa, debian
 
 I have just [discovered](http://mail.gnome.org/archives/gnome-hispano-list/2010-May/msg00000.html) that

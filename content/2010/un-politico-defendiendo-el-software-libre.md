@@ -1,7 +1,7 @@
 Title: ¡Un político defendiendo el software libre!
 Date: 2010-6-24
-Category: TODO
-Tags: politica, linux
+Category: Free software
+Tags: politica, linux, psoe
 
 Genial intervención del político [Juan Carlos Rodríguez Ibarra](http://es.wikipedia.org/wiki/Juan_Carlos_Rodr%C3%ADguez_Ibarra) *(o
 ibarra.net)*, del PSOE, en el Senado el día 17 de mayo de 2010 (Día Mundial de Internet). Fue presidente de la Junta de Extremadura hasta

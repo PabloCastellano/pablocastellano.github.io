@@ -1,6 +1,7 @@
 Title: Tarjeta Mastercard Prepago para Ryanair
 Date: 2010-8-23
-Category: TODO
+Category: Misc
+Tags: ryanair, mastercard prepago
 
 ![cybertarjeta caixa](/img/cybertarjeta.png)
 

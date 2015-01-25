@@ -1,7 +1,7 @@
 Title: Antenas, campos electromagnéticos y salud
 Date: 2012-2-12
-Category: TODO
-Tags: guifi.net
+Category: Guifi.net
+Tags: salud, magufismo
 
 ![Sombreros de aluminio](/img/Sombreros_de_aluminio.jpeg)
 

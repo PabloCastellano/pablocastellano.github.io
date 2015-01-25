@@ -1,6 +1,7 @@
 Title: Norwegian super stars [traducción al español]
 Date: 2011-1-29
-Category: TODO
+Category: Sociedad
+Tags: autistici, raid
 
 *Esto es una libre traducción de una entrada publicada ayer en el [blog de autistici.org](https://cavallette.noblogs.org/2011/01/7117). Me
 he tomado la molestia de tirarme un buen rato traduciéndolo porque merece la pena leerla y porque usando el traductor más famoso de la red

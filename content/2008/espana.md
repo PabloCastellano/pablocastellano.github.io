@@ -1,7 +1,7 @@
 Title: España
 Date: 2008-3-4
-Category: TODO
-Tags: español
+Category: Sociedad
+Tags: España
 
 Puedo parecer rallante pero bueno, no tiene desperdicio ni le falta razón a este usuario:
 

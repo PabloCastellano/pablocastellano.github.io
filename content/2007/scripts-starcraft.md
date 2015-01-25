@@ -1,7 +1,7 @@
 Title: Scripts starcraft
 Date: 2007-11-8
-Category: TODO
-Tags: Linux, Starcraft
+Category: Linux
+Tags: Starcraft
 
 Dejo aquí un par de scripts, útiles si juegas a Starcraft desde linux.
 

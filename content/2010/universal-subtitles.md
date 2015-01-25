@@ -1,7 +1,7 @@
 Title: Universal Subtitles
 Date: 2010-10-11
-Category: TODO
-Tags: TODO, projects, guifi.net
+Category: Free software
+Tags: projects, guifi.net
 
 [![universal subtitles globe](/img/universal_subtitles_globe.jpg)](/pics/universal_subtitles_globe.jpg)
 
@@ -50,7 +50,7 @@ el idioma de los subtítulos. El código es algo así:
     <script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js"> 
     (
       {'video_url': 'http://webmademovies.etherworks.ca/guillermo.ogv'}
-    ) 
+    )
     </script>
 
 Y se ve así (necesitas un navegador que soporte html5):

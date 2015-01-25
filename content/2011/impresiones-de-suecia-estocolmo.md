@@ -1,6 +1,8 @@
 Title: Impresiones de Suecia/Estocolmo
 Date: 2011-3-5
-Category: TODO
+Category: Viajes
+Tags: suecia, estocolmo, proxxi
+
 Hace una semana estaba en Suecia visitando a una amiga y como casi siempre que salgo de Málaga, volví con esa sensación de felicidad y
 tristeza a la vez. Sólo estuve 5 días en Estocolmo y es una ciudad preciosa, totalmente nevada por si había dudas. Recomiendo a todo el
 mundo que vaya, que pasee por sus calles y que como mínimo coja el ferry hasta

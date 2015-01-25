@@ -1,7 +1,7 @@
 Title: DÉJAME SUELTAS LAS MANOS...
 Date: 2007-9-17
-Category: TODO
-Tags: General
+Category: Misc
+Tags: Pablo Neruda
 
 Déjame sueltas las manos  
 y el corazón, déjame libre!  

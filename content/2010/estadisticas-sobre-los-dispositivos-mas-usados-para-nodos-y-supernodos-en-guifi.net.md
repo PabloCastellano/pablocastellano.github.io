@@ -1,7 +1,7 @@
 Title: Estadísticas sobre los dispositivos más usados para nodos y supernodos en guifi.net
 Date: 2010-8-20
-Category: TODO
-Tags: guifi.net
+Category: Guifi.net
+Tags: estadísticas
 
 Me gusta hacer estadísticas y esta mañana se me ha ocurrido hacer un pequeño script Python que usando el [cnml de guifi
 world](http://guifi.net/es/guifi/cnml/3671) sirva para ver qué tipo de dipositivos/trastos son los más usados sin distinguir nodos de

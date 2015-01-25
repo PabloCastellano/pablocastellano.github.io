@@ -1,6 +1,6 @@
 Title: An attempt to censor my wikileaks mirror?
 Date: 2010-12-12
-Category: TODO
+Category: Sociedad
 Tags: wikileaks, censorship
 
 Hi all. I'm online again.

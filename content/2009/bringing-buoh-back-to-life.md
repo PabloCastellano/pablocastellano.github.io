@@ -1,6 +1,6 @@
 Title: Bringing buoh back to life
 Date: 2009-12-23
-Category: TODO
+Category: Free software
 Tags: gnome, git, debian, cvs, buoh
 
 ![](/img/buoh.png) Buoh is a simple but practical project. Its web page defines buoh as "The online comic reader application for GNOME"

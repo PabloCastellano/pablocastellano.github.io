@@ -1,7 +1,7 @@
 Title: Problem with my laptop battery and gnome-power-manager
 Date: 2010-6-22
-Category: TODO
-Tags: linux, gnome
+Category: Free software
+Tags: linux, gnome, laptop, battery, gnome-power-manager
 
 My laptop battery is faulty, when I connect my laptop to the AC adapter, the battery starts to get charged but after some minutes (random)
 the battery LED light becomes orange and that means that, even if the computer is being supplied by the AC adapter, the battery is not

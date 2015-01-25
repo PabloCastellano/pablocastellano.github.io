@@ -1,7 +1,7 @@
 Title: Linux and BSD Funding VISA cards
 Date: 2010-1-14
-Category: TODO
-Tags: visa, linux, funding
+Category: Free software
+Tags: visa, linux, bsd, funding
 
 I have just discovered that if you reside in the US, you can get a BSD or a Linux VISA card, so that every time you buy something
 [BSDFund](http://bsdfund.org/) and [LinuxFund](http://www.linuxfund.org/) organizations will get some money (I guess some cents) that then

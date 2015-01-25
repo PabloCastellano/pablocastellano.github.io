@@ -1,6 +1,7 @@
 Title: Script para bajar vídeos de La Sexta
 Date: 2011-11-1
-Category: TODO
+Category: Development
+Tags: la sexta, script
 
 Por motivos de **compatibilidad operativa**, he tenido que buscar otro método para descargar los vídeos de la web de [La
 Sexta](http://www.lasexta.com/). Para ello he hecho un script en Python que dada una URL te devuelve la dirección del RTMP para bajarla con

@@ -1,6 +1,6 @@
 Title: freedesktop & XDG
 Date: 2010-1-24
-Category: TODO
+Category: Free software
 Tags: linux, nouveau, portland
 
 freedesktop.org (abreviado como "fd.o") apareció en el año 2000, aunque también es conocido como XDG ("X Desktop Group"). Es un proyecto que
@@ -48,7 +48,7 @@ de TV previa ingeniería inversa:
 </tr>
 <tr>
 <td>Abstract:  </td>
-<td>The TV output present on several Nvidia graphics cards lacks support from the nv and nouveau open source device drivers. This forces most users wanting to use their TV out to stick with the proprietary Nvidia software. 
+<td>The TV output present on several Nvidia graphics cards lacks support from the nv and nouveau open source device drivers. This forces most users wanting to use their TV out to stick with the proprietary Nvidia software.
 <p>This project will aim to reverse engineer the operation of the TV encoder integrated on some recent Nvidia chips, and provide a RandR1.3 compliant implementation based on the nouveau driver. </p></td>
 </tr>
 </tbody>

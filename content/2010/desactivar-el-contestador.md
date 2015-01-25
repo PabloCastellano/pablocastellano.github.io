@@ -1,7 +1,7 @@
 Title: Desactivar el contestador
 Date: 2010-7-23
-Category: TODO
-Tags: telefonía
+Category: Misc
+Tags: telefonía, contestador
 
 Para desactivar el contestador que seguramente no hemos pedido que nos activen, cada compañía tiene su método:
 

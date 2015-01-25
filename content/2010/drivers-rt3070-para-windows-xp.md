@@ -1,7 +1,7 @@
 Title: Drivers rt3070 para Windows XP 
 Date: 2010-8-26
-Category: TODO
-Tags: español, realtek, rt3070
+Category: Misc
+Tags: realtek, rt3070, windows
 
 Por si no fuera poca la cutreza del driver rt3070 de realtek, (véanse entradas con la etiqueta "realtek") hoy necesitaba el driver para
 Windows XP y no funciona el que tienen en [la

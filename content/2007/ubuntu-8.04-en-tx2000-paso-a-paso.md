@@ -1,6 +1,7 @@
 Title: Ubuntu 8.04 en tx2000 paso a paso
 Date: 2007-11-30
-Category: TODO
+Category: Linux
+Tags: ubuntu, hp, tx2000
 
 Desde hace poco mi PC de sobremesa tiene un gran competidor.
 

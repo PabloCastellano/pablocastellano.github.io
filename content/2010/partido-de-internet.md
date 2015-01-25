@@ -1,7 +1,7 @@
 Title: Partido de Internet
 Date: 2010-2-21
-Category: TODO
-Tags: españa, PartidoDeInternet, politica
+Category: Política
+Tags: españa, PartidoDeInternet
 
 Nunca pensé que fuese a hablar de un partido político en mi blog, pero merece la pena como poco conocerlo, sobre todo si vas de demócrata.
 

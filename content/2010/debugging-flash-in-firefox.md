@@ -1,7 +1,7 @@
 Title: Debugging flash in firefox
 Date: 2010-6-2
-Category: TODO
-Tags: TODO, linux, flash, debugging
+Category: Development
+Tags: linux, flash, debugging, firefox
 
 Install [Adobe Flash Player Debugging Version](http://www.adobe.com/support/flashplayer/downloads.html):  
 (first I recommend you to uninstall any flash version you have installed)

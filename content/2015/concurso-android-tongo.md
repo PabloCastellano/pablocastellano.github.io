@@ -1,7 +1,7 @@
 Title: El concurso de apps Android de la Universidad de Málaga es una estafa
-Date: 2015-01-12 10:00
-Category: historias
-Tags: concurso, android, uma
+Date: 2015-01-28 10:00
+Category: Misc
+Tags: concurso, android, uma, universidad de Málaga, incompetencia
 
 **TL;DR**: La facultad de Informática de la Universidad de Málaga organiza un concurso de desarrollo de apps Android
 para sus estudiantes y una semana después de haber debido publicar los ganadores, decide dejar el premio desierto alegando

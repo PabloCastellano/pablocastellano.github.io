@@ -1,6 +1,7 @@
 Title: smartcard support in gnome-settings-daemon 2.31.1
 Date: 2010-5-11
-Category: TODO
+Category: Linux
+Tags: smartcard
 
 I have just discovered that Ray Strode, a Red Hat employee, [has added smartcard support to
 GSD](http://git.gnome.org/browse/gnome-settings-daemon/commit/?id=6c87af2623f611de55730fe856c8a5abd3991277).

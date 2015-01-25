@@ -1,7 +1,7 @@
 Title: Starting repository migration of portland to Git
 Date: 2010-5-27
-Category: TODO
-Tags: TODO, portland, linux, github, git, cvs
+Category: Free software
+Tags: portland, linux, github, git, cvs
 
 Using CVS is a pain for me and nowadays it's pointless using it. Actually there are enough [open source
 alternatives](http://en.wikipedia.org/wiki/List_of_revision_control_software#Open_source), distribuited or not. Unfortunately the portland

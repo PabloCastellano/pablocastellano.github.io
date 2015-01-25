@@ -1,6 +1,6 @@
 Title: rtl8187se, realtek and ndiswrapper
 Date: 2010-4-12
-Category: TODO
+Category: Free software
 Tags: realtek, linux
 
 My new netbook uses the

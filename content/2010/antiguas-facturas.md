@@ -1,6 +1,7 @@
 Title: Antiguas facturas
 Date: 2010-8-19
-Category: TODO
+Category: Misc
+Tags: facturas
 
 Hoy abriendo el cajón de las facturas, he encontrado lo siguiente:
 

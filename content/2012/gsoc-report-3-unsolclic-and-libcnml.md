@@ -1,6 +1,6 @@
 Title: GSOC Report #3: unsolclic and libcnml
 Date: 2012-7-3
-Category: TODO
+Category: GSoC2012
 Tags: guifi.net, gsoc2012
 
 I'm back! No more exams for a while. I'm happy to have much more time to spend working on Guifi.net Studio.  
@@ -25,12 +25,12 @@ Here's an example of how to use it (notice again that the API will change after 
     from libcnml import CNMLParser
     filename = 'test.cnml'
     cnmlp = CNMLParser(filename)
-    
+
     print cnmlp.nodes[99]['name'] #name of node with id 99
     print cnmlp.nodes[99]['lat'] #latitude of node with id 99
     print cnmlp.nodes[99]['lon'] #longitude of node with id 99
     print cnmlp.nodes[99]['devices'][77]['firmware'] #firmware of device id 77 that belongs to node 99
-    
+
     root = cnmlp.rootzone # id of root zone of cnml file loaded
     print cnmlp.zones[root]['title'] # title of root zone
     print cnmlp.zones[3996]['nlinks'] # number of links between nodes in zone with id 3996

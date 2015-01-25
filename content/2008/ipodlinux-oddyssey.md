@@ -1,6 +1,7 @@
 Title: ipodlinux oddyssey
 Date: 2008-4-25
-Category: TODO
+Category: Linux
+Tags: iPod, ipodlinux
 
 Version simplificada de mi experiencia instalando linux en un iPod.
 

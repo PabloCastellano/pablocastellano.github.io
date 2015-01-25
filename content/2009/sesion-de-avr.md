@@ -1,6 +1,7 @@
 Title: Sesión de AVR
 Date: 2009-3-30
-Category: TODO
+Category: Electronics
+Tags: AVR, LCD2USB, arduino
 
 usbtinyisp cheap programmer (22$): [BUY HERE](http://www.adafruit.com/index.php?main_page=product_info&cPath=16&products_id=46), [DIY
 HERE](http://www.ladyada.net/make/usbtinyisp/)  

@@ -1,6 +1,6 @@
 Title: GSOC Report #2: libs and APIs
 Date: 2012-6-5
-Category: TODO
+Category: GSoC2012
 Tags: gsoc2012, guifi.net
 
 I have added some checkbuttons that allow you to show and hide the labels and the points of the nodes. Apart from that, there aren't more

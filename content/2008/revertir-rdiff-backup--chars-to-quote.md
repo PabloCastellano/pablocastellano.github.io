@@ -1,7 +1,7 @@
 Title: Revertir rdiff-backup -chars-to-quote
 Date: 2008-11-16
-Category: TODO
-Tags: Linux
+Category: Linux
+Tags: rdiff-backup, backup
 
 > IFS=" " for i in $(find|grep '\;'); do mv -i -v $i $(echo $i|sed 's/\;065/A/g' | sed 's/\;066/B/g' | sed 's/\;067/C/g' | sed
 > 's/\;068/D/g' | sed 's/\;069/E/g' | sed 's/\;070/F/g' | sed 's/\;071/G/g' | sed 's/\;072/H/g' | sed 's/\;073/I/g' | sed

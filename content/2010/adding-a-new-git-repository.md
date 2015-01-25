@@ -1,6 +1,6 @@
 Title: Adding a new git repository
 Date: 2010-1-4
-Category: TODO
+Category: Linux
 Tags: LPR, howto, git
 
 Some time ago I set up a git server (gitosis) in my desktop computer. I use to commit in my laptop and then push the changes to my desktop

@@ -1,7 +1,7 @@
 Title: TP-LINK TL-WN722N (o cualquier ath9k_htc) en Ubuntu 10.04
 Date: 2010-8-6
-Category: TODO
-Tags: ubuntu, linux, howto
+Category: Linux
+Tags: ubuntu, howto
 
 ![](/img/tlwn722g200x150.jpg)
 

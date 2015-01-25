@@ -1,7 +1,7 @@
 Title: Este hombre y esta mujer nos toman el pelo
 Date: 2009-3-18
-Category: TODO
-Tags: General
+Category: Misc
+Tags: España, corrupción
 
 ![ladron](http://www.diariosur.es/prensa/fotos/200703/31/004D6UL-REL-P1_1.jpg)
 

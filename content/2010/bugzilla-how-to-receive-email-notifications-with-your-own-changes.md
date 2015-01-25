@@ -1,7 +1,7 @@
 Title: Bugzilla: How to receive email notifications with your own changes
 Date: 2010-5-28
-Category: TODO
-Tags: gnome
+Category: Free software
+Tags: gnome, bugzilla
 
 One thing that was disturbing me is that by default, in [GNOME bugzilla](https://bugzilla.gnome.org/) you won't receive an email
 notification if you, e.g. add a comment in a bugreport, or change the priority of a bugreport, because it's YOU who have done it.  
