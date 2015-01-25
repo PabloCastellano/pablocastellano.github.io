@@ -1,4 +1,4 @@
-# notmyidea-cms #
+# myidea-cms #
 
 
 
