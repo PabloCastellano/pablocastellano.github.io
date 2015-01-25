@@ -46,6 +46,31 @@
         {% endblock %}
 
         <aside id="sidebar">
+        {% if SOCIAL %}
+                <div class="widget social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" rel="alternate">atom feed</a></li>
+                            {% if FEED_RSS %}
+                            <li><a href="{{ SITEURL }}/{{ FEED_RSS }}" rel="alternate">rss feed</a></li>
+                            {% endif %}
+
+                        {% for name, link in SOCIAL %}
+                            <li><a href="{{ link }}">{{ name }}</a></li>
+                        {% endfor %}
+                        </ul>
+                </div><!-- /.social -->
+        {% endif %}
+                <div class="widget">
+                        <h2>Archives</h2>
+                        <ul>
+                            <li><a href="/blog/2015">2015</a></li>
+                            <li><a href="/blog/2012">2012</a></li>
+                            <li><a href="/blog/2011">2011</a></li>
+                            <li><a href="/blog/2010">2010</a></li>
+                            <li><a href="/blog/2009">2009</a></li>
+                        </ul>
+                </div>
                 <div class="widget">
                         <h2>Categories</h2>
                         <ul>
@@ -63,21 +88,6 @@
                         {% endfor %}
                         </ul>
                 </div><!-- /.blogroll -->
-        {% endif %}
-        {% if SOCIAL %}
-                <div class="widget social">
-                        <h2>Social</h2>
-                        <ul>
-                            <li><a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" rel="alternate">atom feed</a></li>
-                            {% if FEED_RSS %}
-                            <li><a href="{{ SITEURL }}/{{ FEED_RSS }}" rel="alternate">rss feed</a></li>
-                            {% endif %}
-
-                        {% for name, link in SOCIAL %}
-                            <li><a href="{{ link }}">{{ name }}</a></li>
-                        {% endfor %}
-                        </ul>
-                </div><!-- /.social -->
         {% endif %}
         </aside><!-- /#sidebar -->
 
