@@ -1,7 +1,4 @@
 Title: Sobre mí
-Slug: about-me
-Lang: es
-Translation: True
 
 Hola, soy Pablo Castellano.  
 Nací en 1989 en Málaga, donde me encuentro finalizando mis estudios en Ingeniería Informática.
