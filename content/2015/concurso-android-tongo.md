@@ -3,12 +3,14 @@ Date: 2015-01-28 10:00
 Category: Misc
 Tags: concurso, android, uma, universidad de Málaga
 
-**TL;DR:** La [ETSI Informática de la Universidad de Málaga](http://www.informatica.uma.es/) organiza un concurso de desarrollo de apps Android
-para sus estudiantes y una semana más tarde de la fecha de la publicación de los ganadores nos informa a los concursantes de que han decidido dejar el
-premio desierto, haciendo una interpretación extraña de un punto de las bases.  
+**TL;DR:** La [ETSI Informática de la Universidad de Málaga](http://www.informatica.uma.es/) organiza un
+[concurso de desarrollo de apps Android](http://www.uma.es/etsi-informatica/noticias/concurso-android/)
+para sus estudiantes y una semana más tarde de la fecha en la que deberían haber publicado los ganadores
+nos informa a los concursantes de que han decidido dejar el premio desierto, haciendo una interpretación
+extraña de un punto de las bases e inventándose otros criterios.  
 El concurso, en su segunda edición, se desarrolla con total falta de rigor y de transparencia.
 
-![uma enfurecida](/img/umaenfurecida_150x150.gif)
+[![uma enfurecida](/img/umaenfurecida_150x150.gif)](https://twitter.com/umaenfurecida)
 
 # Concurso de aplicaciones Android
 
@@ -59,13 +61,14 @@ todos los estudiantes de esta facultad hemos pensado alguna vez: ***«¡¿Pero e
 No voy a entrar en opiniones sobre los proyectos ganadores pero cuento la falta de rigor que vi por parte del jurado.
 
 El proyecto ganador era una app que servía para *ocultar* regiones de una foto que solo podrían ver las personas que tuvieran cierta clave.
-De la parte más interesante (al menos para mí) que era un servidor que almacenaba estas claves no hablo. Tampoco vimos al app funcionando.
-Pero es que **ni el jurado hizo ni una pregunta al respecto**, casi únicamente felicitaciones por el trabajo.
+De la parte más interesante (al menos para mí) que era un servidor que almacenaba estas claves no habló. Tampoco vimos al app funcionando.
+Pero es que **ni el jurado hizo ni una pregunta al respecto**, casi únicamente intervinieron para felicitarle por el trabajo.
 
-A cualquiera que le interese el área de la criptografía y lea sobre el tema, sabe que debe de tener mucho cuidado de que no le
-cosas básicas como que la seguridad por ocultación funciona peor que usar algoritmos estándares, y que debe tener mucho cuidado de que 
-no le vendan [crecepelo](http://en.wikipedia.org/wiki/Snake_oil_(cryptography)).
-Y que si te ocultan datos de por medio, puedes sospechar de que te lo están vendiendo.
+A cualquiera que le interese el área de la criptografía y lea sobre el tema, sabe que hay unas cosas básicas como que la [*seguridad por
+ocultación*](https://es.wikipedia.org/wiki/Seguridad_por_oscuridad) funciona peor que usar algoritmos estándares, que debe tener mucho cuidado de que no te vendan
+[crecepelo](http://en.wikipedia.org/wiki/Snake_oil_(cryptography)) y que si no te quieren dar ciertos datos por el motivo que sea (por ejemplo
+una patente) puedes empezar a desconfiar...  
+Entiendo que quizás no lo comentó por falta de tiempo pero al jurado se la habría colado si hubiera querido.
 
 En el caso del segundo grupo, incumplieron (presuntamente) un requisito de las bases que decía que no se podía presentar una app que
 ya hubiera estado publicada anteriormente en Google Play o Android Market y (presuntamente) lo hicieron ya que en la presentación *alguien* vio
@@ -75,7 +78,7 @@ una captura de pantalla que lo demostraba y para la presentación (presuntamente
 Por último, otro requisito en las bases del concurso es que las apps deberán tener una licencia de software libre. 
 Pues bien, ninguno de los grupos ganadores hizo mención a este apartado (qué licencia tiene el proyecto, si está disponible el código en
 algún repositorio...) **NI EL JURADO LES PREGUNTÓ**.  
-Podemos hacer un esfuerzo y presuponer que fue debido a que el jurado ya sabía qué licencia tenía porque venía en la memoria especificado.
+Podemos hacer un esfuerzo más y presuponer que fue debido a que el jurado ya sabía qué licencia tenía porque venía en la memoria especificado.
 
 Tampoco dieron la posibilidad de hacer preguntas a los allí asistentes.
 
@@ -117,7 +120,8 @@ Todo esto suena raro ya que para empezar podrían haberlo dejado desierto hacía
 El PDF decía que los proyectos no se ajustaron (ninguno) a los ***criterios de calidad***. Superado por la situación, me dispongo a buscar en las bases cuáles son estos
 criterios y **no los encuentro**. Así que escribo al secretario (y con todos los participantes en copia) preguntándole.
 
-La respuesta vino por parte del Subdirector de Infraestructuras, Eduardo, y es la siguiente:
+La respuesta vino por parte de [**Eduardo Guzmán**](http://www.lcc.uma.es/~guzman/), uno de los 3 miembros del jurado evaluador y también
+*Subdirector de Infraestructuras* de la Escuela, y es la siguiente:
 
 > Buenas tardes, Pablo:  
 >
@@ -190,7 +194,7 @@ A lo cuál, responde:
 > Un cordial saludo,
 
 Yo creo que el que no entendió mi correo era él, ya que ignoró mis peticiones de saber qué proyectos no entregaron la documentación
-y de qué en criterios (que no requisitos) estaba más flojo mi proyecto.  
+y de qué en criterios (*que no requisitos*) estaba más flojo mi proyecto.  
 Creo que estaba pidiendo nada del otro mundo, ¿o sí?
 
 Viendo ya por donde iban los tiros, su enroque y falta de voluntad, y en última estancia, la *decisión del tribunal inapelable*... aquí ya me encendí y le solté lo que pensaba del concurso:
@@ -214,15 +218,18 @@ Viendo ya por donde iban los tiros, su enroque y falta de voluntad, y en última
 De este correo ya pasó un mes, así que no espero respuesta.
 
 # Conclusiones
-
  
-Yo por mi parte no pienso volver a participar en un concurso tan marrullero como este y además este es mi último año como estudiante.
+Yo por mi parte no pienso volver a participar en un concurso tan marrullero como este y además de que este es mi último año como estudiante.
 
 Sentirse estafado en dos ediciones consecutivas ha sido suficiente. Uno se va de la carrera con el mal sabor de boca que dejan estas cosas,
-y que por desgracia no son casos aislados es esta universidad. ¿Tan difícil es hacer las cosas bien? A cualquiera que le preguntes te podrá contar una historia increíble de cómo
-una asignatura aprobada le desapareció, o de cómo se perdió su papel que convalidaba las asignaturas de Erasmus.
+y que por desgracia no son casos aislados es esta universidad. ¿Tan difícil es hacer las cosas bien? A cualquiera que le preguntes te podrá contar una *historia increíble* de cómo
+una asignatura aprobada le desapareció del expediente, o de cómo se perdió su papel que convalidaba las asignaturas de Erasmus.  
+Si bien estos dos ejemplos podrían estar más relacionados con la secretaría, no dejan de ser parte de un todo que hace el paso del estudiante
+por la Universidad de Málaga más desagradable.
 
-A los estudiantes de la UMA: pensaros muy bien si merece la pena invertir vuestro tiempo en la III edición (si la hay) de un concurso con un
+**A los estudiantes de la UMA:** pensaros muy bien si merece la pena invertir vuestro tiempo en la III edición (si la hay) de un concurso con un
 jurado que tiene unas bases, pero que si no le gustan, tiene otras.
 
 Lo bueno de todo esto es que para contarlo he retomado el blog, hehe.
+
+¡Saludos!
