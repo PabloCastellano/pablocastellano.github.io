@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Pablo Castellano'
 SITENAME = u'pablog.me'
-SITESUBTITLE = u'$ cat >> /dev/blog'
+SITESUBTITLE = u'$ cat << EOF >> /dev/blog'
 SITEURL = 'http://127.0.0.1:8000'
 
 PATH = 'content'
@@ -122,9 +122,3 @@ SITEMAP = {
 # misc
 SHOW_AUTHOR = False
 SHARE_TWITTER = False
-
-#GOOGLE_ANALYTICS =
-PIWIK_URL = 'stats.marsupi.org'
-PIWIK_SITE_ID = '22'
-
-DISQUS_SITENAME = 'pablogme'

@@ -11,14 +11,12 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'http://pablog.me'
-RELATIVE_URLS = False
-
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+RELATIVE_URLS = True
 
 DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
+PIWIK_URL = 'stats.marsupi.org'
+PIWIK_SITE_ID = '22'
 
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+DISQUS_SITENAME = 'pablogme'
