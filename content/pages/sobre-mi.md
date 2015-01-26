@@ -6,7 +6,7 @@ Nací en 1989 en Málaga, donde me encuentro finalizando mis estudios en Ingenie
 # Blog
 
 En este blog escribo sobre informática (principalmente sobre software libre) y sobre otros temas variados como viajes, política, sociedad, actualidad y activismo.
-Este blog tiene fallos de diseño y está en construcción permanente, pero decidí seguir un poco la filosofía [Release often, release early](https://en.wikipedia.org/wiki/Release_early,_release_often), colgarlo así e ir arreglándolos con el tiempo y con calma.
+Este blog tiene fallos de diseño y está en construcción permanente, pero decidí seguir un poco la filosofía «[Release often, release early](https://en.wikipedia.org/wiki/Release_early,_release_often)», colgarlo así e ir arreglándolos con el tiempo y con calma.
 
 En el ámbito de la informática, me gustan principalmente dos campos: la ingeniería del software y la seguridad.  
 Mis desarollos los hago en Python, C, PHP y Bash principalmente. Aunque en mi *[lista de cosas por hacer]* están incluídos
