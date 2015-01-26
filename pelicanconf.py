@@ -26,8 +26,8 @@ LINKS = (('BitValley', 'http://bitvalley.cc'),
          ('Autistici/Inventati', 'http://autistici.org'),)
 
 # Social widget
-SOCIAL = (('twitter', 'https://twitter.com/_pablog'),
-          ('github', 'https://github.com/PabloCastellano'),)
+SOCIAL = (('Twitter', 'https://twitter.com/_pablog'),
+          ('GitHub', 'https://github.com/PabloCastellano'),)
 
 #GITHUB_URL = 'http://github.com/PabloCastellano/'
 TWITTER_USERNAME = '_pablog'
@@ -59,8 +59,8 @@ RELATIVE_URLS = True
 # Configure Pelican to output Clean URLs
 AUTHOR_URL = 'author/{slug}'
 
-ARTICLE_URL = "posts/{date:%Y}/{date:%m}/{slug}/"
-ARTICLE_SAVE_AS = "posts/{date:%Y}/{date:%m}/{slug}/index.html"
+ARTICLE_URL = "blog/{date:%Y}/{date:%m}/{slug}/"
+ARTICLE_SAVE_AS = "blog/{date:%Y}/{date:%m}/{slug}/index.html"
 
 CATEGORY_URL = "category/{slug}"
 CATEGORY_SAVE_AS = "category/{slug}/index.html"
@@ -72,7 +72,7 @@ TAG_URL = "tag/{slug}/"
 TAG_SAVE_AS = "tag/{slug}/index.html"
 
 # Generate yearly archive
-YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
+YEAR_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/index.html'
 
 # Atom and RSS feeds
 CATEGORY_FEED_ATOM = ''
@@ -95,7 +95,10 @@ SITEMAP_SAVE_AS = 'sitemap.xml'
 EXTRA_TEMPLATES_PATHS = ['templates']
 
 # Specify theme
-THEME = "themes/myidea"
+#THEME = "themes/myidea"
+#THEME = "themes/" + "notmyidea-cms"
+THEME = "themes/" + "myidea-cms"
+
 #THEME = "themes/notmyidea"
 
 # ----------------------------------------------------------------------
@@ -115,3 +118,13 @@ SITEMAP = {
         'pages': 'monthly'
     }
 }
+
+# misc
+SHOW_AUTHOR = False
+SHARE_TWITTER = False
+
+#GOOGLE_ANALYTICS =
+PIWIK_URL = 'stats.marsupi.org'
+PIWIK_SITE_ID = '22'
+
+DISQUS_SITENAME = 'pablogme'
