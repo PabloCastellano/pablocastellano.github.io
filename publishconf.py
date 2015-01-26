@@ -15,6 +15,8 @@ RELATIVE_URLS = True
 
 DELETE_OUTPUT_DIRECTORY = True
 
+MENUITEMS = (('Home', SITEURL),)
+
 # Following items are often useful when publishing
 PIWIK_URL = 'stats.marsupi.org'
 PIWIK_SITE_ID = '22'
