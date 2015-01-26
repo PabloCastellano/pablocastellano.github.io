@@ -65,6 +65,24 @@
                         </ul>
                 </div><!-- /.social -->
         {% endif %}
+        {% if LINKS %}
+                <div class="widget">
+                        <h2>Blogroll</h2>
+                        <ul>
+                        {% for name, link in LINKS %}
+                            <li><a href="{{ link }}">{{ name }}</a></li>
+                        {% endfor %}
+                        </ul>
+                </div><!-- /.blogroll -->
+        {% endif %}
+                <div class="widget">
+                        <h2>Categories</h2>
+                        <ul>
+                        {% for cat, null in categories %}
+                           <li {% if cat == category %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                        {% endfor %}
+                        </ul>
+                </div>
                 <div class="widget">
                         <h2>Archives</h2>
                         <ul>
@@ -75,34 +93,18 @@
                             <li><a href="/blog/2009">2009</a></li>
                         </ul>
                 </div>
-                <div class="widget">
-                        <h2>Categories</h2>
-                        <ul>
-                        {% for cat, null in categories %}
-                           <li {% if cat == category %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-                        {% endfor %}
-                        </ul>
-                </div>
-        {% if LINKS %}
-                <div class="widget blogroll">
-                        <h2>Blogroll</h2>
-                        <ul>
-                        {% for name, link in LINKS %}
-                            <li><a href="{{ link }}">{{ name }}</a></li>
-                        {% endfor %}
-                        </ul>
-                </div><!-- /.blogroll -->
-        {% endif %}
         </aside><!-- /#sidebar -->
 
         <footer id="footer" class="body">
                 <address id="about" class="vcard body">
-                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.<br>
+                Hosted by marsupi.org in the Guifi.net free intertubes.
                 </address><!-- /#about -->
 
-                <p>The theme is «notmyidea-cms», a modified version of «notmyidea», the default theme.</p>
+                <p>The theme is «myidea-cms», a modified version of «notmyidea-cms», which is a modified version of «notmyidea», the default theme.</p>
         </footer><!-- /#footer -->
 
 {% include 'analytics.html' %}
+{% include 'piwik.html' %}
 </body>
 </html>

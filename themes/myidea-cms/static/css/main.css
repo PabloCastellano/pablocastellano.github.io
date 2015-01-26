@@ -138,6 +138,8 @@ aside, nav, article, figure {
 	display: block;
 }
 
+header {margin-bottom: 20px;}
+
 /***** Layout *****/
 img.right figure.right {float: right; margin: 0 0 2em 2em;}
 img.left, figure.left {float: right; margin: 0 0 2em 2em;}
