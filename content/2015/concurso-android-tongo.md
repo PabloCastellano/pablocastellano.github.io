@@ -1,45 +1,47 @@
-Title: El concurso de apps Android de la Universidad de Málaga es una estafa
+Title: Tongo en el concurso Android de la UMA
 Date: 2015-01-28 10:00
 Category: Misc
-Tags: concurso, android, uma, universidad de Málaga, incompetencia
+Tags: concurso, android, uma, universidad de Málaga
 
-**TL;DR**: La facultad de Informática de la Universidad de Málaga organiza un concurso de desarrollo de apps Android
-para sus estudiantes y una semana después de haber debido publicar los ganadores, decide dejar el premio desierto alegando
-motivos que no vienen en las bases. El concurso se desarrolla con total falta de rigor y de transparencia.
+**TL;DR:** La [ETSI Informática de la Universidad de Málaga](http://www.informatica.uma.es/) organiza un concurso de desarrollo de apps Android
+para sus estudiantes y una semana más tarde de la fecha de la publicación de los ganadores nos informa a los concursantes de que han decidido dejar el
+premio desierto, haciendo una interpretación extraña de un punto de las bases.  
+El concurso, en su segunda edición, se desarrolla con total falta de rigor y de transparencia.
 
-[Uma enfurecida]
+![uma enfurecida](/img/umaenfurecida_150x150.gif)
 
 # Concurso de aplicaciones Android
 
-El curso pasado me encontré con que la dirección de la escuela había organizado un concurso de aplicaciones Android para los estudiantes.
+El curso pasado me encontré con la grata noticia de que la dirección de la escuela había organizado un concurso de aplicaciones Android para los estudiantes.
 Me encuentro finalizando mis estudios en Ingeniería Informática en la Universidad de Málaga y desde que entré en la carrera he echado
-de menos este tipo de actividades, así que me alegré mucho de ver una iniciativa así.
-No tenía experiencia con Android pero esto no me desanimó. A mi compañero de clase [Eugenio](#) también le pareció buena idea y
+de menos este tipo de actividades, que incentiven al estudiante a hacer cosas distintas que ir a clase por la mañana para luego estudiar en la biblioteca por la tarde, así que me alegré mucho de ver una iniciativa así.  
+No tenía experiencia con Android pero esto no me desanimó. A mi compañero de clase [Eugenio](https://twitter.com/_3u) también le pareció buena idea y
 nos presentamos juntos. Como mínimo me serviría para ponerme las pilas y aprender sobre Android.
-
-[Aquí se pueden leer el anuncio del concurso y las bases](http://www.uma.es/etsi-informatica/noticias/concurso-android/).
 
 Los proyectos se podían hacer en grupos de máximo 3 estudiantes y el premio para el proyecto ganador era *una tablet de última generación*
 para cada uno de los miembros del equipo ganador.
 
-Sin embargo no todo fue tan bueno como parecía. Tanto en la I edición del curso pasado como en la II edición de este curso he sido
+Aquí se pueden leer [el anuncio del concurso](http://www.uma.es/etsi-informatica/noticias/concurso-android/) y [las bases](http://www.uma.es/etsi-informatica/info/72897/concurso-android/).
+
+Sin embargo no todo fue tan bonito como parecía. Tanto en la I edición del curso pasado como en la II edición de este curso he sido
 participante y en ambos he visto cosas que no me han gustado y me parece que para organizar un concurso tan carente de rigor es mejor
-no organizar nada. De hecho lo sucedido en la II edición es lo que me ha hecho retomar mi blog y escribir esta entrada para contarlo todo.
+no organizar nada. De hecho lo sucedido en la II edición es lo que me ha hecho retomar este blog y escribir esta entrada para contarlo todo
+después de llevar 2 años sin escribir nada.
 
 # Primera edición
 
 Eugenio y yo decidimos hacer una app móvil para [nolotiro.org](http://nolotiro.org). Para quien no le suene, se trata de una web
 sencillita pero muy práctica en la que cualquiera puede colgar un anuncio de algo que regala o busca en su ciudad.
 A juzgar por lo que he visto funciona bastante bien. En ciudades grandes cada día se publican cosas nuevas y en alguna ocasión he
-escrito a usuarios de Málaga por algo que me interesaba y ya no lo tenían. Tener una app móvil facilitaría aún más la publicación
-y lectura de anuncios.
+escrito a usuarios de Málaga por algo que me interesaba y ya no lo tenían porque alguien se me había adelantado. Tener una app móvil facilitaría
+lectura de anuncios y sobre todo su publicación, solo teniendo que hacer una foto y escribir una descripción del artículo.
 
 Aunque quedamos satisfechos con el resultado de la app, el hecho de aprender sobre la marcha en mi caso y compaginar el concurso con
-las últimas asignaturas de la carrera solo nos permitió quedar los fines de semana de estos 3 meses de duración del concurso.
-Llegamos hasta donde pudimos y el código fuente está disponible en [GitHub](https://github.com/PabloCastellano/nolotiro-android).
+las últimas asignaturas de la carrera solo nos permitió quedar para trabajar los fines de semana de estos 3 meses de duración del concurso.
+Llegamos hasta donde pudimos y el código fuente está disponible en [GitHub](https://github.com/PabloCastellano/nolotiro-android) por si alguien quiere seguir mejorándola.
 
 En el periodo que duraba el concurso hubo cosas que no se ajustaron a las bases, como la ampliación de los plazos de entrega y el número
-de ganadores, aunque no me parece mal que se hiciera así.
+de ganadores, aunque no me pareció mal que se hiciera así.
 
 ## Ganadores de la primera edición
 
@@ -47,103 +49,180 @@ En aquella edición no ganamos y ni siquiera sé en qué puesto quedamos porque 
 
 Lo que más nos sorprendió a todos fue que en lugar de haber un proyecto ganador, escogieron a dos. El ganador fue un chico que entregó
 como proyecto su Proyecto de Fin de Carrera (por lo tanto el grupo era él solo) y en segundo puesto quedó un grupo de dos.
-Y así quedaron repartidas las 3 tablets.
+***Y así quedaron repartidas las 3 tablets :D***.
 
-Fui a la presentación de los proyectos ganadores. No éramos muchos y me volví a casa indignado pensando esa frase que
-todos los estudiantes de esta facultad hemos pensado alguna vez: «¡¿Pero es que no pueden hacer nada bien?!»
+Como los concursantes solo conocíamos el nombre de las apps de los otros concursantes, tenía mucha curiosidad de ver los proyectos
+de los demás y fui a la presentación de los proyectos ganadores.  
+No éramos muchos y me volví a casa indignado repitiendo en mi cabeza esa frase que
+todos los estudiantes de esta facultad hemos pensado alguna vez: ***«¡¿Pero es que no pueden hacer nada bien?!»***.
 
 No voy a entrar en opiniones sobre los proyectos ganadores pero cuento la falta de rigor que vi por parte del jurado.
 
-El proyecto ganador era una app que servía para «ocultar» regiones de una foto que solo puede ver quien tenga ciertas claves.
-De la parte más interesante que era el servidor que almacenaba estas claves no habló, **ni el jurado hizo ni una pregunta**.
-En la presentación tampoco vimos su funcionamiento.
+El proyecto ganador era una app que servía para *ocultar* regiones de una foto que solo podrían ver las personas que tuvieran cierta clave.
+De la parte más interesante (al menos para mí) que era un servidor que almacenaba estas claves no hablo. Tampoco vimos al app funcionando.
+Pero es que **ni el jurado hizo ni una pregunta al respecto**, casi únicamente felicitaciones por el trabajo.
 
-Cualquiera que le interese el área de la criptografía y lea sobre el tema, sabe que las fórmulas mágicas no existen y que
-hay que explicar y demostrar hasta el último detalle, que la seguridad por ocultación funciona peor que usar algoritmos estándar, etc.
-Si te ocultan datos de por medio, sospecha de que te estén vendiendo crecepelos. Snake Oil.
+A cualquiera que le interese el área de la criptografía y lea sobre el tema, sabe que debe de tener mucho cuidado de que no le
+cosas básicas como que la seguridad por ocultación funciona peor que usar algoritmos estándares, y que debe tener mucho cuidado de que 
+no le vendan [crecepelo](http://en.wikipedia.org/wiki/Snake_oil_(cryptography)).
+Y que si te ocultan datos de por medio, puedes sospechar de que te lo están vendiendo.
 
-En el caso del segundo grupo, presuntamente incumplieron la norma de las bases que decía que no se podía presentar un
-proyecto que ya hubiera sido subido anteriormente al Market y (presuntamente) lo hicieron ya que en la presentación se vio una captura
-de pantalla que lo demostraba y para la presentación la habían retirado. (Esto lo vieron dos asistentes, yo no me di cuenta).
+En el caso del segundo grupo, incumplieron (presuntamente) un requisito de las bases que decía que no se podía presentar una app que
+ya hubiera estado publicada anteriormente en Google Play o Android Market y (presuntamente) lo hicieron ya que en la presentación *alguien* vio
+una captura de pantalla que lo demostraba y para la presentación (presuntamente) la retiraron del Market.
+(Esto lo vieron otros dos asistentes, yo no me di cuenta).
 
-Por último otra de las bases del concurso es que las apps fueran software libre. Ninguno de los grupos ganadores hizo mención a
-este apartado (qué licencia tiene el proyecto, si está disponible el código en algún repositorio...) **NI EL JURADO LES PREGUNTÓ**.
+Por último, otro requisito en las bases del concurso es que las apps deberán tener una licencia de software libre. 
+Pues bien, ninguno de los grupos ganadores hizo mención a este apartado (qué licencia tiene el proyecto, si está disponible el código en
+algún repositorio...) **NI EL JURADO LES PREGUNTÓ**.  
+Podemos hacer un esfuerzo y presuponer que fue debido a que el jurado ya sabía qué licencia tenía porque venía en la memoria especificado.
 
-Tampoco dieron la posibilidad de preguntar a los allí asistentes.
+Tampoco dieron la posibilidad de hacer preguntas a los allí asistentes.
 
-Acabó y nos fuimos a la cafetería a comentarlo. Y decidí no hacer nada porque no me vi con fuerzas y al fin y al cabo era la primera
-edición del concurso y me gustaría que se siguiesen haciendo.
+Acabó y nos fuimos a la cafetería a comentarlo. Decidí dejarlo pasar y no hacer nada porque no me vi con fuerzas y al fin y al cabo era la primera
+edición del concurso y todo esto podía ser fruto de una rabieta por no haber ganado y me gustaría que siguiesen organizando el concurso.
 
 # Segunda edición
 
-Al inicio de este curso 2014/2015 me sorprendió ver la II edición del concurso, ya que no me la esperaba.
-Como preveía que no tendría tiempo de hacer una app nueva, mi compañero Eugenio había acabado y emigrado y vi que no iba en contra
-de las bases presentar la misma aplicación que el año pasado, pues la presenté con la idea de hacerle alguna mejora si me daba tiempo.
+Al inicio de este curso 2014/2015 me sorprendió ver la **II edición** del concurso, ya que no me la esperaba.
+Mi compañero Eugenio había acabado la carrera y hasta había emigrado ya y como preveía que no tendría tiempo de hacer una app nueva desde cero,
+me leí las bases de esta edición (que no habían cambiado mucho) para saber si podía presentar la misma aplicación que el año pasado.
+Y como no iba en contra, la presenté con la idea de hacerle alguna mejora si me daba tiempo.
 
-Esta vez fuimos menos grupos así que ¡el premio estaba más cerca! Además me presenté yo solo por lo que si ganaba un grupo de dos, yo
-estaría ahí preparado para la 3ª tablet ;-P
+Esta vez fuimos menos grupos que la edición anterior y el premio era el mismo así que esta vez ¡el premio estaba más cerca!
+Además como me presenté yo solo, si ganaba un grupo de dos, yo estaría ahí preparado para la 3ª tablet ;-P.
 
 ## ¿Ganadores de la segunda edición?
 
-Según la bases, el día 2 de diciembre deberían haber publicado los finalistas. Esa noche eché un ojo y no vi nada, así que me acosté sin
-darle más vueltas. Al día siguiente busqué por toda la página de la Escuela, tanto por la página principal como en el Campus Virtual
-por si lo habían puesto en otro sitio que no había visto, pero tampoco encontré nada y, vistos los precedentes, ya me empezó a mosquear.
+Según la bases, el día **2 de diciembre** deberían haber publicado los finalistas. Esa noche eché un ojo y no vi nada, así que me acosté sin
+darle más vueltas. Al día siguiente busqué por toda la página de la Escuela, tanto por la página principal como en el Campus Virtual pero tampoco
+encontré nada y, vistos los precedentes, la situación me empezó a mosquear.
 
-Así que al día siguiente (jueves 4 ya) llamé a secretaría para preguntar y me confirmaron no los habían publicado. El motivo era que
-de los 4 participantes de este año, solo 2 habían entregado la documentación requerida y estaban esperando a que lo hicieran.
-Así que los publicarían el martes o el miércoles siguientes (días 9 y 10).
+Así que al día siguiente (**jueves 4 de diciembre** ya) llamé a secretaría para preguntar y me confirmaron que, efectivamente, no los habían publicado. El motivo era que de los 4 participantes de este año, solo 2 habían entregado la documentación requerida y estaban esperando a que lo hicieran.
+Así que los publicarían el martes o el miércoles siguientes (días **9** y **10 de diciembre**).
 
 Esto me sonó peor todavía.
 
-Con respuestas como esta uno se pregunta para qué se ponen las fechas límite, pero bueno, todo sea por fomentar una competitividad
-sana entre estudiantes. Y cuando creía que lo había visto todo, el martes 9 de diciembre los participantes recibimos un correo del
+Con respuestas como esta uno se pregunta para qué se ponen las fechas límite, pero bueno, me calmé, todo fuera por fomentar una competitividad
+sana entre estudiantes.
+
+Y cuando creía que lo había visto todo, el martes **9 de diciembre** los participantes recibimos un correo del
 secretario con un PDF adjunto en el que se nos informaba de que se había resuelto el concurso, esta vez no con dos ganadores sino con
-cero. Sí, nadie: el premio había quedado desierto.
+cero. Sí, *nadie*: **el premio había quedado desierto**.
 
-## ¿¡Cómo!?
+# Pidiendo explicaciones
 
-Suena raro ya que para empezar podrían haberlo dejado desierto hace una semana que ya conocían los proyectos.
+Todo esto suena raro ya que para empezar podrían haberlo dejado desierto hacía una semana, que ya conocían los proyectos. ¿O esperaban a que alguien entregara un proyecto que finalmente no entregó?
 
-El PDF decía que los proyectos no se han ajustado a los criterios de calidad. Sorprendido me dispongo a buscar en las bases cuáles son estos
-criterios y no los encuentro. Así que respondo al secretario preguntándole (y con todos los participantes en copia).
+El PDF decía que los proyectos no se ajustaron (ninguno) a los ***criterios de calidad***. Superado por la situación, me dispongo a buscar en las bases cuáles son estos
+criterios y **no los encuentro**. Así que escribo al secretario (y con todos los participantes en copia) preguntándole.
+
 La respuesta vino por parte del Subdirector de Infraestructuras, Eduardo, y es la siguiente:
 
-> Buenas tardes, Pablo:
+> Buenas tardes, Pablo:  
 >
-> Aunque inicialmente el número de grupos inscritos en el concurso era mayor que en la edición anterior, finalmente sólo dos
-> hicieron la entrega de la aplicación y de la documentación solicitada. Los miembros de la comisión, tras estudiar ambas
-> aplicaciones, finalmente hemos decidido dejar el premio desierto. Hemos considerado que no cumplían los criterios que se aplicaron
-> en la edición anterior, a partir de los cuales determinamos qué grupos considerábamos que merecían pasar a la semifinal.
-> Los criterios a los que alude la resolución están en el artículo 8 de las bases. Un cordial saludo,
+> Aunque inicialmente el número de grupos inscritos en el concurso era mayor que  
+> en la edición anterior, finalmente sólo dos hicieron la entrega de la aplicación y de la  
+> documentación solicitada. Los miembros de la comisión, tras estudiar ambas aplicaciones,  
+> finalmente hemos decidido dejar el premio desierto. Hemos considerado que no cumplían  
+> los criterios que se aplicaron en la edición anterior, a partir de los cuales determinamos  
+> qué grupos considerábamos que merecían pasar a la semifinal.  
+> Los criterios a los que alude la resolución están en el artículo 8 de las bases.  
+> Un cordial saludo,  
+> 
+> --  
+> Eduardo Guzmán De los Riscos  
+> Subdirector de Infraestructuras e Innovación Tecnológica  
+> E.T.S. Ingeniería Informática. Universidad de Málaga.  
+> Bulevar Louis Pasteur, 35. 29071 Málaga.  
+> @InformaticaUMA
 
-Acusatio petita non...
+Vamos por partes. Eduardo primero alude a que éramos pocos grupos (que es verdad pero no viene a cuento) y después hace mención a ***«los criterios que se aplicaron
+en la edición anterior»***. Pero señores, **¿qué criterios son esos y para qué están las bases entonces?**
 
-El punto 8 de las bases son criterios de evaluación de los proyectos, no requisitos. La interpretación es un free-style.
+Por otra parte, el punto 8 de las bases son **criterios de evaluación** de los proyectos, **no requisitos** como quiere hacer pensar Eduardo.
+A continuación copio el punto 8 íntegro para que juzguen los lectores:
 
-Escribo a Eduardo esta vez pidiendo si nos pueden decir qué criterios no hemos cumplido en los proyectos, siempre con ánimo
-constructivo y me responde diciendo que no he entendido su correo anterior (e ignora mi petición).
+> Artículo 8. Evaluación
+>
+> Para la evaluación de las aplicaciones el jurado tendrá en cuenta, principalmente los siguientes criterios:
+>
+> - Diseño de la aplicación.
+> - Buenas prácticas de programación.
+> - Diseño de la interfaz.
+> - Usabilidad.
+> - Originalidad.
+> - Utilidad.
+> - Eficiencia.
+>
+> Las decisiones tomadas por el jurado y el tribunal designado para la final serán inapelables.
 
-# Otras cosas mejorables
+Interpretar eso diciendo que son requisitos a cumplir, es hacer un completo free-style.  
+La última frase tiene su gracia. Ahí sí afinaron bien ;)
 
-A diferencia de ellos, yo sí les digo en qué pueden mejorar.
+Dejando a un lado lo del punto 8, me dispongo a buscar más información, esta vez le pido a Eduardo si nos pueden decir qué criterios no hemos cumplido
+en los proyectos, siempre con ánimo constructivo para mejorar para el año que viene:
 
-## Mala organización
+> Hola Eduardo.
+>
+> ¿Nos podéis dar más información sobre los proyectos? ¿Cuáles son los que no entregaron la documentación solicitada? Yo no recibí
+> ningún correo al respecto, así que no creo que fuera mi proyecto pero me queda la duda dada la poca comunicación que ha habido
+> durante todo el concurso.
+>
+> Por otra parte sería interesante, al menos para mí, saber qué criterios no han pasado los proyectos para poder mejorar en ese
+> aspecto. Siempre en mi opinión, es normal que no se puedan cumplir con todos ellos dado las características y el enfoque del
+> concurso (duración de menos de 3 meses y para un público no profesional en esta tecnología, pues somos estudiantes).
+> Sería muy constructivo, al menos para mí, tener estos consejos. Además eliminaría malinterpretaciones. Yo al menos no esperaba que
+> pudiese darse la posibilidad de quedar desierto el concurso.
+>
+> Un cordial saludo.  
+> Pablo.
 
-Resulta que el 24 de noviembre era el último día para subir el proyecto desarrollado y otra serie de materiales (documentación,
-vídeo mostrando su funcionamiento, ...). Por un error no me habían dado de alta en el campus virtual y no podía subirlo. Hablé con
-secretaría y luego con Rafael Flores, localizaron cuál había sido el error y finalmente pude subir mi material. OK.
+A lo cuál, responde:
 
-# Concluyendo
+> Buenos días, Pablo:
+>
+> Creo que no has entendido bien mi correo anterior: sólo dos grupos hicieron la entrega, el resto no entregaron nada. Obviamente
+> esos dos son los que se han evaluado. No se trataba de cumplir a la perfección todos los criterios, porque como tú bien dices, es prácticamente
+> imposible. Lo que sí que buscamos es que las aplicaciones seleccionadas al menos tuvieran el mismo nivel de calidad que los
+> tres que fueron seleccionados para la semifinal en la edición anterior. Según el criterio de la comisión, ninguno de los dos proyectos
+> estaba al nivel de esos. Por esta razón, y muy a nuestro pesar, finalmente decidimos dejar desierto el concurso.  
+> Un cordial saludo,
 
-Por mi parte no pienso volver a participar en un concurso tan marrullero. Este tipo de actuaciones no hacen ningún bien a la escuela.
-Yo me he sentido engañado dos veces y son suficientes. En su lugar dedicaré mis esfuerzos a contar mi experiencia y hablar mal
-sobre él.
+Yo creo que el que no entendió mi correo era él, ya que ignoró mis peticiones de saber qué proyectos no entregaron la documentación
+y de qué en criterios (que no requisitos) estaba más flojo mi proyecto.  
+Creo que estaba pidiendo nada del otro mundo, ¿o sí?
 
-Uno se siente estafado por cosas como estas. No es tan difícil hacer las cosas bien y uno se va de la carrera con el mal sabor de
-boca que dejan estas cosas, y que por desgracia has vivido en mayor o menor medida durante todos los años que has estado estudiando.
+Viendo ya por donde iban los tiros, su enroque y falta de voluntad, y en última estancia, la *decisión del tribunal inapelable*... aquí ya me encendí y le solté lo que pensaba del concurso:
 
-Una de las cosas buenas de este episodio es que he retomado el blog.
+> Hola Eduardo.
+>
+> Creo que sí entendí el email anterior, pero no importa.  
+> La cuestión es que pedía si me podéis decir en mi proyecto qué criterios del punto 8 no se cumplen. Entiendo que a mis compañeros
+> no les interesa porque no ha contestado ninguno, pero a mí sí que me interesa ya que me sería útil para mejorar mis debilidades.
+> Sin embargo no me contestaste a esta parte. ¿Entiendo que no lo vais a hacer?
+>
+> Seamos claros. Os habéis saltado a la torera vuestras propias bases. En ningún punto viene ni que el concurso pueda quedar
+> desierto ni que el "criterio de calidad" se decida respecto a los proyectos presentados el año pasado, ni que el punto 8 sean
+> requisitos obligatorios que deben cumplir los proyectos (eso es el punto 6) sino que sirven como criterios de evaluación únicamente.
+>
+> Este concurso ha sido un fiasco, deberíais admitirlo. Sobra decir que episodios como este no traen ninguna buena fama a nuestra
+> Escuela.
+>
+> Saludos.
 
-¿Qué nuevas sorpresa nos deparará la tercera edición, si la hay?
+De este correo ya pasó un mes, así que no espero respuesta.
 
-Este año nos pidieron un vídeo. El año pasado compilaron y testearon ellos mismos las aplicaciones?
+# Conclusiones
+
+ 
+Yo por mi parte no pienso volver a participar en un concurso tan marrullero como este y además este es mi último año como estudiante.
+
+Sentirse estafado en dos ediciones consecutivas ha sido suficiente. Uno se va de la carrera con el mal sabor de boca que dejan estas cosas,
+y que por desgracia no son casos aislados es esta universidad. ¿Tan difícil es hacer las cosas bien? A cualquiera que le preguntes te podrá contar una historia increíble de cómo
+una asignatura aprobada le desapareció, o de cómo se perdió su papel que convalidaba las asignaturas de Erasmus.
+
+A los estudiantes de la UMA: pensaros muy bien si merece la pena invertir vuestro tiempo en la III edición (si la hay) de un concurso con un
+jurado que tiene unas bases, pero que si no le gustan, tiene otras.
+
+Lo bueno de todo esto es que para contarlo he retomado el blog, hehe.
