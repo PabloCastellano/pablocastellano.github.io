@@ -35,6 +35,12 @@ En algunas de ellas he participado también como ponente:
 [Free Culture Forum 2011](http://www.2011.fcforum.net/) (Barcelona),
 [30C3](http://events.ccc.de/congress/2013/wiki/Main_Page) (Hamburgo).
 
+## Licencia
+
+![Logo CC BY-SA 4.0](/img/by-sa-4.0-88x31.png)
+
+Si no se especifica otra cosa, todos los contenidos de este blog tienen por defecto la licencia
+[Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES).
 
 # Donaciones
 
