@@ -17,7 +17,7 @@ TIMEZONE = 'Europe/Madrid'
 
 DEFAULT_LANG = u'es'
 
-DEFAULT_CATEGORY = 'misc'
+DEFAULT_CATEGORY = 'Misc'
 DISPLAY_CATEGORIES_ON_MENU = False
 
 # Blogroll
