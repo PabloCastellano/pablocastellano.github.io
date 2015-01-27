@@ -12,7 +12,7 @@ SITEURL = 'http://127.0.0.1:8000'
 PATH = 'content'
 STATIC_PATHS = ['css', 'img', 'js']
 STATIC_PATHS.extend(['extra/robots.txt', 'extra/htaccess.txt', 'extra/favicon.ico',
-                     'extra/google6c54772baeace458.html'])
+                     'extra/google6c54772baeace458'])
 
 TIMEZONE = 'Europe/Madrid'
 
@@ -40,7 +40,7 @@ EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/htaccess.txt': {'path': '.htaccess'},
     'extra/favicon.ico': {'path': 'favicon.ico'},
-    'extra/google6c54772baeace458.html': {'path': 'google6c54772baeace458.html'},
+    'extra/google6c54772baeace458': {'path': 'google6c54772baeace458.html'},
 }
 
 MENUITEMS = (('Home', SITEURL),)
