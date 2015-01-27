@@ -3,6 +3,8 @@ Title: Sobre mí
 Hola, soy Pablo Castellano.  
 Nací en 1989 en Málaga, donde me encuentro finalizando mis estudios en Ingeniería Informática.
 
+![foto1](/img/foto1.jpg)
+
 # Blog
 
 En este blog escribo sobre informática (principalmente sobre software libre) y sobre otros temas variados como viajes, política, sociedad, actualidad y activismo.
