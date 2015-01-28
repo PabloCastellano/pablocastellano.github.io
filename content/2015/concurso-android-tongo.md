@@ -10,6 +10,8 @@ nos informa a los concursantes de que han decidido dejar el premio desierto, hac
 extraña de un punto de las bases e inventándose otros criterios.  
 El concurso, en su segunda edición, se desarrolla con total falta de rigor y de transparencia.
 
+![meneame](/img/meneame.gif) [**Noticia en menéame**](https://www.meneame.net/story/tongo-concurso-android-universidad-malaga/)
+
 [![uma enfurecida](/img/umaenfurecida_150x150.gif)](https://twitter.com/umaenfurecida)
 
 # Concurso de aplicaciones Android
