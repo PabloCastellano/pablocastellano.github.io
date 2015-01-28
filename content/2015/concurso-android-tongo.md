@@ -219,7 +219,10 @@ De este correo ya pasó un mes, así que no espero respuesta.
 
 # Conclusiones
  
-Yo por mi parte no pienso volver a participar en un concurso tan marrullero como este y además de que este es mi último año como estudiante.
+Desconozco si se puede organizar un concurso con unas bases y luego saltárselas en mayor o menor medida. Es mi último año como
+estudiante y tampoco quiero dedicarle más tiempo a este tema.
+
+Yo por mi parte no pienso volver a participar en un concurso tan marrullero como este.
 
 Sentirse estafado en dos ediciones consecutivas ha sido suficiente. Uno se va de la carrera con el mal sabor de boca que dejan estas cosas,
 y que por desgracia no son casos aislados es esta universidad. ¿Tan difícil es hacer las cosas bien? A cualquiera que le preguntes te podrá contar una *historia increíble* de cómo
