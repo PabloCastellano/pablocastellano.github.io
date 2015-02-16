@@ -1,7 +1,7 @@
 Title: Tongo en el concurso Android de la UMA
 Date: 2015-01-28 10:00
 Category: Misc
-Tags: concurso, android, uma, universidad de Málaga
+Tags: concurso, android, UMA, Universidad de Málaga
 
 **TL;DR:** La [ETSI Informática de la Universidad de Málaga](http://www.informatica.uma.es/) organiza un
 [concurso de desarrollo de apps Android](http://www.uma.es/etsi-informatica/noticias/concurso-android/)
@@ -13,6 +13,8 @@ El concurso, en su segunda edición, se desarrolla con total falta de rigor y de
 ![meneame](/img/meneame.gif) [**Noticia en menéame**](https://www.meneame.net/story/tongo-concurso-android-universidad-malaga/)
 
 [![uma enfurecida](/img/umaenfurecida_150x150.gif)](https://twitter.com/umaenfurecida)
+
+Actualización: He quitado un párrafo donde comentaba que el segundo ganador podría haber incumplido las bases por haber presentado una app que ya habían subido con anterioridad al Market. No lo vi yo ni tengo pruebas así que no es justo. Mis disculpas.
 
 # Concurso de aplicaciones Android
 
@@ -71,11 +73,6 @@ ocultación*](https://es.wikipedia.org/wiki/Seguridad_por_oscuridad) funciona pe
 [crecepelo](http://en.wikipedia.org/wiki/Snake_oil_(cryptography)) y que si no te quieren dar ciertos datos por el motivo que sea (por ejemplo
 una patente) puedes empezar a desconfiar...  
 Entiendo que quizás no lo comentó por falta de tiempo pero al jurado se la habría colado si hubiera querido.
-
-En el caso del segundo grupo, incumplieron (presuntamente) un requisito de las bases que decía que no se podía presentar una app que
-ya hubiera estado publicada anteriormente en Google Play o Android Market y (presuntamente) lo hicieron ya que en la presentación *alguien* vio
-una captura de pantalla que lo demostraba y para la presentación (presuntamente) la retiraron del Market.
-(Esto lo vieron otros dos asistentes, yo no me di cuenta).
 
 Por último, otro requisito en las bases del concurso es que las apps deberán tener una licencia de software libre. 
 Pues bien, ninguno de los grupos ganadores hizo mención a este apartado (qué licencia tiene el proyecto, si está disponible el código en
