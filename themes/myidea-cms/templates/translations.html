@@ -1,6 +1,11 @@
 {% if article.translations %}
-Translations: 
+    {% if article.lang == "es" %}
+    This post is also available in other languages:
+    {% else %}
+    Este artículo está también disponible en otros idiomas:
+    {% endif %}
     {% for translation in article.translations %}
         <a href="{{ SITEURL }}/{{ translation.url }}">{{ translation.lang }}</a>
     {% endfor %}
+    .
 {% endif %}
