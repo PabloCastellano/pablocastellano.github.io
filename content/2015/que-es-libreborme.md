@@ -1,9 +1,10 @@
 Title: Qué es libreBORME
-Date: 2015-02-17 10:00
+Date: 2015-02-25 0:20
 Category: LibreBORME
 Tags: libreborme, opendata, registro mercantil, proyecto de fin de carrera, civio
+Lang: es
 
-LibreBORME es mi apuesta como Proyecto de Fin de Carrera. Mis tutores son [Carlos Canal](http://www.lcc.uma.es/~canal/) de la Universidad de Málaga
+LibreBORME es mi apuesta como Proyecto de Fin de Carrera y estará tutorizado por [Carlos Canal](http://www.lcc.uma.es/~canal/) de la Universidad de Málaga
 y [David Cabo](https://twitter.com/dcabo) de la [Fundación Ciudadana Civio](http://www.civio.es/).
 
 El progreso se puede ir viendo en el repositorio de GitHub: [libreborme](https://github.com/PabloCastellano/libreborme), aunque
@@ -118,45 +119,9 @@ disponible hasta el momento.
 
 El código de la plataforma se publicará con una licencia de software libre, ya que la idea es que el proyecto se reutilice y se cree comunidad con él.
 
-Por último se facilitarán a OpenCorporateslos datos recopilados. OpenCorporates es una iniciativa que pretende liberar datos de sociedadesa nivel mundial
+Por último se facilitarán a OpenCorporateslos datos recopilados. OpenCorporates es una iniciativa que pretende liberar datos de sociedades a nivel mundial
 y "asignar una URL a cada empresa del mundo", ya que los datos sobre compañías y corporaciones españolas con los que cuenta actualmente son muy pobres
 en comparación con los de otros países.[^11][^12][^13]
-
-# Métodos y fases de trabajo
-
-El trabajo de dividirá en una fase de documentación, seguida del análisis y desarrollo de la plataforma y de una valoración y conclusión de los resultados obtenidos.
-
-## Documentación
-
-- Estudio sobre hipotéticos problemas que pudiera encontrar con la legislación actual, en particular con la Ley Orgánica de Protección de Datos (LOPD)
-- Estado del arte en los Registros Mercantiles y Datos Abiertos de otros países.
-- Recopilación de contactos potencialmente interesados en usar la plataforma y que podrían aportar feedback durante el desarrollo.
-- Estudio de Cloud Foundry como solución de plataforma como servicio (PaaS) para hacer el proyecto compatible.
-- Estudio de OpenStack y sus componentes como solución de infraestructura como servicio (IaaS) para hacer el proyecto compatible.
-
-## Análisis
-
-- Diseño de una ontología para el esquema de la base de datos a partir de los datos contenidos en los boletines del BORME.
-- Diseño de diagramas UML de casos de uso, de clases, de secuencia, etc.
-
-## Desarrollo
-
-- Puesta en marcha del entorno de desarrollo en una máquina virtual.
-- Desarrollo de los scripts necesarios para procesar el BORME, que se encargarán de descargar y extraer diariamente la información que consideremos
-útil de los PDFs del BORME e incorporarla a la base de datos.
-- Interfaz web intuitiva para el usuario final.
-- Implementación de una API que permita hacer consultas a la base de datos y que solvente el problema de interoperabilidad actual con el Registro Mercantil.
-- Añadir modificaciones necesarias para compatibilidad con Cloud Foundry y OpenStack.
-
-## Evaluación y conclusiones
-
-- Evaluación y conclusiones de la experiencia llevada a cabo durante la realización del Proyecto de Fin de Carrera.
-- Redacción de la memoria del Proyecto de Fin de Carrera.
-
-# Medios materiales
-
-- Ordenador portátil donde tendrá lugar el desarrollo de la plataforma.
-- Servidor donde se alojará y seguirá funcionando la plataforma una vez finalizada.
 
 # Referencias
 
