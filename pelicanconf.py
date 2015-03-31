@@ -52,7 +52,7 @@ RELATIVE_URLS = True
 
 #PLUGINS = ['package.myplugin',]
 # disqus, sitemap/seo
-
+PLUGINS = ['advthumbnailer']
 
 # ----------------------------------------------------------------------
 # URL PATHS
