@@ -24,6 +24,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 # Blogroll
 LINKS = (('BitValley', 'http://bitvalley.cc'),
          ('Marsupi', 'http://marsupi.org'),
+         ('LibreBorme', 'https://libreborme.net'),
          ('Autistici/Inventati', 'http://autistici.org'),)
 
 # Social widget

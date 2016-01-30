@@ -1,7 +1,7 @@
 Title: Sobre mí
 
 Hola, soy Pablo Castellano.  
-Nací en 1989 en Málaga, donde me encuentro finalizando mis estudios en Ingeniería Informática.
+Nací en 1989 en Málaga, donde he vivido casi toda mi vida y estudié Ingeniería Informática.
 
 ![foto1](/img/foto1.jpg)
 
