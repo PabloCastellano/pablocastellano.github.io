@@ -5,7 +5,7 @@ Tags: libreborme, opendata, registro mercantil, proyecto de fin de carrera, CUSL
 
 Con motivo de la evaluación del [Concurso Universitario de Software Libre](https://www.concursosoftwarelibre.org/1415/), esta última semana he estado trabajando en montar una versión de LibreBORME en producción y en darle una capa de pintura.
 
-Para los impacientes: ya se puede acceder a través de [https://beta.libreborme.net](https://beta.libreborme.net).
+Para los impacientes: ya se puede acceder a través de <strike>https://beta.libreborme.net</strike> [https://libreborme.net](https://libreborme.net).
 
 <a href="/img/libreborme/principal1.gif"><img src="/img/libreborme/thumbnails/750x_/principal1.gif" /></a>
 
