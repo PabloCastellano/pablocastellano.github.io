@@ -1,15 +1,15 @@
-Title: Versión online de LibreBORME
+Title: Versión online de LibreBorme
 Date: 2015-03-31 21:00
-Category: LibreBORME
+Category: LibreBorme
 Tags: libreborme, opendata, registro mercantil, proyecto de fin de carrera, CUSL
 
-Con motivo de la evaluación del [Concurso Universitario de Software Libre](https://www.concursosoftwarelibre.org/1415/), esta última semana he estado trabajando en montar una versión de LibreBORME en producción y en darle una capa de pintura.
+Con motivo de la evaluación del [Concurso Universitario de Software Libre](https://www.concursosoftwarelibre.org/1415/), esta última semana he estado trabajando en montar una versión de LibreBorme en producción y en darle una capa de pintura.
 
 Para los impacientes: ya se puede acceder a través de <strike>https://beta.libreborme.net</strike> [https://libreborme.net](https://libreborme.net).
 
 <a href="/img/libreborme/principal1.gif"><img src="/img/libreborme/thumbnails/750x_/principal1.gif" /></a>
 
-Como su dominio indica, es una **versión de pruebas**, por lo que fallará de vez en cuando, sus URLs cambiarán, algunas veces contendrá más datos y otras menos porque limpiaré la BD para seguir haciendo pruebas...  
+Como su dominio indica, es una **versión de pruebas**, por lo que fallará de vez en cuando, sus URLs cambiarán, algunas veces contendrá más datos y otras menos porque limpiaré la BD para seguir haciendo pruebas...
 Tenlo en cuenta si la usas. De momento no hace falta que se reporten los bugs.
 
 # Funcionalidades actuales
@@ -60,16 +60,16 @@ Como anécdota, para pulir el parser me hice un script para comparar los resulta
 
     echo $1
     ./parserText2CSV4c.py $1
-    
+
     csv4=csv/$(basename $1).4c.plain
-    
+
     diff -u0 $2 $csv4|pygmentize -l diff -f html -O full -o file_diff14.html
-    
+
     echo 'Comparando'
     echo $2
     echo $csv4
     ls -l $2 $csv4
-    
+
     chromium-browser ./file_diff14.html &
 
 Esto genera un archivo html con las diferencias así:
@@ -86,7 +86,7 @@ Algunos datos a modo de estadística:
 
 Los PDF de la Sección Primera descargados (hasta el 24 de marzo) son en total 1609 archivos que pesan 372MB. Una vez recortados pesan 245MB y pasados a texto y aplicando el filtro de limpieza de caracteres raros, ya se quedan 52MB y finalmente los datos útiles en CSV son 40MB.
 
-Importar los datos de 2015 en LibreBORME fue *«tan sencillo»* como ejecutar:
+Importar los datos de 2015 en LibreBorme fue *«tan sencillo»* como ejecutar:
 
     cd borme_parser
     ./getAllBormeXML.py 20150101
@@ -99,9 +99,9 @@ Importar los datos de 2015 en LibreBORME fue *«tan sencillo»* como ejecutar:
 
 Algunos tiempos de cada script, en negrita los más significativos:
 
-> Conversión de PDF a texto: **44 minutos**  
-> Limpieza del texto: 3 segundos  
-> Generación de los CSV a partir de los textos: 29 segundos  
+> Conversión de PDF a texto: **44 minutos**
+> Limpieza del texto: 3 segundos
+> Generación de los CSV a partir de los textos: 29 segundos
 > Importación en Mongo: **más de 8 horas**
 
 El proceso de importación de estos 40MB de CSV tardó más de 8 horas, algo que sin saber apenas nada de Mongo me parece excesivo y que tendré que investigar. Lo más lógico sería generar e importar directamente JSON en lugar de CSV, pero el motivo de porqué uso CSV es porque fue lo primero que se me ocurrió cuando aún no sabía que iba a usar MongoDB.
