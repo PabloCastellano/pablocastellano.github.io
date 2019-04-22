@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>pablog.me - Development</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../../theme/css/main.css" type="text/css" />
+        <link href="../../" type="application/atom+xml" rel="alternate" title="pablog.me ATOM Feed" />
+        <link href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate" title="pablog.me RSS Feed" />
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="../../css/ie.css"/>
+                <script src="../../js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="../../css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="../../index.html">pablog.me  <strong>$ cat << EOF >> /dev/blog</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://pablog.me">Home</a></li>
+                    <li ><a href="../../sobre-mi">Sobre mí</a></li>
+                <!-- <li><a href="../../">Archives</a></li> -->
+                </ul></nav>
+        </header><!-- /#banner -->
+
+     <section id="content" class="body">
+        <aside id="featured"><article>
+                <h1 class="entry-title"><a href="../../blog/2011/11/script-para-bajar-videos-de-la-sexta/">Script para bajar vídeos de La Sexta</a></h1>
+<abbr class="published" title="2011-11-01T00:00:00+01:00">
+    {"date": "Tue 01 November 2011",
+</abbr>
+<p> "category": "<a href="../../category/development">Development</a>", </br>
+ "tags": ["<a href="../../tag/la-sexta/">la sexta</a>", "<a href="../../tag/script/">script</a>"]}</p>
+</p>
+
+<!-- /.post-info -->
+                <p>Por motivos de <strong>compatibilidad operativa</strong>, he tenido que buscar otro método para descargar los vídeos de la web de <a href="http://www.lasexta.com/">La
+Sexta</a>. Para ello he hecho un script en Python que dada una URL te devuelve la dirección del RTMP para bajarla con
+rtmpdump por ejemplo.</p>
+<p>Resumiendo... la URL original está codificada únicamente con el algoritmo <a href="https://secure.wikimedia.org/wikipedia/es/wiki/RC4">RC4</a> en el
+enlace al reproductor Flash mediante el parámetro <em>_urlVideo</em>:</p>
+<p><a href="/img/lasexta_urlvideo.gif"><img alt="" src="/img/lasexta_urlvideo.gif"></a></p>
+<p>Como RC4 es un cifrado simétrico, si tenemos la clave (<strong><strike>sd4sdfkvm234</strike></strong>) lo tenemos todo. Durante el desarrollo he descubierto que
+usan la librería <a href="http://code.google.com/p/as3crypto/">as3crypto</a>, que a su vez tiene una <a href="http://crypto.hurlant.com/demo/">demo muy
+chula</a> de sus posibilidades :)</p>
+<p>El script también te devuelve la cadena descifrada si se la pasas como parámetro.</p>
+<blockquote>
+<p>$ ./lasexta_video_downloader.py
+http://www.lasexta.com/sextatv/veranodirecto/macrobotellon_en_madrid_mientras_el_papa_duerme/260233/6563<br>
+LaSexta video downloader<br>
+Copyright (C) 2011 Pablo Castellano<br>
+This program comes with ABSOLUTELY NO WARRANTY.<br>
+This is free software, and you are welcome to redistribute it under certain conditions.</p>
+<p>rtmp://vod.lasexta.com/vod/<em>definst</em>/veranodirecto/sd/XPD0002901003001_VERANO_DIRECTO___EP_30_19_08_2011_18_14_52_flash.flv?start=198.96&amp;end=632.218</p>
+<p>Use rtmpdump to download:<br>
+rtmpdump -o download.flv -r
+"rtmp://vod.lasexta.com/vod/<em>definst</em>/veranodirecto/sd/XPD0002901003001_VERANO_DIRECTO___EP_30_19_08_2011_18_14_52_flash.flv?start=198.96&amp;end=632.218"</p>
+</blockquote>
+<p>Un ejemplo con la cadena cifrada:</p>
+<blockquote>
+<p>$ python lasexta_video_downloader.py
+7077f50772d8144c167bb20ea37c7899d9950d2f935d7cf288a5112b7cbf31a7e43e09deb5798a0fb1c18475d12ab29efc1a27284575a51b0abcf4377cbeebf20e03ae12a89d4ffa44bbafbc797093d0ebb190457b98f1c54e1f8018255addab3c59f1d35b371166f403e652d2c96724d38018d08e125a706db0c7081d91bf63b670971e1c2c1fef2e60ec7957df5a5b585f7e58</p>
+<p>LaSexta video downloader</p>
+<p>Copyright (C) 2011 Pablo Castellano</p>
+<p>This program comes with ABSOLUTELY NO WARRANTY.</p>
+<p>This is free software, and you are welcome to redistribute it under certain conditions.</p>
+<p>rtmp://vod.lasexta.com/vod/<em>definst</em>/veranodirecto/sd/XPD0002901003001_VERANO_DIRECTO___EP_30_19_08_2011_18_14_52_flash.flv?start=198.96&amp;end=632.218</p>
+<p>Use rtmpdump to download:</p>
+<p>rtmpdump -o download.flv -r
+"rtmp://vod.lasexta.com/vod/<em>definst</em>/veranodirecto/sd/XPD0002901003001_VERANO_DIRECTO___EP_30_19_08_2011_18_14_52_flash.flv?start=198.96&amp;end=632.218"</p>
+</blockquote>
+<p>El ejercicio de ingeniería inversa queda indicado como ejercicio para el lector.<br>
+Algunas utilidades para ello:</p>
+<ul>
+<li>
+<p>Desensamblador AS3:<br>
+    RABCDAsm: <a href="https://github.com/CyberShadow/RABCDAsm">https://github.com/CyberShadow/RABCDAsm</a><br>
+    Hay otro llamado Nemo 440 pero no parece que sea libre. <a href="http://www.docsultant.com/nemo440/">http://www.docsultant.com/nemo440/</a></p>
+</li>
+<li>
+<p>Instrucciones AVM2:<br>
+<a href="http://learn.adobe.com/wiki/display/AVM2/callpropvoid">http://learn.adobe.com/wiki/display/AVM2/callpropvoid</a><br>
+<a href="http://learn.adobe.com/wiki/display/AVM2/findpropstrict">http://learn.adobe.com/wiki/display/AVM2/findpropstrict</a><br>
+<a href="http://learn.adobe.com/wiki/display/AVM2/getlex">http://learn.adobe.com/wiki/display/AVM2/getlex</a><br>
+<a href="http://learn.adobe.com/wiki/display/AVM2/callproperty">http://learn.adobe.com/wiki/display/AVM2/callproperty</a></p>
+</li>
+</ul>
+<h2>Cosas pendientes y bugs</h2>
+<ol>
+<li>Descargar el fragmento de vídeo que corresponde al vídeo que ves en la web.<br>
+    Algunos vídeos son fragmentos de otro vídeo más largo. En la misma URL decodificada se puede apreciar el segundo en el que empieza y el
+    segundo en que acaba dentro de ese vídeo más largo (la URL tiene los parámetros <em>start</em> y <em>end</em>). Rtmpdump acepta los parámetros -A y -B
+    para indicarle estos datos y obtener solo esa parte. Con las pruebas que he hecho no me ha convencido del todo el resultado pero tampoco
+    he investigado mucho más, así que de momento bajas el vídeo entero.</li>
+<li>Listas de reproducción<br>
+    Hay otros otras URLs de La Sexta (como
+    <a href="http://www.lasexta.com/sextatv/salvados/completos/salvados__domingo__25_de_septiembre/501473/1">esta</a> por ejemplo), en las que el
+    parámetro cambia a <em>_url_list</em> y tienes varias versiones del mismo vídeo para descargar, como la versión en HD. En la próxima versión
+    lo arreglo.</li>
+<li>¿Aumentar tiempo de espera?<br>
+    <strike>Me ha pasado varias veces que bajando el archivo se corta. He aumentado el timeout añadiéndole los parámetros <strong>-m 300</strong>. Haré más
+    pruebas y si veo que así no falla definitivamente, incluyo los parámetros en el comando que te facilita el script.</strike> <strong>FIXED!</strong></li>
+</ol>
+<p>El código, en mi repositorio de GitHub:<br>
+<a href="https://raw.github.com/PabloCastellano/pablog-scripts/master/lasexta_video_downloader.py">https://raw.github.com/PabloCastellano/pablog-scripts/master/lasexta_video_downloader.py</a></p>
+<p>Espero que os sea de utilidad. ¡Saludos!</p>
+        </article></aside><!-- /#featured -->
+                <hr />
+                <h1>Other articles</h1>
+                <hr />
+                    <ol id="posts-list" class="hfeed">
+        <li><article class="hentry">
+                <header>
+                        <h1><a href="../../blog/2010/08/drupal-coding-standards/" rel="bookmark" title="Permalink to Drupal Coding Standards">Drupal Coding Standards</a></h1>
+                </header>
+
+                <div class="entry-content">
+<abbr class="published" title="2010-08-31T00:00:00+02:00">
+    {"date": "Tue 31 August 2010",
+</abbr>
+<p> "category": "<a href="../../category/development">Development</a>", </br>
+ "tags": ["<a href="../../tag/guifinet/">Guifi.net</a>", "<a href="../../tag/drupal/">drupal</a>"]}</p>
+</p>
+
+<!-- /.post-info -->
+                <p>Desde hace algunos días, los módulo de Drupal guifi y budgets cumplen con los <a href="http://drupal.org/coding-standards">estándares de programación en
+Drupal</a>.</p>
+<p>Para corregirlo, he usado un módulo llamado <a href="https://drupal.org/project/coder">Coder</a>, que te examina el código de los módulos, temas y todo
+lo que le digas, y luego te da una lista con las …</p>
+                <a class="readmore" href="../../blog/2010/08/drupal-coding-standards/">read more</a>
+                </div><!-- /.entry-content -->
+        </article></li>
+        <li><article class="hentry">
+                <header>
+                        <h1><a href="../../blog/2010/06/debugging-flash-in-firefox/" rel="bookmark" title="Permalink to Debugging flash in firefox">Debugging flash in firefox</a></h1>
+                </header>
+
+                <div class="entry-content">
+<abbr class="published" title="2010-06-02T00:00:00+02:00">
+    {"date": "Wed 02 June 2010",
+</abbr>
+<p> "category": "<a href="../../category/development">Development</a>", </br>
+ "tags": ["<a href="../../tag/linux/">linux</a>", "<a href="../../tag/flash/">flash</a>", "<a href="../../tag/debugging/">debugging</a>", "<a href="../../tag/firefox/">firefox</a>"]}</p>
+</p>
+
+<!-- /.post-info -->
+                <p>Install <a href="http://www.adobe.com/support/flashplayer/downloads.html">Adobe Flash Player Debugging Version</a>:<br>
+(first I recommend you to uninstall any flash version you have installed)</p>
+<blockquote>
+<p>wget http://download.macromedia.com/pub/flashplayer/updaters/10/flash_player_10_linux_dev.tar.gz<br>
+tar zxvf flash_player_10_linux_dev.tar.gz<br>
+cd flash_player_10_linux_dev/plugin/debugger<br>
+tar zxvf install_flash_player_10_linux.tar.gz<br>
+cd install_flash_player_10_linux/<br>
+./flashplayer-installer<br>
+Follow instructions.</p>
+</blockquote>
+<p>Install …</p>
+                <a class="readmore" href="../../blog/2010/06/debugging-flash-in-firefox/">read more</a>
+                </div><!-- /.entry-content -->
+        </article></li>
+        <li><article class="hentry">
+                <header>
+                        <h1><a href="../../blog/2009/11/writing-a-new-gtkwidget/" rel="bookmark" title="Permalink to Writing a new GtkWidget">Writing a new GtkWidget</a></h1>
+                </header>
+
+                <div class="entry-content">
+<abbr class="published" title="2009-11-06T00:00:00+01:00">
+    {"date": "Fri 06 November 2009",
+</abbr>
+<p> "category": "<a href="../../category/development">Development</a>", </br>
+ "tags": ["<a href="../../tag/gnome/">GNOME</a>", "<a href="../../tag/gtk/">GTK</a>"]}</p>
+</p>
+
+<!-- /.post-info -->
+                <p>I'm looking for a stave widget in GTK+ to code some kind of music software.<br>
+It seems like I will have to create it. At the moment this is what I found:</p>
+<ul>
+<li><a href="http://wingtk.sourceforge.net/ishan/widget.html">http://wingtk.sourceforge.net/ishan/widget.html</a></li>
+<li><a href="http://web.archive.org/web/20080311012104/http://www.gtk.org/~otaylor/gtk/tutorial/">http://web.archive.org/web/20080311012104/http://www.gtk.org/~otaylor …</a></li></ul>
+                <a class="readmore" href="../../blog/2009/11/writing-a-new-gtkwidget/">read more</a>
+                </div><!-- /.entry-content -->
+        </article></li>
+            </ol><!-- /#posts-list -->
+<p class="paginator">
+    Page 1 / 1
+</p>
+            </section><!-- /#content -->
+</ol><!-- /#posts-list -->
+</section><!-- /#content -->
+
+        <aside id="sidebar">
+                <div class="widget social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate">RSS Feed</a></li>
+
+                            <li><a target="_blank" href="https://twitter.com/_pablog">Twitter</a></li>
+                            <li><a target="_blank" href="https://github.com/PabloCastellano">GitHub</a></li>
+                        </ul>
+                </div><!-- /.social -->
+                <div class="widget">
+                        <h2>Blogroll</h2>
+                        <ul>
+                            <li><a target="_blank" href="https://guifi.net">Guifi.net</a></li>
+                            <li><a target="_blank" href="https://librebor.me">LibreBorme</a></li>
+                            <li><a target="_blank" href="http://autistici.org">Autistici/Inventati</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="widget">
+                        <h2>Categories</h2>
+                        <ul>
+                           <li ><a href="../../category/android">Android</a></li>
+                           <li class="active"><a href="../../category/development">Development</a></li>
+                           <li ><a href="../../category/documentacion">Documentación</a></li>
+                           <li ><a href="../../category/electronics">Electronics</a></li>
+                           <li ><a href="../../category/free-software">Free software</a></li>
+                           <li ><a href="../../category/gsoc2012">GSoC2012</a></li>
+                           <li ><a href="../../category/guifinet">Guifi.net</a></li>
+                           <li ><a href="../../category/informatica">Informática</a></li>
+                           <li ><a href="../../category/libreborme">LibreBorme</a></li>
+                           <li ><a href="../../category/linux">Linux</a></li>
+                           <li ><a href="../../category/misc">Misc</a></li>
+                           <li ><a href="../../category/politica">Política</a></li>
+                           <li ><a href="../../category/sociedad">Sociedad</a></li>
+                           <li ><a href="../../category/spain">Spain</a></li>
+                           <li ><a href="../../category/viajes">Viajes</a></li>
+                        </ul>
+                </div>
+                <div class="widget">
+                        <h2>Archives</h2>
+                        <ul>
+                            <li><a href="/blog/2015">2015</a></li>
+                            <li><a href="/blog/2012">2012</a></li>
+                            <li><a href="/blog/2011">2011</a></li>
+                            <li><a href="/blog/2010">2010</a></li>
+                            <li><a href="/blog/2009">2009</a></li>
+                        </ul>
+                </div>
+        </aside><!-- /#sidebar -->
+
+        <footer id="footer" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.<br>
+                </address><!-- /#about -->
+
+<!--                <p>The theme is «myidea-cms», a modified version of «notmyidea-cms», which is a modified version of «notmyidea», the default theme.</p> -->
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/by-sa-4.0-88x31.png" /></a><br />This blog is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        </footer><!-- /#footer -->
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.libreborme.net/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+<noscript>
+<img src="https://matomo.libreborme.net/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Matomo Code -->
+</body>
+</html>

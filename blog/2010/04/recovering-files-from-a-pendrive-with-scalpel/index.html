@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Recovering files from a pendrive with scalpel</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../../../../theme/css/main.css" type="text/css" />
+        <link href="../../../../" type="application/atom+xml" rel="alternate" title="pablog.me ATOM Feed" />
+        <link href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate" title="pablog.me RSS Feed" />
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="../../../../css/ie.css"/>
+                <script src="../../../../js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="../../../../css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="../../../../index.html">pablog.me  <strong>$ cat << EOF >> /dev/blog</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://pablog.me">Home</a></li>
+                    <li ><a href="../../../../sobre-mi">Sobre mí</a></li>
+                <!-- <li><a href="../../../../">Archives</a></li> -->
+                </ul></nav>
+        </header><!-- /#banner -->
+
+<section id="content" class="body">
+<article>
+        <header> <h1 class="entry-title"><a href="blog/2010/04/recovering-files-from-a-pendrive-with-scalpel/"
+        rel="bookmark" title="Permalink to Recovering files from a pendrive with scalpel">Recovering files from a pendrive with scalpel</a></h1>
+<abbr class="published" title="2010-04-14T00:00:00+02:00">
+    {"date": "Wed 14 April 2010",
+</abbr>
+<p> "category": "<a href="../../../../category/free-software">Free software</a>", </br>
+ "tags": ["<a href="../../../../tag/linux/">linux</a>", "<a href="../../../../tag/life/">life</a>"]}</p>
+</p>
+
+<!-- /.post-info -->
+        </header>
+        <div class="entry-content">
+        <p>I have no idea how it happened but I had to give today a homework in the university and it wasn't in the pendrive. At the moment I have
+recovered 1 of 2 files with <a href="http://www.digitalforensicssolutions.com/Scalpel/">scalpel</a> (I just love the name of foresnic tools :D).</p>
+<p>From the website:</p>
+<blockquote>
+<p>Scalpel is a fast file carver that reads a database of header and footer definitions and extracts matching files from a set of image files
+or raw device files. Scalpel is filesystem-independent and will carve files from FATx, NTFS, ext2/3, or raw partitions. It is useful for
+both digital forensics investigation and file recovery. Scalpel resulted from a complete rewrite of <a href="http://foremost.sourceforge.net/">foremost
+0.69</a>, a popular open source file carver, to enhance performance and decrease memory usage.</p>
+</blockquote>
+<h1>Steps</h1>
+<p>Create an iso image from your pendrive:  </p>
+<blockquote>
+<p>sudo dd if=/dev/sdc of=pendrive.iso</p>
+</blockquote>
+<p>Have a look to the example configuration file (required) or copy it to <em>$PWD</em>:</p>
+<blockquote>
+<p>cp /etc/scalpel/scalpel.conf</p>
+</blockquote>
+<p>As I had to recover a C file I added to the end of the config file this line:</p>
+<blockquote>
+<p>echo "c    y       11000     /**" >> scalpel.conf</p>
+</blockquote>
+<p>Which means "find files with 'c' extension, but not 'C' (case sensitive) and read 11000 bytes from the header.<br>
+I played with a bit of advantage as I knew for sure the file started with comments as the professor gave us a skeleton
+file. The length field is not so important but I knew that I had not written 10K of code.</p>
+<p>Run scalpel:</p>
+<blockquote>
+<p>scalpel -c scalpel.conf -o recovered pendrive.iso</p>
+</blockquote>
+<p>After that, in the <em>recovered</em> folder I had a log file named "audit.txt" and a folder named "c-0-0". Inside the folder there
+were a lot of ".c" files, all with length 11000 and that started with "/**" and manually I have found the one that I searched and removed
+the trailing 11000-true_bytes bytes.</p>
+<p>Appart from this manual usage I did, it has preconfigured headers for a lot of filetypes like jpg, avi, doc, pdf, pgp, zip... so that
+you only need to uncomment the line in scalpel.conf of the files that you are searching.</p>
+<p>My pendrive was formatted with FAT32 but it's filesystem-independent.</p>
+<p>Kudos to the Scalpel developers!</p>
+        </div><!-- /.entry-content -->
+<div class="comments">
+<h1>Comments !</h1>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'pablogme';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+</article>
+</section>
+
+        <aside id="sidebar">
+                <div class="widget social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate">RSS Feed</a></li>
+
+                            <li><a target="_blank" href="https://twitter.com/_pablog">Twitter</a></li>
+                            <li><a target="_blank" href="https://github.com/PabloCastellano">GitHub</a></li>
+                        </ul>
+                </div><!-- /.social -->
+                <div class="widget">
+                        <h2>Blogroll</h2>
+                        <ul>
+                            <li><a target="_blank" href="https://guifi.net">Guifi.net</a></li>
+                            <li><a target="_blank" href="https://librebor.me">LibreBorme</a></li>
+                            <li><a target="_blank" href="http://autistici.org">Autistici/Inventati</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="widget">
+                        <h2>Categories</h2>
+                        <ul>
+                           <li ><a href="../../../../category/android">Android</a></li>
+                           <li ><a href="../../../../category/development">Development</a></li>
+                           <li ><a href="../../../../category/documentacion">Documentación</a></li>
+                           <li ><a href="../../../../category/electronics">Electronics</a></li>
+                           <li class="active"><a href="../../../../category/free-software">Free software</a></li>
+                           <li ><a href="../../../../category/gsoc2012">GSoC2012</a></li>
+                           <li ><a href="../../../../category/guifinet">Guifi.net</a></li>
+                           <li ><a href="../../../../category/informatica">Informática</a></li>
+                           <li ><a href="../../../../category/libreborme">LibreBorme</a></li>
+                           <li ><a href="../../../../category/linux">Linux</a></li>
+                           <li ><a href="../../../../category/misc">Misc</a></li>
+                           <li ><a href="../../../../category/politica">Política</a></li>
+                           <li ><a href="../../../../category/sociedad">Sociedad</a></li>
+                           <li ><a href="../../../../category/spain">Spain</a></li>
+                           <li ><a href="../../../../category/viajes">Viajes</a></li>
+                        </ul>
+                </div>
+                <div class="widget">
+                        <h2>Archives</h2>
+                        <ul>
+                            <li><a href="/blog/2015">2015</a></li>
+                            <li><a href="/blog/2012">2012</a></li>
+                            <li><a href="/blog/2011">2011</a></li>
+                            <li><a href="/blog/2010">2010</a></li>
+                            <li><a href="/blog/2009">2009</a></li>
+                        </ul>
+                </div>
+        </aside><!-- /#sidebar -->
+
+        <footer id="footer" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.<br>
+                </address><!-- /#about -->
+
+<!--                <p>The theme is «myidea-cms», a modified version of «notmyidea-cms», which is a modified version of «notmyidea», the default theme.</p> -->
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/by-sa-4.0-88x31.png" /></a><br />This blog is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        </footer><!-- /#footer -->
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.libreborme.net/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+<noscript>
+<img src="https://matomo.libreborme.net/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Matomo Code -->
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Mi Google Summer of Code 2012 con Guifi.net</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../../../../theme/css/main.css" type="text/css" />
+        <link href="../../../../" type="application/atom+xml" rel="alternate" title="pablog.me ATOM Feed" />
+        <link href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate" title="pablog.me RSS Feed" />
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="../../../../css/ie.css"/>
+                <script src="../../../../js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="../../../../css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="../../../../index.html">pablog.me  <strong>$ cat << EOF >> /dev/blog</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://pablog.me">Home</a></li>
+                    <li ><a href="../../../../sobre-mi">Sobre mí</a></li>
+                <!-- <li><a href="../../../../">Archives</a></li> -->
+                </ul></nav>
+        </header><!-- /#banner -->
+
+<section id="content" class="body">
+<article>
+        <header> <h1 class="entry-title"><a href="blog/2012/04/mi-google-summer-of-code-2012-con-guifinet/"
+        rel="bookmark" title="Permalink to Mi Google Summer of Code 2012 con Guifi.net">Mi Google Summer of Code 2012 con Guifi.net</a></h1>
+<abbr class="published" title="2012-04-24T00:00:00+02:00">
+    {"date": "Tue 24 April 2012",
+</abbr>
+<p> "category": "<a href="../../../../category/gsoc2012">GSoC2012</a>", </br>
+ "tags": ["<a href="../../../../tag/guifinet/">guifi.net</a>", "<a href="../../../../tag/gsoc2012/">gsoc2012</a>"]}</p>
+</p>
+
+<!-- /.post-info -->
+        </header>
+        <div class="entry-content">
+        <p><img alt="" src="/img/Gsoc2012_logo.png"></p>
+<p><strong>¡Qué ilusión!</strong> He sido uno de los <a href="http://google-opensource.blogspot.com.es/2012/04/students-announced-for-google-summer-of.html">1.212
+afortunados</a> en todo el mundo en obtener una
+plaza para el <strong>Google Summer of Code 2012</strong>.</p>
+<p>Es un evento que llevaba siguiendo de cerca algunos años con muchas ganas de participar pero no acababa de encontrar mi hueco en ningún
+proyecto en concreto.<br>
+El año pasado di el primer paso y presenté una propuesta para <strong>Mediawiki</strong> que podéis leer
+<a href="https://www.mediawiki.org/wiki/User:PabloCastellano/GSoC_2011_Application">aquí</a> pero que no tuvo mucho éxito. Aunque tampoco me pilló por
+sorpresa, ya que fue muy improvisado y lo presenté casi al final del plazo, cuando en esos momentos había ya propuestas hechas muchísimo más
+interesantes que la mía.<br>
+Así que este año me puse a elaborar con más antelación una propuesta y fui contactando con la gente que podía ayudarme y que podía estar
+también interesada en participar... hasta que ayer finalmente publicaron las resoluciones.<br>
+<strong>El resultado es que voy a participar con Guifi.net... ¡insuperable! :-D</strong></p>
+<p>La organización mentora es <strong>Freifunk</strong> (la red libre alemana), que se ha vuelto a superar obtenido este año <strong>13 plazas</strong> y ha cedido dos a
+Guifi.net. Freifunk se lleva presentando desde <strong>2009</strong> como organización paraguas que acoge a todas las organizaciones similares. Aquí
+puedes ver los <a href="http://es.wiki.guifi.net/wiki/Anexo:Proyectos_GSoC_redes_libres">proyectos anteriores</a>.</p>
+<p><a href="http://es.wiki.guifi.net/wiki/Usuario:Pablog/GSoC2012/CNML_Explorer">Esta es mi propuesta</a>(aunque ya <strong>no es la definitiva</strong> porque le
+tengo que añadir ideas de última hora y volver a cuadrar los plazos). Voy a trabajar en las líneas de <strong>interoperabilidad entre redes
+libres</strong> y <strong>visualización de datos</strong>, creando para ello una aplicación de escritorio para visualizar de manera <em>off-line</em>archivos con
+<a href="http://es.wiki.guifi.net/wiki/CNML">formato CNML</a> (un formato que se desarrolló para documentar redes libres) y fomentar su uso.</p>
+<p>Pues bien, la semana pasada tuvimos una reunión para abordar este tema, y <strong>Roger Baig</strong> (mi mentor) y <strong>Ramón Roca</strong> me dieron más ideas,
+que tienen que ver con la <strong>fibra óptica</strong>, <strong>algo en lo que Guifi.net es pionera</strong> :-)</p>
+<p>Para quien no lo sepa, Guifi.net además de enlaces inalámbricos también tiene tramos de fibra óptica (tanto propios como operados mediante
+acuerdos con la Generalitat). Y para quien no se haya fijado, en los mapas no aparecen dichos tramos de fibra por los que también pasan a
+toda velocidad bits de red libre. La razón es que no está implementada dicha funcionalidad.</p>
+<p>Como solo he visto la fibra óptica en fotos, Ramón me dio una introducción sobre los distintos <strong>estándares</strong> que hay para organizar los
+tubos de fibra: si un cable RJ45 se puede crimpar cruzado o paralelo según un orden de colores concreto (estándar), con la fibra óptica no
+se ha llegado a un consenso y cada fabricante hace el suyo propio.</p>
+<p>Todo esto está ahora mismo <strong>frenando</strong> el despliegue de fibra óptica, ya que <strong>no podemos documentar</strong> por donde pasa, dónde están las
+cajas de empalmes y repartidores, qué estándar para organizar los tubos con fibra se está usando (para no coger el que no te pertenece)...
+etc. Así que esta parte del proyecto empezará por <strong>ampliar la definición del CNML</strong> para incluir fibra óptica. Si me sobrara tiempo
+empezaría también a implementar cosas de <strong>IPv6</strong>, aunque la fibra óptica me gusta más.</p>
+<p>En la página de la propuesta podéis encontrar todas las cosas que puedo implementar, y me ayudaría saber qué es lo que la comunidad
+considera más urgente [<strong>¿unsolclic para nodos híbridos?</strong> :)]. Tengo esta libertad en el proyecto así que puedo dedicar más tiempo a unas
+cosas que a otras. También busco <strong>betatesters</strong> y <strong>traductores</strong> ;-)</p>
+<p>Y esto es a lo que me dedicaré durante este verano. Durante todo este periodo iré publicando los avances (mandaré un <strong>informe semanal</strong>,
+tanto a la lista <strong>guifi-rdes</strong> como a este blog).<br>
+Para mí va a ser un gustazo poder dedicar este verano a trabajar desarrollando software libre, bien pagado, y codeándome con una comunidad
+tan puntera como es Guifi.net. No puedo pedir más, y espero dar a final de verano un resultado que esté a la altura :)<br>
+De momento, como los plazos sugieren, voy a ir echando un ojo a la documentación e ir planeándolo todo para empezar a programar el 21 de
+mayo.</p>
+<p>Por último, pero no menos importante, quiero agradecer a todos los que han hecho esto posible, con su apoyo e implicación en mayor o menor
+grado: a Freifunk, Lluís, Saverio, Roger, Ramón, Al, Blackhold, y como no, ¡a Google! Y si eres estudiante, animarte a ti para que el año
+que viene participes tú.</p>
+<p>+Info:</p>
+<ul>
+<li><a href="https://www.google-melange.com/gsoc/accepted_orgs/google/gsoc2012">Todas las organizaciones aceptadas</a></li>
+<li><a href="https://www.google-melange.com/gsoc/org/google/gsoc2012/freifunk">GSoC Freifunk 2012</a></li>
+<li><a href="https://www.google-melange.com/gsoc/project/google/gsoc2012/pablog/24002">CNML Explorer</a> (mi plaza)</li>
+<li><a href="https://www.google-melange.com/gsoc/project/google/gsoc2012/auska1714/6001">Guifi.net integration for qMp system</a>(la otra plaza ha sido
+    para Joel Espunya)</li>
+<li><a href="http://es.wiki.guifi.net/wiki/GSoC">Ideas Google Summer of Code de Guifi.net</a></li>
+</ul>
+<p><a href="http://flattr.com/thing/644563/Mi-Google-Summer-of-Code-2012-con-Guifi-net"><img alt="Flattr
+this" src="http://api.flattr.com/button/flattr-badge-large.png" title="Flattr this"></a></p>
+        </div><!-- /.entry-content -->
+<div class="comments">
+<h1>Comments !</h1>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'pablogme';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+</article>
+</section>
+
+        <aside id="sidebar">
+                <div class="widget social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate">RSS Feed</a></li>
+
+                            <li><a target="_blank" href="https://twitter.com/_pablog">Twitter</a></li>
+                            <li><a target="_blank" href="https://github.com/PabloCastellano">GitHub</a></li>
+                        </ul>
+                </div><!-- /.social -->
+                <div class="widget">
+                        <h2>Blogroll</h2>
+                        <ul>
+                            <li><a target="_blank" href="https://guifi.net">Guifi.net</a></li>
+                            <li><a target="_blank" href="https://librebor.me">LibreBorme</a></li>
+                            <li><a target="_blank" href="http://autistici.org">Autistici/Inventati</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="widget">
+                        <h2>Categories</h2>
+                        <ul>
+                           <li ><a href="../../../../category/android">Android</a></li>
+                           <li ><a href="../../../../category/development">Development</a></li>
+                           <li ><a href="../../../../category/documentacion">Documentación</a></li>
+                           <li ><a href="../../../../category/electronics">Electronics</a></li>
+                           <li ><a href="../../../../category/free-software">Free software</a></li>
+                           <li class="active"><a href="../../../../category/gsoc2012">GSoC2012</a></li>
+                           <li ><a href="../../../../category/guifinet">Guifi.net</a></li>
+                           <li ><a href="../../../../category/informatica">Informática</a></li>
+                           <li ><a href="../../../../category/libreborme">LibreBorme</a></li>
+                           <li ><a href="../../../../category/linux">Linux</a></li>
+                           <li ><a href="../../../../category/misc">Misc</a></li>
+                           <li ><a href="../../../../category/politica">Política</a></li>
+                           <li ><a href="../../../../category/sociedad">Sociedad</a></li>
+                           <li ><a href="../../../../category/spain">Spain</a></li>
+                           <li ><a href="../../../../category/viajes">Viajes</a></li>
+                        </ul>
+                </div>
+                <div class="widget">
+                        <h2>Archives</h2>
+                        <ul>
+                            <li><a href="/blog/2015">2015</a></li>
+                            <li><a href="/blog/2012">2012</a></li>
+                            <li><a href="/blog/2011">2011</a></li>
+                            <li><a href="/blog/2010">2010</a></li>
+                            <li><a href="/blog/2009">2009</a></li>
+                        </ul>
+                </div>
+        </aside><!-- /#sidebar -->
+
+        <footer id="footer" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.<br>
+                </address><!-- /#about -->
+
+<!--                <p>The theme is «myidea-cms», a modified version of «notmyidea-cms», which is a modified version of «notmyidea», the default theme.</p> -->
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/by-sa-4.0-88x31.png" /></a><br />This blog is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        </footer><!-- /#footer -->
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.libreborme.net/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+<noscript>
+<img src="https://matomo.libreborme.net/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Matomo Code -->
+</body>
+</html>

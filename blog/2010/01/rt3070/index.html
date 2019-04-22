@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>rt3070</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../../../../theme/css/main.css" type="text/css" />
+        <link href="../../../../" type="application/atom+xml" rel="alternate" title="pablog.me ATOM Feed" />
+        <link href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate" title="pablog.me RSS Feed" />
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="../../../../css/ie.css"/>
+                <script src="../../../../js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="../../../../css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="../../../../index.html">pablog.me  <strong>$ cat << EOF >> /dev/blog</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://pablog.me">Home</a></li>
+                    <li ><a href="../../../../sobre-mi">Sobre mí</a></li>
+                <!-- <li><a href="../../../../">Archives</a></li> -->
+                </ul></nav>
+        </header><!-- /#banner -->
+
+<section id="content" class="body">
+<article>
+        <header> <h1 class="entry-title"><a href="blog/2010/01/rt3070/"
+        rel="bookmark" title="Permalink to rt3070">rt3070</a></h1>
+<abbr class="published" title="2010-01-20T00:00:00+01:00">
+    {"date": "Wed 20 January 2010",
+</abbr>
+<p> "category": "<a href="../../../../category/linux">Linux</a>", </br>
+ "tags": ["<a href="../../../../tag/howto/">howto</a>", "<a href="../../../../tag/realtek/">realtek</a>", "<a href="../../../../tag/rt3070/">rt3070</a>"]}</p>
+</p>
+
+<!-- /.post-info -->
+        </header>
+        <div class="entry-content">
+        <p><img alt="" src="http://www.smc.com/images/products/400/SMCWUSBS_N3.jpg"> Some days ago I bought a <a href="http://www.smc.com/index.cfm?event=viewProduct&amp;cid=5&amp;scid=117&amp;localeCode=EN_GBR&amp;pid=1699">SMCWUSBS-N3 EZ Connect™ N Wireless USB 2.0
+Adapter.</a> The reason is that I have installed
+Ubuntu to my parents and the old <a href="http://descargardrivers.es/photos/Z/y/x/ZyxelZyAIR-B-220-1-pic.jpg">ZyXEL ZyAIR B-220</a> wasn't working with
+network-manager because of <a href="https://bugzilla.gnome.org/show_bug.cgi?id=605880">this bug</a>.</p>
+<p>I decided to buy this model in particular first because it was only 12,50€ (!!) and second because I saw in the official webpage that
+<a href="http://www.smc.com/index.cfm?event=downloads.doSearchCriteria&amp;localeCode=EN_GBR&amp;productCategory=5&amp;modelNumber=1699&amp;partNumber=4338&amp;downloadType=1&amp;knowsPartNumber=false">they were (unfortunately surprising) providing linux drivers</a>.
+The chipset it uses is called RT3070USB (<a href="http://www.ralinktech.com/support.php?s=2">ralink</a>).</p>
+<p>At first, I imagined that they were providing that cheap link because it was already included in the official linux kernel tree and they
+just wanted to say "hey, we are cool people and support linux!".</p>
+<p>But I was wrong! When I connected the device once I arrived home nothing happened. Nothing interesting in syslog. dmesg
+neither. So I decided to download their driver and give it a try.</p>
+<p>They did a really quick and ugly hack of an already existing RT2870 driver. They didn't even care about renaming the files or changing the
+constants in the Makefile <em>(this is bad, ralink guys.. we have a family to take care of and we cannot spend how much time we want on it...)</em>.
+And... it didn't work out-of-the-box(tm).</p>
+<p>I have to admit that I lost my hope to get it working but fortunately <a href="http://ubuntuforums.org/showthread.php?t=1155941&amp;page=11">an ubuntuforums.org user</a>
+made me recover it because he succeeded.</p>
+<p>I had a great hacking satisfaction when I got it working :) and I was going to explain my workaround but
+now I see that it's already very well explained in <a href="http://ubuntuforums.org/showpost.php?p=8418039&amp;postcount=182">this post</a>.</p>
+<p>Also, the SMC site provides the link to an old release of this driver, which won't compile with 2.6.31. You'll need to get the last one from the ralink
+site.</p>
+<p>Here is the changelog:</p>
+<blockquote>
+<p>Version [V2.1.2.0]<br>
+1. Support Linux kernel 2.6.31<br>
+2. Add iw support.  </p>
+<p>Version V2.1.1.0<br>
+1. Linux kernel 2.6.29 support.<br>
+2. Fix eFuse write from BIN file bug.  </p>
+<p>Version 2.1.0.0<br>
+1. New generation schema for multiple OS porting<br>
+2. Fixed Ad-hoc ping failed in noisy environment.<br>
+3. Modified iwpriv ra0 get_site_survey:<br>
+4. Change FastRoaming in DAT file to AutoRoaming.<br>
+5. Support kthread.<br>
+6. New IEEE802.11r functionality.</p>
+<p>Version 2.0.1.0<br>
+1. Finished verifying RT3071 STA support.<br>
+2. Fix eFuse bug on big-endian platform<br>
+3. Fix WMM problem for RT3071/72<br>
+4. Fix bug for ATE TX power handling and ATE frequency offset bug.<br>
+5. Fix RT307x AMPDU throughput bug after interface down/up<br>
+6. Fix RT307x difficult to enter power save mode issue.<br>
+7. Fix bug that is hard to connect with hidden-SSID AP.<br>
+8. Update RT307x new firmware.</p>
+</blockquote>
+<p>TODO: When I get some new free time, I will try to give a look at the driver and collaborate to get it merged in the kernel. Or at
+least provide a working out-of-the-box tarball with the driver ;-)</p>
+<p><a href="http://bugzilla.kernel.org/show_bug.cgi?id=14808">A similar bug report in bugzilla.kernel.org</a></p>
+        </div><!-- /.entry-content -->
+<div class="comments">
+<h1>Comments !</h1>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'pablogme';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+</article>
+</section>
+
+        <aside id="sidebar">
+                <div class="widget social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate">RSS Feed</a></li>
+
+                            <li><a target="_blank" href="https://twitter.com/_pablog">Twitter</a></li>
+                            <li><a target="_blank" href="https://github.com/PabloCastellano">GitHub</a></li>
+                        </ul>
+                </div><!-- /.social -->
+                <div class="widget">
+                        <h2>Blogroll</h2>
+                        <ul>
+                            <li><a target="_blank" href="https://guifi.net">Guifi.net</a></li>
+                            <li><a target="_blank" href="https://librebor.me">LibreBorme</a></li>
+                            <li><a target="_blank" href="http://autistici.org">Autistici/Inventati</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="widget">
+                        <h2>Categories</h2>
+                        <ul>
+                           <li ><a href="../../../../category/android">Android</a></li>
+                           <li ><a href="../../../../category/development">Development</a></li>
+                           <li ><a href="../../../../category/documentacion">Documentación</a></li>
+                           <li ><a href="../../../../category/electronics">Electronics</a></li>
+                           <li ><a href="../../../../category/free-software">Free software</a></li>
+                           <li ><a href="../../../../category/gsoc2012">GSoC2012</a></li>
+                           <li ><a href="../../../../category/guifinet">Guifi.net</a></li>
+                           <li ><a href="../../../../category/informatica">Informática</a></li>
+                           <li ><a href="../../../../category/libreborme">LibreBorme</a></li>
+                           <li class="active"><a href="../../../../category/linux">Linux</a></li>
+                           <li ><a href="../../../../category/misc">Misc</a></li>
+                           <li ><a href="../../../../category/politica">Política</a></li>
+                           <li ><a href="../../../../category/sociedad">Sociedad</a></li>
+                           <li ><a href="../../../../category/spain">Spain</a></li>
+                           <li ><a href="../../../../category/viajes">Viajes</a></li>
+                        </ul>
+                </div>
+                <div class="widget">
+                        <h2>Archives</h2>
+                        <ul>
+                            <li><a href="/blog/2015">2015</a></li>
+                            <li><a href="/blog/2012">2012</a></li>
+                            <li><a href="/blog/2011">2011</a></li>
+                            <li><a href="/blog/2010">2010</a></li>
+                            <li><a href="/blog/2009">2009</a></li>
+                        </ul>
+                </div>
+        </aside><!-- /#sidebar -->
+
+        <footer id="footer" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.<br>
+                </address><!-- /#about -->
+
+<!--                <p>The theme is «myidea-cms», a modified version of «notmyidea-cms», which is a modified version of «notmyidea», the default theme.</p> -->
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/by-sa-4.0-88x31.png" /></a><br />This blog is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        </footer><!-- /#footer -->
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.libreborme.net/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+<noscript>
+<img src="https://matomo.libreborme.net/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Matomo Code -->
+</body>
+</html>

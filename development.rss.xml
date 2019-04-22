@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>pablog.me - Development</title><link>https://pablog.me/</link><description>$ cat &lt;&lt; EOF &gt;&gt; /dev/blog</description><lastBuildDate>Tue, 01 Nov 2011 00:00:00 +0100</lastBuildDate><item><title>Script para bajar vídeos de La Sexta</title><link>https://pablog.me/blog/2011/11/script-para-bajar-videos-de-la-sexta/</link><description>&lt;p&gt;Por motivos de &lt;strong&gt;compatibilidad operativa&lt;/strong&gt;, he tenido que buscar otro método para descargar los vídeos de la web de &lt;a href="http://www.lasexta.com/"&gt;La
+Sexta&lt;/a&gt;. Para ello he hecho un script en Python que dada una URL te devuelve la dirección del RTMP para bajarla con
+rtmpdump por ejemplo.&lt;/p&gt;
+&lt;p&gt;Resumiendo... la URL original está …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Tue, 01 Nov 2011 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:pablog.me,2011-11-01:/blog/2011/11/script-para-bajar-videos-de-la-sexta/</guid><category>la sexta</category><category>script</category></item><item><title>Drupal Coding Standards</title><link>https://pablog.me/blog/2010/08/drupal-coding-standards/</link><description>&lt;p&gt;Desde hace algunos días, los módulo de Drupal guifi y budgets cumplen con los &lt;a href="http://drupal.org/coding-standards"&gt;estándares de programación en
+Drupal&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Para corregirlo, he usado un módulo llamado &lt;a href="https://drupal.org/project/coder"&gt;Coder&lt;/a&gt;, que te examina el código de los módulos, temas y todo
+lo que le digas, y luego te da una lista con las …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Tue, 31 Aug 2010 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2010-08-31:/blog/2010/08/drupal-coding-standards/</guid><category>Guifi.net</category><category>drupal</category></item><item><title>Debugging flash in firefox</title><link>https://pablog.me/blog/2010/06/debugging-flash-in-firefox/</link><description>&lt;p&gt;Install &lt;a href="http://www.adobe.com/support/flashplayer/downloads.html"&gt;Adobe Flash Player Debugging Version&lt;/a&gt;:&lt;br&gt;
+(first I recommend you to uninstall any flash version you have installed)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;wget http://download.macromedia.com/pub/flashplayer/updaters/10/flash_player_10_linux_dev.tar.gz&lt;br&gt;
+tar zxvf flash_player_10_linux_dev.tar.gz&lt;br&gt;
+cd flash_player_10_linux_dev/plugin/debugger&lt;br&gt;
+tar zxvf install_flash_player_10_linux.tar.gz&lt;br&gt;
+cd install_flash_player_10_linux/&lt;br&gt;
+./flashplayer-installer&lt;br&gt;
+Follow instructions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Install …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Wed, 02 Jun 2010 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2010-06-02:/blog/2010/06/debugging-flash-in-firefox/</guid><category>linux</category><category>flash</category><category>debugging</category><category>firefox</category></item><item><title>Writing a new GtkWidget</title><link>https://pablog.me/blog/2009/11/writing-a-new-gtkwidget/</link><description>&lt;p&gt;I'm looking for a stave widget in GTK+ to code some kind of music software.&lt;br&gt;
+It seems like I will have to create it. At the moment this is what I found:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://wingtk.sourceforge.net/ishan/widget.html"&gt;http://wingtk.sourceforge.net/ishan/widget.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://web.archive.org/web/20080311012104/http://www.gtk.org/~otaylor/gtk/tutorial/"&gt;http://web.archive.org/web/20080311012104/http://www.gtk.org/~otaylor …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Fri, 06 Nov 2009 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:pablog.me,2009-11-06:/blog/2009/11/writing-a-new-gtkwidget/</guid><category>GNOME</category><category>GTK</category></item></channel></rss>

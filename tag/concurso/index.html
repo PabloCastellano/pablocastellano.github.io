@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>pablog.me - concurso</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../../theme/css/main.css" type="text/css" />
+        <link href="../../" type="application/atom+xml" rel="alternate" title="pablog.me ATOM Feed" />
+        <link href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate" title="pablog.me RSS Feed" />
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="../../css/ie.css"/>
+                <script src="../../js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="../../css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="../../index.html">pablog.me  <strong>$ cat << EOF >> /dev/blog</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://pablog.me">Home</a></li>
+                    <li ><a href="../../sobre-mi">Sobre mí</a></li>
+                <!-- <li><a href="../../">Archives</a></li> -->
+                </ul></nav>
+        </header><!-- /#banner -->
+
+     <section id="content" class="body">
+        <aside id="featured"><article>
+                <h1 class="entry-title"><a href="../../blog/2015/07/libreborme-tercer-premio-en-el-i-certamen-de-proyectos-libres-de-la-ugr/">LibreBorme tercer premio en el I Certamen de Proyectos Libres de la UGR</a></h1>
+<abbr class="published" title="2015-07-15T14:31:00+02:00">
+    {"date": "Wed 15 July 2015",
+</abbr>
+<p> "category": "<a href="../../category/libreborme">LibreBorme</a>", </br>
+ "tags": ["<a href="../../tag/libreborme/">libreborme</a>", "<a href="../../tag/concurso/">concurso</a>"]}</p>
+</p>
+
+<!-- /.post-info -->
+                <p><a href="/img/libreborme/trofeo_oslugr.gif"><img src="/img/libreborme/thumbnails/200x_/trofeo_oslugr.gif"/></a></p>
+<p>El jurado del <a href="http://osl.ugr.es/2014/09/26/premios-a-proyectos-libres-de-la-ugr/">I Certamen de Proyectos Libres de la UGR 2014-2015</a> decidió otorgar al proyecto LibreBorme el <a href="http://osl.ugr.es/2015/06/17/ganadores-del-certamen-de-proyectos-libres-de-la-ugr-2014-2015/">tercer premio</a> y la semana semana aproveché un hueco para ir a recoger mi trofeo a la ETSII de la Universidad de Granada :-D</p>
+<p>Este premio ha sido toda una sorpresa para mí y me anima a seguir dándole caña al proyecto en verano, cuando las fuerzas flaquean.</p>
+<p>Si tenéis curiosidad, podéis echarle un ojo a los otros proyectos ganadores:</p>
+<ul>
+<li>1er premio: <a href="http://evenge.github.io/">Evenge</a> [<a href="https://github.com/evenge/EVENGE">Repositorio</a>]</li>
+<li>2º premio: <a href="http://demiurgosoft.github.io/dont-crush-my-castle/">Don't Crush My Castle</a> [<a href="https://github.com/demiurgosoft/dont-crush-my-castle">Repositorio</a>]</li>
+</ul>
+<p>Aprovecho para dar las gracias a los organizadores, al jurado, a los patrocinadores y a todos los que han hecho posible esta primera edición del certamen. La organización ha sido excelente. ¡Hasta han <a href="https://twitter.com/OSLUGR/status/610496501329096704">publicado</a> la <a href="https://drive.google.com/file/d/0B8DW9UWKXYAocjMtRWtpQ2x1eUE/view">Memoria de Evaluación</a> donde detallan cómo han evaluado los 24 proyectos que hemos participado!
+Simplemente genial. Esto <strong>SÍ</strong> es transparencia y tener voluntad por hacer bien las cosas.</p>
+<p>Ni punto de comparación con mis andanzas por el Concurso de aplicaciones Android de la UMA del que <a href="/blog/2015/01/tongo-en-el-concurso-android-de-la-uma/">ya escribí por aquí</a> en otra ocasión. No puedo evitar acordarme de ellos. Publicar la memoria de evaluación debería ser obligatorio en todo concurso.</p>
+<p><a href="/img/libreborme/evaluacion_libreborme_oslugr.png"><img src="/img/libreborme/thumbnails/750x_/evaluacion_libreborme_oslugr.png" /></a></p>
+<h1>Últimos avances de LibreBorme</h1>
+<p>De paso aprovecho también esta entrada para comentar mis últimos avances en LibreBorme:</p>
+<ul>
+<li>He escrito desde cero una nueva librería de Python llamada <a href="https://github.com/PabloCastellano/bormeparser">bormeparser</a>, que a partir de ahora es la que se encarga de todo lo relacionado con obtener información de los BORMEs y agrupa todas las funciones necesarias (como generar URL de descarga de un día, descargar el PDF, parsearlo...). Además, la nueva versión del parser es mucho más precisa.</li>
+<li>He eliminado de LibreBorme el código para extraer información de los BORMEs y ahora uso bormeparser en su lugar.</li>
+<li>Sistema de tests e integración continua de bormeparser usando <a href="https://travis-ci.org/PabloCastellano/bormeparser/">Travis CI</a>.</li>
+<li>Documentación en readthedocs: tanto para <a href="http://bormeparser.readthedocs.org/">bormeparser</a> como para <a href="http://libreborme.readthedocs.org/">libreborme</a>.</li>
+<li>Creación de un <em>Playbook</em> para Ansible para desplegar LibreBorme de forma automática: repositorio <a href="https://github.com/PabloCastellano/libreborme-ansible">libreborme-ansible</a> y <a href="http://libreborme.readthedocs.org/es/latest/install_production_automated/">documentación</a>.</li>
+</ul>
+<p>Tenía pensado presentar el proyecto en septiembre y estoy un poco agobiado porque veo que aún faltan muchas cosas por hacer. Veremos qué tengo para entonces... ¡Buen verano!</p>
+        </article></aside><!-- /#featured -->
+                <hr />
+                <h1>Other articles</h1>
+                <hr />
+                    <ol id="posts-list" class="hfeed">
+        <li><article class="hentry">
+                <header>
+                        <h1><a href="../../blog/2015/01/tongo-en-el-concurso-android-de-la-uma/" rel="bookmark" title="Permalink to Tongo en el concurso Android de la UMA">Tongo en el concurso Android de la UMA</a></h1>
+                </header>
+
+                <div class="entry-content">
+<abbr class="published" title="2015-01-28T10:00:00+01:00">
+    {"date": "Wed 28 January 2015",
+</abbr>
+<p> "category": "<a href="../../category/misc">Misc</a>", </br>
+ "tags": ["<a href="../../tag/concurso/">concurso</a>", "<a href="../../tag/android/">android</a>", "<a href="../../tag/uma/">UMA</a>", "<a href="../../tag/universidad-de-malaga/">Universidad de Málaga</a>"]}</p>
+</p>
+
+<!-- /.post-info -->
+                <p><strong>TL;DR:</strong> La <a href="http://www.informatica.uma.es/">ETSI Informática de la Universidad de Málaga</a> organiza un
+<a href="http://www.uma.es/etsi-informatica/noticias/concurso-android/">concurso de desarrollo de apps Android</a>
+para sus estudiantes y una semana más tarde de la fecha en la que deberían haber publicado los ganadores
+nos informa a los concursantes de que han decidido dejar el premio desierto …</p>
+                <a class="readmore" href="../../blog/2015/01/tongo-en-el-concurso-android-de-la-uma/">read more</a>
+                </div><!-- /.entry-content -->
+        </article></li>
+            </ol><!-- /#posts-list -->
+<p class="paginator">
+    Page 1 / 1
+</p>
+            </section><!-- /#content -->
+</ol><!-- /#posts-list -->
+</section><!-- /#content -->
+
+        <aside id="sidebar">
+                <div class="widget social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate">RSS Feed</a></li>
+
+                            <li><a target="_blank" href="https://twitter.com/_pablog">Twitter</a></li>
+                            <li><a target="_blank" href="https://github.com/PabloCastellano">GitHub</a></li>
+                        </ul>
+                </div><!-- /.social -->
+                <div class="widget">
+                        <h2>Blogroll</h2>
+                        <ul>
+                            <li><a target="_blank" href="https://guifi.net">Guifi.net</a></li>
+                            <li><a target="_blank" href="https://librebor.me">LibreBorme</a></li>
+                            <li><a target="_blank" href="http://autistici.org">Autistici/Inventati</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="widget">
+                        <h2>Categories</h2>
+                        <ul>
+                           <li ><a href="../../category/android">Android</a></li>
+                           <li ><a href="../../category/development">Development</a></li>
+                           <li ><a href="../../category/documentacion">Documentación</a></li>
+                           <li ><a href="../../category/electronics">Electronics</a></li>
+                           <li ><a href="../../category/free-software">Free software</a></li>
+                           <li ><a href="../../category/gsoc2012">GSoC2012</a></li>
+                           <li ><a href="../../category/guifinet">Guifi.net</a></li>
+                           <li ><a href="../../category/informatica">Informática</a></li>
+                           <li ><a href="../../category/libreborme">LibreBorme</a></li>
+                           <li ><a href="../../category/linux">Linux</a></li>
+                           <li ><a href="../../category/misc">Misc</a></li>
+                           <li ><a href="../../category/politica">Política</a></li>
+                           <li ><a href="../../category/sociedad">Sociedad</a></li>
+                           <li ><a href="../../category/spain">Spain</a></li>
+                           <li ><a href="../../category/viajes">Viajes</a></li>
+                        </ul>
+                </div>
+                <div class="widget">
+                        <h2>Archives</h2>
+                        <ul>
+                            <li><a href="/blog/2015">2015</a></li>
+                            <li><a href="/blog/2012">2012</a></li>
+                            <li><a href="/blog/2011">2011</a></li>
+                            <li><a href="/blog/2010">2010</a></li>
+                            <li><a href="/blog/2009">2009</a></li>
+                        </ul>
+                </div>
+        </aside><!-- /#sidebar -->
+
+        <footer id="footer" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.<br>
+                </address><!-- /#about -->
+
+<!--                <p>The theme is «myidea-cms», a modified version of «notmyidea-cms», which is a modified version of «notmyidea», the default theme.</p> -->
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/by-sa-4.0-88x31.png" /></a><br />This blog is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        </footer><!-- /#footer -->
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.libreborme.net/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+<noscript>
+<img src="https://matomo.libreborme.net/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Matomo Code -->
+</body>
+</html>

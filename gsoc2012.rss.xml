@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>pablog.me - GSoC2012</title><link>https://pablog.me/</link><description>$ cat &lt;&lt; EOF &gt;&gt; /dev/blog</description><lastBuildDate>Wed, 22 Aug 2012 00:00:00 +0200</lastBuildDate><item><title>GSOC Final Report</title><link>https://pablog.me/blog/2012/08/gsoc-final-report/</link><description>&lt;p&gt;And this is a summary of the features implemented during this summer into Guifi.net Studio.&lt;br&gt;
+I have taken the list of features that I wrote when I was doing the proposal for the GSoC. You can have a look at this list
+&lt;a href="http://en.wiki.guifi.net/wiki/Guifi.net_Studio"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;Filtering options&lt;/h1&gt;
+&lt;p&gt;Implementation status: 75%  &lt;/p&gt;
+&lt;p&gt;Filtering …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Wed, 22 Aug 2012 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2012-08-22:/blog/2012/08/gsoc-final-report/</guid><category>guifi.net</category><category>gsoc2012</category></item><item><title>GSOC Report #7: Pencils down!</title><link>https://pablog.me/blog/2012/08/gsoc-report-7-pencils-down/</link><description>&lt;p&gt;This week has been the suggested 'Pencils down period'.&lt;br&gt;
+I haven't done big changes but I have taken advantage of this time to test Guifi.net Studio deeply to detect and fix crashes and complete
+some easy features.&lt;/p&gt;
+&lt;p&gt;But there have been big changes, especially those done two weeks ago …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Sun, 19 Aug 2012 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2012-08-19:/blog/2012/08/gsoc-report-7-pencils-down/</guid><category>guifi.net</category><category>gsoc2012</category></item><item><title>GSOC Report #6: GUI + Guifi.net API</title><link>https://pablog.me/blog/2012/08/gsoc-report-6-gui-guifinet-api/</link><description>&lt;p&gt;Another report for the last 2 weeks.&lt;/p&gt;
+&lt;p&gt;The most of the work has been the &lt;strong&gt;Graphic User Interface&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;So far it's possible to create nodes, zones, devices and radios in the remote host (test.guifi.net in this case) from the application.&lt;/p&gt;
+&lt;p&gt;You will also have the chance to create …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Mon, 06 Aug 2012 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2012-08-06:/blog/2012/08/gsoc-report-6-gui-guifinet-api/</guid><category>guifi.net</category><category>gsoc2012</category></item><item><title>GSOC Report #5: pyGuifiAPI</title><link>https://pablog.me/blog/2012/07/gsoc-report-5-pyguifiapi/</link><description>&lt;p&gt;Big changes during these 2 weeks :)&lt;/p&gt;
+&lt;h1&gt;Python Guifi.net API&lt;/h1&gt;
+&lt;p&gt;I wrote a new library called &lt;a href="http://gitorious.org/guifi-altres/guifinetstudio/blobs/master/lib/pyGuifiAPI/api.py"&gt;&lt;strong&gt;pyGuifiApi&lt;/strong&gt;&lt;/a&gt;. As you
+can guess by its name, it's used to communicate with the &lt;a href="http://es.wiki.guifi.net/wiki/API#API"&gt;API&lt;/a&gt; in the side of the web server.&lt;br&gt;
+I have included some tests that show how to create, update and …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Mon, 23 Jul 2012 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2012-07-23:/blog/2012/07/gsoc-report-5-pyguifiapi/</guid><category>guifi.net</category><category>gsoc2012</category></item><item><title>GSOC Report #4: libcnml ready</title><link>https://pablog.me/blog/2012/07/gsoc-report-4-libcnml-ready/</link><description>&lt;p&gt;Not so many changes but important advances:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Libcnml is rewritten and uses classes. Now you can do things like managing a &lt;em&gt;CNMLLink&lt;/em&gt; object and get the two &lt;em&gt;CNMLNode&lt;/em&gt; objects
+    linked:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;from libcnml import &lt;/em&gt;&lt;br&gt;
+c = CNMLParser('tests/detail.3')&lt;br&gt;
+node = c.getNode(888)&lt;br&gt;
+print node&lt;br&gt;
+&amp;lt;libcnml.CNMLNode instance at 0xb75082ac&gt;&lt;br&gt;
+dir …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Mon, 09 Jul 2012 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2012-07-09:/blog/2012/07/gsoc-report-4-libcnml-ready/</guid><category>guifi.net</category><category>gsoc2012</category></item><item><title>GSOC Report #3: unsolclic and libcnml</title><link>https://pablog.me/blog/2012/07/gsoc-report-3-unsolclic-and-libcnml/</link><description>&lt;p&gt;I'm back! No more exams for a while. I'm happy to have much more time to spend working on Guifi.net Studio.&lt;br&gt;
+These are the improvements so far:&lt;/p&gt;
+&lt;h1&gt;Prettier GUI&lt;/h1&gt;
+&lt;p&gt;Guifi.net Studio is prettier now, that's the first thing you can notice :)&lt;br&gt;
+Now it has an user interface quite …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Tue, 03 Jul 2012 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2012-07-03:/blog/2012/07/gsoc-report-3-unsolclic-and-libcnml/</guid><category>guifi.net</category><category>gsoc2012</category></item><item><title>GSOC Report #2: libs and APIs</title><link>https://pablog.me/blog/2012/06/gsoc-report-2-libs-and-apis/</link><description>&lt;p&gt;I have added some checkbuttons that allow you to show and hide the labels and the points of the nodes. Apart from that, there aren't more
+features this week.&lt;/p&gt;
+&lt;h1&gt;Libchamplain&lt;/h1&gt;
+&lt;p&gt;I have subscribed to &lt;a href="https://mail.gnome.org/archives/libchamplain-list/"&gt;their mailing list&lt;/a&gt; and I have the pending task of reading its
+archive.&lt;br&gt;
+The other patches …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Tue, 05 Jun 2012 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2012-06-05:/blog/2012/06/gsoc-report-2-libs-and-apis/</guid><category>gsoc2012</category><category>guifi.net</category></item><item><title>GSOC Report #1: Maps</title><link>https://pablog.me/blog/2012/05/gsoc-report-1-maps/</link><description>&lt;p&gt;Today I have finished adding the libchamplain support to the old interface. Here I leave a screenshot:&lt;/p&gt;
+&lt;p&gt;&lt;a href="/img/guifinetstudio1.png"&gt;&lt;img alt="" src="/img/guifinetstudio1.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There you can appreciate that there's a bold point and a label for every node. I still have to draw the lines representing the links between
+nodes and improve the style and the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Sun, 27 May 2012 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2012-05-27:/blog/2012/05/gsoc-report-1-maps/</guid><category>guifi.net</category><category>gsoc2012</category></item><item><title>GSOC Report #0: Documentation</title><link>https://pablog.me/blog/2012/05/gsoc-report-0-documentation/</link><description>&lt;p&gt;-Note: I forgot to say in my last post that all coming posts about GSOC will be in English-&lt;br&gt;
+Well, the coding period started yesterday. Here is what I've been doing meanwhile during the documentation period:&lt;/p&gt;
+&lt;h1&gt;Project name&lt;/h1&gt;
+&lt;p&gt;First, I decided to change the project name from "&lt;em&gt;CNML Explorer&lt;/em&gt;" to …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Tue, 22 May 2012 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2012-05-22:/blog/2012/05/gsoc-report-0-documentation/</guid><category>guifi.net</category><category>gsoc2012</category></item><item><title>Mi Google Summer of Code 2012 con Guifi.net</title><link>https://pablog.me/blog/2012/04/mi-google-summer-of-code-2012-con-guifinet/</link><description>&lt;p&gt;&lt;img alt="" src="/img/Gsoc2012_logo.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;¡Qué ilusión!&lt;/strong&gt; He sido uno de los &lt;a href="http://google-opensource.blogspot.com.es/2012/04/students-announced-for-google-summer-of.html"&gt;1.212
+afortunados&lt;/a&gt; en todo el mundo en obtener una
+plaza para el &lt;strong&gt;Google Summer of Code 2012&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Es un evento que llevaba siguiendo de cerca algunos años con muchas ganas de participar pero no acababa de encontrar mi hueco en ningún
+proyecto …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Tue, 24 Apr 2012 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2012-04-24:/blog/2012/04/mi-google-summer-of-code-2012-con-guifinet/</guid><category>guifi.net</category><category>gsoc2012</category></item></channel></rss>

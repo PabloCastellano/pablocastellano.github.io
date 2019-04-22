@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>pablog.me - opendata</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../../theme/css/main.css" type="text/css" />
+        <link href="../../" type="application/atom+xml" rel="alternate" title="pablog.me ATOM Feed" />
+        <link href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate" title="pablog.me RSS Feed" />
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="../../css/ie.css"/>
+                <script src="../../js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="../../css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="../../index.html">pablog.me  <strong>$ cat << EOF >> /dev/blog</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://pablog.me">Home</a></li>
+                    <li ><a href="../../sobre-mi">Sobre mí</a></li>
+                <!-- <li><a href="../../">Archives</a></li> -->
+                </ul></nav>
+        </header><!-- /#banner -->
+
+     <section id="content" class="body">
+        <aside id="featured"><article>
+                <h1 class="entry-title"><a href="../../blog/2015/03/version-online-de-libreborme/">Versión online de LibreBorme</a></h1>
+<abbr class="published" title="2015-03-31T21:00:00+02:00">
+    {"date": "Tue 31 March 2015",
+</abbr>
+<p> "category": "<a href="../../category/libreborme">LibreBorme</a>", </br>
+ "tags": ["<a href="../../tag/libreborme/">libreborme</a>", "<a href="../../tag/opendata/">opendata</a>", "<a href="../../tag/registro-mercantil/">registro mercantil</a>", "<a href="../../tag/proyecto-de-fin-de-carrera/">proyecto de fin de carrera</a>", "<a href="../../tag/cusl/">CUSL</a>"]}</p>
+</p>
+
+<!-- /.post-info -->
+                <p>Con motivo de la evaluación del <a href="https://www.concursosoftwarelibre.org/1415/">Concurso Universitario de Software Libre</a>, esta última semana he estado trabajando en montar una versión de LibreBorme en producción y en darle una capa de pintura.</p>
+<p>Para los impacientes: ya se puede acceder a través de <strike>https://beta.libreborme.net</strike> <a href="https://libreborme.net">https://libreborme.net</a>.</p>
+<p><a href="/img/libreborme/principal1.gif"><img src="/img/libreborme/thumbnails/750x_/principal1.gif" /></a></p>
+<p>Como su dominio indica, es una <strong>versión de pruebas</strong>, por lo que fallará de vez en cuando, sus URLs cambiarán, algunas veces contendrá más datos y otras menos porque limpiaré la BD para seguir haciendo pruebas...
+Tenlo en cuenta si la usas. De momento no hace falta que se reporten los bugs.</p>
+<h1>Funcionalidades actuales</h1>
+<p>En cuanto a cambios significativos lo más novedoso es que gracias a la sugerencia de mi tutor del proyecto, he empezado a usar MongoDB para almacenar los datos, que viene muy bien ya que la estructura de un BORME se ajusta más al concepto de documento en Mongo que al de una tabla relacional SQL.</p>
+<p>En esta primera versión online ya hay algunos miles de datos para empezar a jugar. Se pueden buscar empresas, ver en qué BORMEs aparece y sus <strong>actos mercantiles</strong>.
+También es posible buscar nombres de persona y de la misma manera localizar en qué BORMEs aparece y obtener un listado de <strong>sociedades relacionadas</strong>.</p>
+<p><a href="/img/libreborme/detalle_mercadona1.gif"><img src="/img/libreborme/thumbnails/750x_/detalle_mercadona1.gif" /></a></p>
+<p>La página principal se carga cada vez con un listado aleatorio de empresas/personas a modo de ejemplo:</p>
+<p><a href="/img/libreborme/home1.gif"><img src="/img/libreborme/thumbnails/750x_/home1.gif" /></a></p>
+<p>Ahora <code>borme_parser</code> es un paquete que importo en Python y que contiene todo lo necesario para procesar BORMEs. Cuando sea estable lo subiré a <a href="https://pypi.python.org/pypi">PyPI</a> para que lo puedan reutilizar fácilmente otros proyectos que analicen BORMEs.</p>
+<p>También he comenzado a usar los issues de GitHub:</p>
+<p><a href="/img/libreborme/issues1.gif"><img src="/img/libreborme/thumbnails/750x_/issues1.gif" /></a></p>
+<h1>borme_parser</h1>
+<p>El paquete <code>borme_parser</code> contiene un conjunto de herramientas que automatiza la obtención y el procesamiento de BORMEs. El proceso ahora es semi-automático (hay que lanzar los scripts uno a uno).</p>
+<p>Los procesos que <code>borme_parser</code> automatiza son:</p>
+<ul>
+<li>Ir a la <a href="http://www.boe.es/diario_borme/">web del BORME</a> y obtener los BORMES del <a href="http://www.boe.es/borme/dias/2015/03/31/">último día</a></li>
+<li>Descargar todos los PDFs del día</li>
+<li>Recortar los PDFs para obtener otros PDFs con la región que nos interesa (quita los márgenes)</li>
+<li>Conversión de PDF a texto y limpieza del texto que suele contener caracteres extraños</li>
+<li>Reconocer en el texto los actos inscritos y en ellos los nombres de las entidades que nos interesan (empresas y personas principalmente) y generar un archivo CSV a partir de ellos</li>
+</ul>
+<p><a href="/img/libreborme/descargar_bormes.gif"><img src="/img/libreborme/thumbnails/750x_/descargar_bormes.gif" /></a></p>
+<p>Para el que lo nunca haya visto, un BORME tiene el siguiente aspecto:</p>
+<p><a href="/img/libreborme/borme_pdf.gif"><img src="/img/libreborme/thumbnails/750x_/borme_pdf.gif" /></a></p>
+<p>Detalles técnicos: para recortar PDFs uso <a href="https://pypi.python.org/pypi/pyPdf/1.13">PyPDF</a> y para convertir los PDFs recortados a texto uso <a href="https://pypi.python.org/pypi/pdfminer/">pdfminer</a>. ¿Por qué dos distintos? Porque cada uno me ha dado mejores resultados en esa tarea concreta.</p>
+<p>Para las otras dos secciones del BORME que sí publican en XML, la idea es usar <a href="https://en.wikipedia.org/wiki/XML_schema">XML Schema</a> para que los parsers sean más flexibles y tolerantes a futuros cambios en la estructura.</p>
+<p>Como anécdota, para pulir el parser me hice un script para comparar los resultados de dos parsers y ver así si los últimos cambios realmente mejoraban o empeoraban el resultado esperado.</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
+<span class="c1"># ./parseandcompare.sh txt2/BORME-A-2015-27-07.pdf-cropped.pdf.1.txt.clean.txt</span>
+
+<span class="nb">echo</span> <span class="nv">$1</span>
+./parserText2CSV4c.py <span class="nv">$1</span>
+
+<span class="nv">csv4</span><span class="o">=</span>csv/<span class="k">$(</span>basename <span class="nv">$1</span><span class="k">)</span>.4c.plain
+
+diff -u0 <span class="nv">$2</span> <span class="nv">$csv4</span><span class="p">|</span>pygmentize -l diff -f html -O full -o file_diff14.html
+
+<span class="nb">echo</span> <span class="s1">&#39;Comparando&#39;</span>
+<span class="nb">echo</span> <span class="nv">$2</span>
+<span class="nb">echo</span> <span class="nv">$csv4</span>
+ls -l <span class="nv">$2</span> <span class="nv">$csv4</span>
+
+chromium-browser ./file_diff14.html <span class="p">&amp;</span>
+</pre></div>
+</td></tr></table>
+
+<p>Esto genera un archivo html con las diferencias así:</p>
+<p><a href="/img/libreborme/parseandcompare1.gif"><img src="/img/libreborme/thumbnails/750x_/parseandcompare1.gif" /></a></p>
+<p>En definitiva, los parsers funcionan, aunque tienen aún fallos y queda pulirlos bien. Tengo muchas ideas que quiero probar para mejorarlos. Más adelante dedicaré una entrada solo para ellos.</p>
+<h1>Datos importados</h1>
+<p>En esta beta he cargado los datos disponibles hasta el 24 de marzo de 2015.</p>
+<p>Algunos datos a modo de estadística:</p>
+<p>Los PDF de la Sección Primera descargados (hasta el 24 de marzo) son en total 1609 archivos que pesan 372MB. Una vez recortados pesan 245MB y pasados a texto y aplicando el filtro de limpieza de caracteres raros, ya se quedan 52MB y finalmente los datos útiles en CSV son 40MB.</p>
+<p>Importar los datos de 2015 en LibreBorme fue <em>«tan sencillo»</em> como ejecutar:</p>
+<div class="highlight"><pre><span></span>cd borme_parser
+./getAllBormeXML.py 20150101
+./getPDFfromXML.py 20150101
+./crop_borme.py pdf
+./parserPDF.py pdfcrop
+./cleanText.py txt
+./parserText2CSV4c.py txt2
+./manage.py importbormecsv borme_parser/csv/*.csv
+</pre></div>
+
+
+<p>Algunos tiempos de cada script, en negrita los más significativos:</p>
+<blockquote>
+<p>Conversión de PDF a texto: <strong>44 minutos</strong>
+Limpieza del texto: 3 segundos
+Generación de los CSV a partir de los textos: 29 segundos
+Importación en Mongo: <strong>más de 8 horas</strong></p>
+</blockquote>
+<p>El proceso de importación de estos 40MB de CSV tardó más de 8 horas, algo que sin saber apenas nada de Mongo me parece excesivo y que tendré que investigar. Lo más lógico sería generar e importar directamente JSON en lugar de CSV, pero el motivo de porqué uso CSV es porque fue lo primero que se me ocurrió cuando aún no sabía que iba a usar MongoDB.</p>
+<p>En total se han incorporado a la base de datos <strong>124168</strong> registros, identificándose <strong>104800</strong> empresas y <strong>34496</strong> personas.</p>
+<p>Sin embargo a día 24 de marzo había <strong>124879</strong> registros, por lo que en 711 <strong>(0,57%)</strong> el parser falló y no consiguió importarlos.</p>
+<p>¡Seguimos!</p>
+        </article></aside><!-- /#featured -->
+                <hr />
+                <h1>Other articles</h1>
+                <hr />
+                    <ol id="posts-list" class="hfeed">
+        <li><article class="hentry">
+                <header>
+                        <h1><a href="../../blog/2015/02/que-es-libreborme/" rel="bookmark" title="Permalink to Qué es LibreBorme">Qué es LibreBorme</a></h1>
+                </header>
+
+                <div class="entry-content">
+<abbr class="published" title="2015-02-25T00:20:00+01:00">
+    {"date": "Wed 25 February 2015",
+</abbr>
+<p> "category": "<a href="../../category/libreborme">LibreBorme</a>", </br>
+ "tags": ["<a href="../../tag/libreborme/">libreborme</a>", "<a href="../../tag/opendata/">opendata</a>", "<a href="../../tag/registro-mercantil/">registro mercantil</a>", "<a href="../../tag/proyecto-de-fin-de-carrera/">proyecto de fin de carrera</a>", "<a href="../../tag/civio/">civio</a>"]}</p>
+</p>
+
+    This post is also available in other languages:
+        <a href="../../que-es-libreborme-en.html">en</a>
+    .
+<!-- /.post-info -->
+                <p>LibreBorme es mi apuesta como Proyecto de Fin de Carrera y estará tutorizado por <a href="http://www.lcc.uma.es/~canal/">Carlos Canal</a> de la Universidad de Málaga
+y <a href="https://twitter.com/dcabo">David Cabo</a> de la <a href="http://www.civio.es/">Fundación Ciudadana Civio</a>.</p>
+<p>El progreso se puede ir viendo en el repositorio de GitHub: <a href="https://github.com/PabloCastellano/libreborme">libreborme</a>, aunque
+ahora mismo el último commit es de octubre …</p>
+                <a class="readmore" href="../../blog/2015/02/que-es-libreborme/">read more</a>
+                </div><!-- /.entry-content -->
+        </article></li>
+            </ol><!-- /#posts-list -->
+<p class="paginator">
+    Page 1 / 1
+</p>
+            </section><!-- /#content -->
+</ol><!-- /#posts-list -->
+</section><!-- /#content -->
+
+        <aside id="sidebar">
+                <div class="widget social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate">RSS Feed</a></li>
+
+                            <li><a target="_blank" href="https://twitter.com/_pablog">Twitter</a></li>
+                            <li><a target="_blank" href="https://github.com/PabloCastellano">GitHub</a></li>
+                        </ul>
+                </div><!-- /.social -->
+                <div class="widget">
+                        <h2>Blogroll</h2>
+                        <ul>
+                            <li><a target="_blank" href="https://guifi.net">Guifi.net</a></li>
+                            <li><a target="_blank" href="https://librebor.me">LibreBorme</a></li>
+                            <li><a target="_blank" href="http://autistici.org">Autistici/Inventati</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="widget">
+                        <h2>Categories</h2>
+                        <ul>
+                           <li ><a href="../../category/android">Android</a></li>
+                           <li ><a href="../../category/development">Development</a></li>
+                           <li ><a href="../../category/documentacion">Documentación</a></li>
+                           <li ><a href="../../category/electronics">Electronics</a></li>
+                           <li ><a href="../../category/free-software">Free software</a></li>
+                           <li ><a href="../../category/gsoc2012">GSoC2012</a></li>
+                           <li ><a href="../../category/guifinet">Guifi.net</a></li>
+                           <li ><a href="../../category/informatica">Informática</a></li>
+                           <li ><a href="../../category/libreborme">LibreBorme</a></li>
+                           <li ><a href="../../category/linux">Linux</a></li>
+                           <li ><a href="../../category/misc">Misc</a></li>
+                           <li ><a href="../../category/politica">Política</a></li>
+                           <li ><a href="../../category/sociedad">Sociedad</a></li>
+                           <li ><a href="../../category/spain">Spain</a></li>
+                           <li ><a href="../../category/viajes">Viajes</a></li>
+                        </ul>
+                </div>
+                <div class="widget">
+                        <h2>Archives</h2>
+                        <ul>
+                            <li><a href="/blog/2015">2015</a></li>
+                            <li><a href="/blog/2012">2012</a></li>
+                            <li><a href="/blog/2011">2011</a></li>
+                            <li><a href="/blog/2010">2010</a></li>
+                            <li><a href="/blog/2009">2009</a></li>
+                        </ul>
+                </div>
+        </aside><!-- /#sidebar -->
+
+        <footer id="footer" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.<br>
+                </address><!-- /#about -->
+
+<!--                <p>The theme is «myidea-cms», a modified version of «notmyidea-cms», which is a modified version of «notmyidea», the default theme.</p> -->
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/by-sa-4.0-88x31.png" /></a><br />This blog is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        </footer><!-- /#footer -->
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.libreborme.net/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+<noscript>
+<img src="https://matomo.libreborme.net/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Matomo Code -->
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>pablog.me - Electronics</title><link>https://pablog.me/</link><description>$ cat &lt;&lt; EOF &gt;&gt; /dev/blog</description><lastBuildDate>Mon, 30 Mar 2009 00:00:00 +0200</lastBuildDate><item><title>Sesión de AVR</title><link>https://pablog.me/blog/2009/03/sesion-de-avr/</link><description>&lt;p&gt;usbtinyisp cheap programmer (22$): &lt;a href="http://www.adafruit.com/index.php?main_page=product_info&amp;amp;cPath=16&amp;amp;products_id=46"&gt;BUY HERE&lt;/a&gt;, &lt;a href="http://www.ladyada.net/make/usbtinyisp/"&gt;DIY
+HERE&lt;/a&gt;&lt;br&gt;
+or&lt;br&gt;
+arduino as avr programmer &lt;a href="http://www.ladyada.net/make/usbtinyisp/"&gt;HERE&lt;/a&gt;&lt;br&gt;
+arduino as avr-isp programmer &lt;a href="http://tinker.it/now/2006/12/04/turn-arduino-into-an-avr-isp-programmer/"&gt;HERE&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Otros sitios interesantes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.evilmadscientist.com/article.php/avrtargetboards"&gt;http://www.evilmadscientist.com/article.php/avrtargetboards&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://pramode.net/articles/lfy/atmega8/pramode.html"&gt;http://pramode.net/articles/lfy/atmega8/pramode.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Polímetros: &lt;a href="http://www.ladyada.net/learn/multimeter/index.html"&gt;http://www.ladyada.net/learn/multimeter/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Soldar: &lt;a href="http://www.ladyada.net/learn/soldering/index.html"&gt;http://www.ladyada …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Mon, 30 Mar 2009 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2009-03-30:/blog/2009/03/sesion-de-avr/</guid><category>AVR</category><category>LCD2USB</category><category>arduino</category></item></channel></rss>
