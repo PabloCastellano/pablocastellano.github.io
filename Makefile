@@ -13,7 +13,7 @@ SSH_PORT=11222
 SSH_USER=pablo
 SSH_TARGET_DIR=/home/pablo/blog
 
-GITHUB_PAGES_BRANCH=gh-pages
+GITHUB_PAGES_BRANCH=master
 
 
 DEBUG ?= 0
@@ -87,7 +87,7 @@ rsync_upload: publish
 
 github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
-	git push origin $(GITHUB_PAGES_BRANCH)
+	git push github $(GITHUB_PAGES_BRANCH)
 
 
 .PHONY: html help clean regenerate serve serve-global devserver stopserver publish ssh_upload rsync_upload github
