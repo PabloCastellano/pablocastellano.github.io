@@ -1,17 +1,17 @@
-Title: Qué es libreBORME
+Title: Qué es LibreBorme
 Date: 2015-02-25 0:20
-Category: LibreBORME
+Category: LibreBorme
 Tags: libreborme, opendata, registro mercantil, proyecto de fin de carrera, civio
 Lang: es
 
-LibreBORME es mi apuesta como Proyecto de Fin de Carrera y estará tutorizado por [Carlos Canal](http://www.lcc.uma.es/~canal/) de la Universidad de Málaga
+LibreBorme es mi apuesta como Proyecto de Fin de Carrera y estará tutorizado por [Carlos Canal](http://www.lcc.uma.es/~canal/) de la Universidad de Málaga
 y [David Cabo](https://twitter.com/dcabo) de la [Fundación Ciudadana Civio](http://www.civio.es/).
 
 El progreso se puede ir viendo en el repositorio de GitHub: [libreborme](https://github.com/PabloCastellano/libreborme), aunque
 ahora mismo el último commit es de octubre, de cuando ni siquiera me habían aprobado el anteproyecto. En los próximos días
 subiré los últimos cambios para que reflejen el estado actual.
 
-He presentado libreBORME a dos concursos de software libre: al [Concurso Universitario de Software Libre](http://www.concursosoftwarelibre.org/1415/)
+He presentado libreBorme a dos concursos de software libre: al [Concurso Universitario de Software Libre](http://www.concursosoftwarelibre.org/1415/)
 y al [Certamen de Proyectos Libres](http://osl.ugr.es/2014/09/26/premios-a-proyectos-libres-de-la-ugr/) que celebra este año la Oficina de Software Libre
 de la Universidad de Granada (UGR). ¡Espero tener una versión funcional y bonita para las fechas de entrega!
 
@@ -68,7 +68,7 @@ forma más cercana a la definición de la OKFN y ofrecerlos a cualquiera (sea pe
 
 # El Boletin Oficial del Registro Mercantil (BORME)
 
-El _Registro Mercantil Central_ (RMC) es el organismo encargado de la publicación del _BORME_, que por sus siglas responde al "Boletín Oficial del Registro Mercantil".  
+El _Registro Mercantil Central_ (RMC) es el organismo encargado de la publicación del _BORME_, que por sus siglas responde al "Boletín Oficial del Registro Mercantil".
 El BORME es «el BOE de las empresas» y en él se publican las nuevas inscripciones, las bajas, y otra serie de actos que las sociedades están obligadas a comunicar.
 
 Desde 2009 se publica en formato electrónico. Es un gran paso, pero el BORME contiene únicamente los cambios, es decir, que si leemos el BORME podemos
@@ -104,7 +104,7 @@ comenzaron a publicar en formato electrónico, para procesarlos y generar una ba
 El procesado automático extraerá la información útil de los PDF, identificando entidades y acciones. Una vez se haya generado esta base de datos, el
 potencial estará en la posibilidad de hacer consultas por campos o incluso semánticas.
 
-Por ejemplo:  
+Por ejemplo:
 ¿Qué otras sociedades administran los administradores de esta otra empresa? ¿Cuántas empresas se crearon/destruyeron en 2011?
 
 Para facilitar las consultas se desarrollará también una plataforma web alojada en la nube usando el framework Django con el lenguaje de programación Python.

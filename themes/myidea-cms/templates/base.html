@@ -33,7 +33,7 @@
                     <li><a href="{{ link }}">{{ title }}</a></li>
                 {% endfor %}
                 {% if DISPLAY_PAGES_ON_MENU != False %}
-                {% for p in PAGES %}
+                {% for p in pages %}
                     <li {% if p == page %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
                 {% endfor %}
                 {% endif %}
@@ -60,7 +60,7 @@
                         {% endif %}
 
                         {% for name, link in SOCIAL %}
-                            <li><a href="{{ link }}">{{ name }}</a></li>
+                            <li><a target="_blank" href="{{ link }}">{{ name }}</a></li>
                         {% endfor %}
                         </ul>
                 </div><!-- /.social -->
@@ -70,7 +70,7 @@
                         <h2>Blogroll</h2>
                         <ul>
                         {% for name, link in LINKS %}
-                            <li><a href="{{ link }}">{{ name }}</a></li>
+                            <li><a target="_blank" href="{{ link }}">{{ name }}</a></li>
                         {% endfor %}
                         </ul>
                 </div><!-- /.blogroll -->

@@ -1,19 +1,19 @@
-Title: What is libreBORME
+Title: What is LibreBorme
 Date: 2015-02-25 0:20
-Category: LibreBORME
+Category: LibreBorme
 Tags: libreborme, opendata, registro mercantil, proyecto de fin de carrera, civio
 Slug: que-es-libreborme
 Lang: en
 Translation: True
 
-LibreBORME is my dissertation and it will be mentored by [Carlos Canal](http://www.lcc.uma.es/~canal/) from Universidad de Málaga
+LibreBorme is my dissertation and it will be mentored by [Carlos Canal](http://www.lcc.uma.es/~canal/) from Universidad de Málaga
 and [David Cabo](https://twitter.com/dcabo) from [Fundación Ciudadana Civio](http://www.civio.es/).
 
 Progress can be seen in the GitHub repository: [libreborme](https://github.com/PabloCastellano/libreborme), although
 right now the last commit is from October, when my draft hadn't even been approved. In the coming days I will upload the latest changes
 to reflect the current state.
 
-I have submitted libreBORME to two different competitions about Free Software, that is, [Concurso Universitario de Software Libre](http://www.concursosoftwarelibre.org/1415/)
+I have submitted libreBorme to two different competitions about Free Software, that is, [Concurso Universitario de Software Libre](http://www.concursosoftwarelibre.org/1415/)
 and [Certamen de Proyectos Libres](http://osl.ugr.es/2014/09/26/premios-a-proyectos-libres-de-la-ugr/) which is organized this year by
 the Free Software Office of Universidad de Granada (UGR). I expect to have a functional and pretty version for the deadlines!
 
@@ -69,7 +69,7 @@ way closer to the OKFN definition and offer them to everyone (be it a human or a
 
 # Boletín Oficial del Registro Mercantil (BORME)
 
-_Registro Mercantil Central_ (RMC) is the organization in charge of publishing _BORME_, which in Spanish stands for "Mercantile Register Official Bulletin".  
+_Registro Mercantil Central_ (RMC) is the organization in charge of publishing _BORME_, which in Spanish stands for "Mercantile Register Official Bulletin".
 BORME publishes newly created societies, societies that have broken up, and some other data the companies must communicate.
 
 Since 2009 it is also published in electronic format. This is a big step, but BORME only contain changes, that is, if we read BORME we can know
@@ -105,7 +105,7 @@ publish BORME in electronic format, in order to process them and build its own d
 The automatic processing will extract every useful information of the PDF files, by identifying entities and actions. Once the database is generated,
 the potential will be in the ability of performing queries by fields or even semantic queries.
 
-For example:  
+For example:
 What other societies do administer the administrators of this company? How many companies closed in 2011?
 
 In order to ease the queries it will be developed additionally a web platform hosted in the cloud using the Django framework with the programming language Python.

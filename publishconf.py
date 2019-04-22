@@ -10,15 +10,21 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
+# If your site is available via HTTPS, make sure SITEURL begins with https://
 SITEURL = 'https://pablog.me'
 RELATIVE_URLS = True
+
+# FEED_ALL_ATOM = 'feeds/all.atom.xml'
+# CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
 MENUITEMS = (('Home', SITEURL),)
 
-# Following items are often useful when publishing
-PIWIK_URL = 'piwik.pablog.me'
-PIWIK_SITE_ID = '2'
+# MATOMO_URL: Add schema and trailing slash
+MATOMO_URL = 'https://matomo.libreborme.net/'
+MATOMO_SITE_ID = '2'
 
+# Following items are often useful when publishing
 DISQUS_SITENAME = 'pablogme'
+#GOOGLE_ANALYTICS = ""
