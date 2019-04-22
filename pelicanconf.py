@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 
 # Con la ayuda de http://moparx.com/2013/03/migrating-to-pelican-from-drupal/
 
-AUTHOR = u'Pablo Castellano'
-SITENAME = u'pablog.me'
+AUTHOR = 'Pablo Castellano'
+SITENAME = 'pablog.me'
 SITESUBTITLE = u'$ cat << EOF >> /dev/blog'
 SITEURL = 'http://127.0.0.1:8000'
 
@@ -16,15 +16,26 @@ STATIC_PATHS.extend(['extra/robots.txt', 'extra/htaccess.txt', 'extra/favicon.ic
 
 TIMEZONE = 'Europe/Madrid'
 
-DEFAULT_LANG = u'es'
+DEFAULT_LANG = 'es'
 
 DEFAULT_CATEGORY = 'Misc'
 DISPLAY_CATEGORIES_ON_MENU = False
 
+# Atom and RSS feeds
+CATEGORY_FEED_ATOM = ''
+CATEGORY_FEED_RSS = '{slug}.rss.xml'
+FEED_ALL_ATOM = None
+FEED_ALL_RSS = 'rss.xml'
+FEED_MAX_ITEMS = 15
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+
 # Blogroll
-LINKS = (('BitValley', 'http://bitvalley.cc'),
-         ('Marsupi', 'http://marsupi.org'),
-         ('LibreBorme', 'https://libreborme.net'),
+LINKS = (('Guifi.net', 'https://guifi.net'),
+         # ('BitValley', 'http://bitvalley.cc'),
+         # ('Marsupi', 'http://marsupi.org'),
+         ('LibreBorme', 'https://librebor.me'),
          ('Autistici/Inventati', 'http://autistici.org'),)
 
 # Social widget
@@ -46,13 +57,12 @@ EXTRA_PATH_METADATA = {
 
 MENUITEMS = (('Home', SITEURL),)
 
+# Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-#MD_EXTENSIONS = ['codehilite','extra']
-#THEME = 'themes/moparx'
-
-#PLUGINS = ['package.myplugin',]
-# disqus, sitemap/seo
+# ----------------------------------------------------------------------
+# PLUGINS
+# ----------------------------------------------------------------------
 PLUGINS = ['advthumbnailer']
 
 # ----------------------------------------------------------------------
@@ -77,36 +87,18 @@ TAG_SAVE_AS = "tag/{slug}/index.html"
 # Generate yearly archive
 YEAR_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/index.html'
 
-# Atom and RSS feeds
-CATEGORY_FEED_ATOM = ''
-CATEGORY_FEED_RSS = '%s.rss.xml'
-#FEED_ALL_ATOM = 'atom.xml'
-FEED_ALL_ATOM = None
-FEED_ALL_RSS = 'rss.xml'
-FEED_MAX_ITEMS = 15
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-
-
 # default value is ('index', 'tags', 'categories', 'archives')
 # so we just add a 'sitemap'
 DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives', 'sitemap')
 
 SITEMAP_SAVE_AS = 'sitemap.xml'
 
-EXTRA_TEMPLATES_PATHS = ['templates']
+# EXTRA_TEMPLATES_PATHS = ['templates']
+THEME_TEMPLATES_OVERRIDES = ['templates']
 
 # Specify theme
-#THEME = "themes/myidea"
-#THEME = "themes/" + "notmyidea-cms"
-THEME = "themes/" + "myidea-cms"
+THEME = "themes/myidea-cms"
 
-#THEME = "themes/notmyidea"
-
-# ----------------------------------------------------------------------
-# PLUGINS
-# ----------------------------------------------------------------------
 
 SITEMAP = {
     'format': 'xml',
