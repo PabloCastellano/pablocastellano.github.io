@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>pablog.me - Linux</title><link>https://pablog.me/</link><description>$ cat &lt;&lt; EOF &gt;&gt; /dev/blog</description><lastBuildDate>Fri, 06 Aug 2010 00:00:00 +0200</lastBuildDate><item><title>TP-LINK TL-WN722N (o cualquier ath9k_htc) en Ubuntu 10.04</title><link>https://pablog.me/blog/2010/08/tp-link-tl-wn722n-o-cualquier-ath9k_htc-en-ubuntu-1004/</link><description>&lt;p&gt;&lt;img alt="" src="/img/tlwn722g200x150.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;El adaptador wifi usb &lt;a href="http://www.tp-link.com/products/productDetails.asp?pmodel=TL-WN722N"&gt;TP-LINK TL-WN722N&lt;/a&gt; usa un chipset llamado AR9271
+y requiere un nuevo controlador de Atheros llamado &lt;a href="http://linuxwireless.org/en/users/Drivers/ath9k_htc"&gt;ath9k_htc&lt;/a&gt;. Dicho controlador ha
+sido incluído en la reciente versión del kernel 2.6.35. Si tenemos un adaptador que trabaje con este módulo podemos hacer que funcione en
+Ubuntu con …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Fri, 06 Aug 2010 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2010-08-06:/blog/2010/08/tp-link-tl-wn722n-o-cualquier-ath9k_htc-en-ubuntu-1004/</guid><category>ubuntu</category><category>howto</category></item><item><title>smartcard support in gnome-settings-daemon 2.31.1</title><link>https://pablog.me/blog/2010/05/smartcard-support-in-gnome-settings-daemon-2311/</link><description>&lt;p&gt;I have just discovered that Ray Strode, a Red Hat employee, &lt;a href="http://git.gnome.org/browse/gnome-settings-daemon/commit/?id=6c87af2623f611de55730fe856c8a5abd3991277"&gt;has added smartcard support to
+GSD&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This plugin listens for smartcard insertion and removal events and then locks the screen or forces a log out (depending on gconf) when the
+card used for login is removed.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In a post …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Tue, 11 May 2010 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2010-05-11:/blog/2010/05/smartcard-support-in-gnome-settings-daemon-2311/</guid><category>smartcard</category></item><item><title>Email to Realtek about issues in their sound driver</title><link>https://pablog.me/blog/2010/04/email-to-realtek-about-issues-in-their-sound-driver/</link><description>&lt;p&gt;This is the email I sent to Realtek related email addresses on December 3rd 2009. I sent it to: &lt;em&gt;kailang@realtek.com.tw&lt;/em&gt;, &lt;em&gt;shou@realtek.com.tw&lt;/em&gt;,
+and from their Contact section in their webpage. I hope that posting it here in public, they feel a bit more ashamed. I …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Mon, 12 Apr 2010 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2010-04-12:/blog/2010/04/email-to-realtek-about-issues-in-their-sound-driver/</guid><category>realtek</category><category>driver</category><category>sound</category></item><item><title>Skype 2.1 Beta 2 for Linux</title><link>https://pablog.me/blog/2010/01/skype-21-beta-2-for-linux/</link><description>&lt;p&gt;As Skype surprised the open source community two months ago, &lt;a href="http://share.skype.com/sites/linux/2009/11/skype_open_source.html"&gt;recognizing that they were working in a linux open source version of their
+client&lt;/a&gt;, today I found that on 20th January they released a new version
+with &lt;a href="https://developer.skype.com/LinuxSkype"&gt;a lot of bugfixes&lt;/a&gt; and new features like desktop sharing, support for UI …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Mon, 25 Jan 2010 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:pablog.me,2010-01-25:/blog/2010/01/skype-21-beta-2-for-linux/</guid><category>skype</category></item><item><title>Installing a git server in a Sheevaplug</title><link>https://pablog.me/blog/2010/01/installing-a-git-server-in-a-sheevaplug/</link><description>&lt;p&gt;This post should have come before &lt;a href="http://pablogubuntu.blogspot.com/2010/01/adding-new-git-repository.html"&gt;this one...&lt;/a&gt;&lt;br&gt;
+Anyways, here it is and that's the important.  &lt;/p&gt;
+&lt;p&gt;The day before I started writing this post, I received my &lt;a href="http://en.wikipedia.org/wiki/SheevaPlug"&gt;Sheeva plug computer&lt;/a&gt; (the dream of
+every geek) and the next evening I started to set some things up like wordpress running on …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Wed, 20 Jan 2010 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:pablog.me,2010-01-20:/blog/2010/01/installing-a-git-server-in-a-sheevaplug/</guid><category>sheevaplug</category><category>git</category></item><item><title>rt3070</title><link>https://pablog.me/blog/2010/01/rt3070/</link><description>&lt;p&gt;&lt;img alt="" src="http://www.smc.com/images/products/400/SMCWUSBS_N3.jpg"&gt; Some days ago I bought a &lt;a href="http://www.smc.com/index.cfm?event=viewProduct&amp;amp;cid=5&amp;amp;scid=117&amp;amp;localeCode=EN_GBR&amp;amp;pid=1699"&gt;SMCWUSBS-N3 EZ Connect™ N Wireless USB 2.0
+Adapter.&lt;/a&gt; The reason is that I have installed
+Ubuntu to my parents and the old &lt;a href="http://descargardrivers.es/photos/Z/y/x/ZyxelZyAIR-B-220-1-pic.jpg"&gt;ZyXEL ZyAIR B-220&lt;/a&gt; wasn't working with
+network-manager because of &lt;a href="https://bugzilla.gnome.org/show_bug.cgi?id=605880"&gt;this bug&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I decided to buy this model in particular first because …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Wed, 20 Jan 2010 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:pablog.me,2010-01-20:/blog/2010/01/rt3070/</guid><category>howto</category><category>realtek</category><category>rt3070</category></item><item><title>Adding a new git repository</title><link>https://pablog.me/blog/2010/01/adding-a-new-git-repository/</link><description>&lt;p&gt;Some time ago I set up a git server (gitosis) in my desktop computer. I use to commit in my laptop and then push the changes to my desktop
+and I really like it.&lt;/p&gt;
+&lt;p&gt;Today to add a new repository I did:&lt;br&gt;
+In my desktop:  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;cd /tmp&lt;br&gt;
+git clone gitosis …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Mon, 04 Jan 2010 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:pablog.me,2010-01-04:/blog/2010/01/adding-a-new-git-repository/</guid><category>LPR</category><category>howto</category><category>git</category></item><item><title>HP devuelve 520$ a un usuario</title><link>https://pablog.me/blog/2009/03/hp-devuelve-520-a-un-usuario/</link><description>&lt;p&gt;La historia se vuelve a repetir.&lt;/p&gt;
+&lt;p&gt;A &lt;a href="https://launchpad.net/~jonathan.ernst"&gt;Jonathan Ernst&lt;/a&gt;, un informático suizo miembro de la comunidad de
+Ubuntu, le han devuelto 520 dólares porque no estaba de acuerdo con las licencias del software que venía instalado en su equipo. En su blog
+cuenta que no ha sido nada fácil y …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Wed, 18 Mar 2009 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:pablog.me,2009-03-18:/blog/2009/03/hp-devuelve-520-a-un-usuario/</guid><category>licencia</category><category>windows</category><category>HP</category></item><item><title>Revertir rdiff-backup -chars-to-quote</title><link>https://pablog.me/blog/2008/11/revertir-rdiff-backup-chars-to-quote/</link><description>&lt;blockquote&gt;
+&lt;p&gt;IFS=" " for i in $(find|grep '\;'); do mv -i -v $i $(echo $i|sed 's/\;065/A/g' | sed 's/\;066/B/g' | sed 's/\;067/C/g' | sed
+'s/\;068/D/g' | sed 's/\;069/E/g' | sed 's/\;070/F/g' | sed 's/\;071/G/g' | sed 's …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Sun, 16 Nov 2008 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:pablog.me,2008-11-16:/blog/2008/11/revertir-rdiff-backup-chars-to-quote/</guid><category>rdiff-backup</category><category>backup</category></item><item><title>Primer parche</title><link>https://pablog.me/blog/2008/11/primer-parche/</link><description>&lt;p&gt;Realmente no es el primero, pero lo considero 100% mío :-).&lt;br&gt;
+&lt;strong&gt;default mmap_min_addr breaks dosemu&lt;/strong&gt;&lt;br&gt;
+&lt;a href="https://bugs.launchpad.net/ubuntu/+source/dosemu/+bug/216398"&gt;https://bugs.launchpad.net/ubuntu/+source/dosemu/+bug/216398&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;En este parche me tuve que enfrentar a varios desconocidos.&lt;br&gt;
+Hablaremos de debian/{install,rules}, patchs y diffs entre otros.&lt;/p&gt;
+&lt;p&gt;Bajar el código fuente e instalar sus …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Wed, 12 Nov 2008 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:pablog.me,2008-11-12:/blog/2008/11/primer-parche/</guid><category>dosemu</category><category>ubuntu</category></item><item><title>La gran maravilla de rdiff-backup</title><link>https://pablog.me/blog/2008/11/la-gran-maravilla-de-rdiff-backup/</link><description>&lt;p&gt;Nadie hace copias de seguridad de sus datos hasta que pasa lo que pasa.&lt;/p&gt;
+&lt;p&gt;Un conocido me habló de backupninja (desarrollado por los chicos
+italianos de &lt;a href="http://autistici.org"&gt;autistici.org&lt;/a&gt;), me lo instalé e hice un par de backups de prueba (son incrementales :)). El plan era
+hacer backup de mi home e …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Wed, 05 Nov 2008 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:pablog.me,2008-11-05:/blog/2008/11/la-gran-maravilla-de-rdiff-backup/</guid><category>rdiff-backup</category><category>backup</category></item><item><title>ipodlinux oddyssey</title><link>https://pablog.me/blog/2008/04/ipodlinux-oddyssey/</link><description>&lt;p&gt;Version simplificada de mi experiencia instalando linux en un iPod.&lt;/p&gt;
+&lt;p&gt;Descargar y descomprimir:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;wget http://www.felixbruns.de/iPod/iPodLinux/svnbuilds/ipodlinux-installer-2.31l-r2394.tar.gz&lt;br&gt;
+./installer&lt;br&gt;
+segmentation fault&lt;br&gt;
+./installer&lt;br&gt;
+finaliza&lt;br&gt;
+podzilla: not found&lt;br&gt;
+instalar podzilla2&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;no podemos reproducir musica&lt;/p&gt;
+&lt;p&gt;instalar mpd y mpdc&lt;/p&gt;
+&lt;p&gt;da error, se cuelga&lt;/p&gt;
+&lt;p&gt;fsck muchas veces …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Fri, 25 Apr 2008 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2008-04-25:/blog/2008/04/ipodlinux-oddyssey/</guid><category>iPod</category><category>ipodlinux</category></item><item><title>Ubuntu 8.04 en tx2000 paso a paso</title><link>https://pablog.me/blog/2007/11/ubuntu-804-en-tx2000-paso-a-paso/</link><description>&lt;p&gt;Desde hace poco mi PC de sobremesa tiene un gran competidor.&lt;/p&gt;
+&lt;p&gt;Gracias a la beca de la Universidad Digital, ahora tengo un &lt;a href="http://h10010.www1.hp.com/wwpc/es/es/ho/WF06b/21955-186135-315641-315641-315641-81143217-81533509.html"&gt;HP Pavilion TX2000es&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Es una maravilla: tiene una excelente relación calidad precio (no como los macs) aunque venga con Windows Vista. Por ello explico aquí paso a paso …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Fri, 30 Nov 2007 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:pablog.me,2007-11-30:/blog/2007/11/ubuntu-804-en-tx2000-paso-a-paso/</guid><category>ubuntu</category><category>hp</category><category>tx2000</category></item><item><title>Scripts starcraft</title><link>https://pablog.me/blog/2007/11/scripts-starcraft/</link><description>&lt;p&gt;Dejo aquí un par de scripts, útiles si juegas a Starcraft desde linux.&lt;/p&gt;
+&lt;p&gt;Con este primero te puedes desconectar de la partida sin que te cuente como partida perdida.  &lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/bin/sh&lt;/span&gt;
+&lt;span class="c1"&gt;#Disconnect! scdisc.sh&lt;/span&gt;
+&lt;span class="c1"&gt;#by pablog (25-Mayo-2007)&lt;/span&gt;
+iptables -A INPUT …&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Thu, 08 Nov 2007 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:pablog.me,2007-11-08:/blog/2007/11/scripts-starcraft/</guid><category>Starcraft</category></item><item><title>Downgrade a feisty</title><link>https://pablog.me/blog/2007/08/downgrade-a-feisty/</link><description>&lt;p&gt;Te levantas un día con &lt;em&gt;versionitis&lt;/em&gt;, decides actualizar a gutsy. Media hora bajando paquetes y otra media instalándolos... y ahora firefox
+&lt;a href="https://bugs.launchpad.net/ubuntu/+source/hunspell/+bug/111940"&gt;peta&lt;/a&gt;. Puedes esperarte hasta que lo arreglen, arreglarlo tú mismo [...], o
+volverte a feisty. ¿Que cómo?:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Reemplaza en tu /etc/apt/sources.list todos los &lt;em&gt;gutsy&lt;/em&gt; por &lt;em&gt;feisty&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Crea …&lt;/li&gt;&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Tue, 07 Aug 2007 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2007-08-07:/blog/2007/08/downgrade-a-feisty/</guid><category>Ubuntu</category></item></channel></rss>

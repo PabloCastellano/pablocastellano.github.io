@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Qué es LibreBorme</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://pablog.me/theme/css/main.css" type="text/css" />
+        <link href="https://pablog.me/" type="application/atom+xml" rel="alternate" title="pablog.me ATOM Feed" />
+        <link href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate" title="pablog.me RSS Feed" />
+        <!-- Image modal -->
+        <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://pablog.me/css/ie.css"/>
+                <script src="https://pablog.me/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://pablog.me/css/ie6.css"/><![endif]-->
+
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="https://pablog.me/blog/2015/02/que-es-libreborme/" />
+		<meta property="og:title" content="Qué es LibreBorme" />
+		<meta property="og:description" content="LibreBorme es mi apuesta como Proyecto de Fin de Carrera y estará tutorizado por Carlos Canal de la Universidad de Málaga y David Cabo de la Fundación Ciudadana Civio. El progreso se puede ir..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://pablog.me/index.html">pablog.me  <strong>$ cat << EOF >> /dev/blog</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://pablog.me">Home</a></li>
+                    <li ><a href="https://pablog.me/sobre-mi">Sobre mí</a></li>
+                <!-- <li><a href="https://pablog.me/">Archives</a></li> -->
+                </ul></nav>
+        </header><!-- /#banner -->
+
+<section id="content" class="body">
+<article>
+        <header> <h1 class="entry-title"><a href="https://pablog.me/blog/2015/02/que-es-libreborme/"
+        rel="bookmark" title="Permalink to Qué es LibreBorme">Qué es LibreBorme</a></h1>
+<abbr class="published" title="2015-02-25T00:20:00+01:00">
+    {"date": "Wed 25 February 2015",
+</abbr>
+<p> "category": "<a href="https://pablog.me/category/libreborme">LibreBorme</a>", </br>
+ "tags": ["<a href="https://pablog.me/tag/libreborme/">libreborme</a>", "<a href="https://pablog.me/tag/opendata/">opendata</a>", "<a href="https://pablog.me/tag/registro-mercantil/">registro mercantil</a>", "<a href="https://pablog.me/tag/proyecto-de-fin-de-carrera/">proyecto de fin de carrera</a>", "<a href="https://pablog.me/tag/civio/">civio</a>"]}</p>
+</p>
+
+    This post is also available in other languages:
+        <a href="https://pablog.me/que-es-libreborme-en.html">en</a>
+    .
+<!-- /.post-info -->
+        </header>
+        <div class="entry-content">
+        <p>LibreBorme es mi apuesta como Proyecto de Fin de Carrera y estará tutorizado por <a href="http://www.lcc.uma.es/~canal/">Carlos Canal</a> de la Universidad de Málaga
+y <a href="https://twitter.com/dcabo">David Cabo</a> de la <a href="http://www.civio.es/">Fundación Ciudadana Civio</a>.</p>
+<p>El progreso se puede ir viendo en el repositorio de GitHub: <a href="https://github.com/PabloCastellano/libreborme">libreborme</a>, aunque
+ahora mismo el último commit es de octubre, de cuando ni siquiera me habían aprobado el anteproyecto. En los próximos días
+subiré los últimos cambios para que reflejen el estado actual.</p>
+<p>He presentado libreBorme a dos concursos de software libre: al <a href="http://www.concursosoftwarelibre.org/1415/">Concurso Universitario de Software Libre</a>
+y al <a href="http://osl.ugr.es/2014/09/26/premios-a-proyectos-libres-de-la-ugr/">Certamen de Proyectos Libres</a> que celebra este año la Oficina de Software Libre
+de la Universidad de Granada (UGR). ¡Espero tener una versión funcional y bonita para las fechas de entrega!</p>
+<p>Y ahora sí, para saber de qué va, os dejo a continuación con el texto del anteproyecto que me fue aprobado el pasado mes de noviembre.</p>
+<h1>Plataforma web para la consulta y el análisis del Boletín Oficial del Registro Mercantil</h1>
+<h1>Motivación</h1>
+<p>Durante los últimos años la transparencia es un tema en auge en el ámbito político-institucional. Sin embargo, el diablo está en los detalles y
+muchas veces la palabra "transparencia" se usa de forma viciada por ser un tema que está de moda y suena bien, independientemente de si la institución
+en cuestión es transparente o no. O quizás simplemente la definición de este término que manejan unas y otras partes es distinta.</p>
+<p>Otro problema muy común es confundir "datos abiertos" con "transparencia", cuando la realidad es que lo primero puede usarse como una herramienta para
+conseguir lo segundo, pero no necesariamente: publicar los horarios de autobuses como datos abiertos no mejora la transparencia (aunque tenga otros beneficios).<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<p>En el momento en el que se redacta este documento hace menos de un año que España ha aprobado su Ley de Transparencia<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. Hasta entonces era
+el único país europeo con más de un millón de habitantes sin una.</p>
+<p>La aprobación fue sin duda una noticia importante y esperada. Sin embargo, ya durante el periodo de debate empezaron a oírse voces desacordes con esta ley.</p>
+<p>La <em>Open Knowledge Foundation</em><sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>, una de las organizaciones internacionales sin ánimo de lucro más importantes y referentes por su trayectoria en la
+lucha por la transparencia, proporciona en su «<em>Manual de Datos Abiertos</em>» una definición, con una serie de condiciones que un conjunto de datos
+(o en inglés, <em>dataset</em>) debe cumplir para poder ser considerado "Datos Abiertos".<sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup><sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> La definición es extensa pero se puede resumir en:</p>
+<ul>
+<li><strong>Disponibilidad y acceso</strong>. La información debe estar disponible como un todo y a un costo razonable de reproducción, preferiblemente descargándola
+de Internet. Además, debe estar disponible en una forma conveniente y modificable.</li>
+<li><strong>Reutilización y redistribución</strong>. Los datos deben ser proporcionados bajo términos que permitan reutilizarlos y redistribuirlos, e incluso
+integrarlos con otros datos.</li>
+<li><strong>Participación universal</strong>. Todos deben poder utilizar, reutilizar y redistribuir la información. No debe haber discriminación alguna en términos
+de esfuerzo, personas o grupos. No están permitidas las restricciones "no comerciales" que prevendrían el uso comercial de los datos ni las
+restricciones de uso para ciertos propósitos (por ejemplo sólo para educación).</li>
+</ul>
+<p>En la actualidad no hay una apuesta seria por ello y son pocas las instituciones españolas que cumplen esta definición cuando hablan de datos abiertos.</p>
+<p>Sin embargo, en los últimos años ha quedado demostrado que una de las fortalezas más claras de nuestro país es que a pesar del descontento generalizado
+en la política institucional, en la sociedad civil surgen grupos que se organizan y especializan para trabajar de forma proactiva y cambiar las cosas.</p>
+<p>En este caso, la sociedad civil lleva tiempo organizándose para exigir transparencia de verdad, poniendo como ejemplo la que existe en países de nuestro
+entorno que se consideran referentes en cuestión de datos abiertos como Reino Unido, y está consiguiendo acelerar el proceso de la transparencia en las
+instituciones haciendo el trabajo que ellas no hacen, creando conjuntos de datos abiertos de verdad.</p>
+<p>Algunos ejemplos de estas organizaciones son <em>OpenKratio</em><sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>, <em>Fundación Ciudadana Civio</em><sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>, y <em>Qué Hacen Los Diputados</em><sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup> (la primera, con sede
+en Sevilla y las dos últimas con sede en Madrid). A nivel internacional nos encontramos, entre otras, con <em>Sunlight Foundation</em><sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup>, y <em>Open Knowledge
+Foundation</em> (OKFN), ya citada anteriormente.</p>
+<p>Su programa de actividades es público y en él encontramos reuniones con técnicos de gobiernos regionales para ofrecer asesoramiento y colaboración de
+forma altruista; organización de conferencias sobre transparencia y datos abiertos en universidades con ponentes internacionales que explican la perspectiva
+desde otros países; colaboración con administraciones públicas para liberar y visualizar datos; organización y participación en concursos y <em>hackatones</em>
+para desarrollar nuevas APIs, aplicaciones de móvil, etc.</p>
+<p>En este contexto se plantea el siguiente proyecto con el objetivo de abordar los datos públicos del Registro Mercantil de España para <em>abrirlos</em> de una
+forma más cercana a la definición de la OKFN y ofrecerlos a cualquiera (sea persona o robot de Internet) que quiera hacer uso de ellos.</p>
+<h1>El Boletin Oficial del Registro Mercantil (BORME)</h1>
+<p>El <em>Registro Mercantil Central</em> (RMC) es el organismo encargado de la publicación del <em>BORME</em>, que por sus siglas responde al "Boletín Oficial del Registro Mercantil".
+El BORME es «el BOE de las empresas» y en él se publican las nuevas inscripciones, las bajas, y otra serie de actos que las sociedades están obligadas a comunicar.</p>
+<p>Desde 2009 se publica en formato electrónico. Es un gran paso, pero el BORME contiene únicamente los cambios, es decir, que si leemos el BORME podemos
+conocer que una sociedad se ha disuelto hoy, pero nos será muy difícil saber cuándo se constituyó, ya que la web no incorpora un buscador que nos
+permita encontrarlo. Además, si la fecha de constitución fue anterior a 2009, sería aún más difícil, ya que no existe el documento en formato electrónico
+y tendríamos que solicitar al RMC una fotocopia del documento en papel, indicándoles previamente el número de BORME, que también necesitaremos conocer.
+Sin embargo esos datos están ya informatizados en algún sitio. Para acceder al historial de una empresa podemos acudir al servicio ofrecido del
+<em>Colegio de Registradores de la Propiedad y Mercantiles de España</em> (o simplemente <em>Colegio de Registradores</em>) y pagar en concepto de honorarios por él,
+en función de las consultas que queramos realizar.</p>
+<p>Este procedimiento no cumple la definición de datos abiertos de la OKFN y además es contradictorio y contraproducente por los siguientes motivos:</p>
+<ul>
+<li>No tiene sentido que sea un servicio cerrado, ya que la función primordial del Registro Mercantil es ser un instrumento de publicidad (hacer público)
+de las empresas.<sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup></li>
+<li>El simple hecho de cobrar por él dificulta y contradice su propia función de publicidad.</li>
+<li>Es una forma de funcionamiento obsoleto que tendría que haber sido renovada hace más de una década. Entonces se precisaba pagar a una persona
+encargada de buscar en miles de folios de cientos de tomos la información solicitada, pero hoy vivimos en la Sociedad de la Información, donde ya
+existe Internet, donde esa información la tenemos en algún sitio ya informatizada y el coste de la consulta de estos datos tiene un coste real cercano a 0€.</li>
+</ul>
+<p>Sin embargo, sí que sigue teniendo sentido que cobren por los servicios de expedición de certificados (otro de los servicios ofrecidos por el Colegio de Registradores) ya que en él precisan de un Registrador Mercantil que certifique los datos.</p>
+<p>Desafortunadamente por otra parte,el buscador del BORME solo está activo para la sección II, que es en la que se publican "Anuncios y avisos legales",
+cuando la realmente interesante es la sección I, donde se publican los actos de inscripción y otros actos relativos a las empresas. Por último, a
+esto le sumamos que mientras que el BOE ya se publica en los formatos PDF y XML, el BORME se continua publicando únicamente en PDF (la sección II sí
+que se publica en XML) y que antes de comenzar este proyecto el autor contactó con el webmaster del BORME, quien manifestó la voluntad de que esto no
+iba a cambiar al menos a corto plazo <em>«por el convenio y legislación actual del Registro Mercantil»</em>.</p>
+<h1>Objetivos y alcance del proyecto</h1>
+<p>El objetivo del presente PFC es crear una plataforma que de forma automatizada descargue los BORME desde el 2 de enero de 2009, que fue el día que se
+comenzaron a publicar en formato electrónico, para procesarlos y generar una base de datos propia con los datos que estos contienen.</p>
+<p>El procesado automático extraerá la información útil de los PDF, identificando entidades y acciones. Una vez se haya generado esta base de datos, el
+potencial estará en la posibilidad de hacer consultas por campos o incluso semánticas.</p>
+<p>Por ejemplo:
+¿Qué otras sociedades administran los administradores de esta otra empresa? ¿Cuántas empresas se crearon/destruyeron en 2011?</p>
+<p>Para facilitar las consultas se desarrollará también una plataforma web alojada en la nube usando el framework Django con el lenguaje de programación Python.</p>
+<p>La plataforma será compatible con OpenStack y Cloud Foundry, soluciones de computación de la nube IaaS y PaaS respectivamente. Se han escogido ambas
+soluciones de entre todas las que coexisten actualmente por ser software libre y por las organizaciones que las respaldan como "estándar de la nube".</p>
+<p>Otro objetivo es que el servicio siga online tras la finalización del proyecto. Para ello el autor contactó con la Fundación Ciudadana Civio, y ésta
+mostró su conformidad en mantener y explotar el servicio de forma conjunta. El sistema será autónomo y quedará programado para buscar diariamente los
+nuevos boletines publicados e incorporar esta información a la base de datos. De este modo las consultas se podrán realizar con la última información
+disponible hasta el momento.</p>
+<p>El código de la plataforma se publicará con una licencia de software libre, ya que la idea es que el proyecto se reutilice y se cree comunidad con él.</p>
+<p>Por último se facilitarán a OpenCorporateslos datos recopilados. OpenCorporates es una iniciativa que pretende liberar datos de sociedades a nivel mundial
+y "asignar una URL a cada empresa del mundo", ya que los datos sobre compañías y corporaciones españolas con los que cuenta actualmente son muy pobres
+en comparación con los de otros países.<sup id="fnref:11"><a class="footnote-ref" href="#fn:11">11</a></sup><sup id="fnref:12"><a class="footnote-ref" href="#fn:12">12</a></sup><sup id="fnref:13"><a class="footnote-ref" href="#fn:13">13</a></sup></p>
+<h1>Referencias</h1>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The New Ambiguity of "Open Government", 2012: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2012489&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="http://www.20minutos.es/noticia/1991399/0/ley-de-transparencia/actitudes-politicas/congreso/">http://www.20minutos.es/noticia/1991399/0/ley-de-transparencia/actitudes-politicas/congreso/</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://okfn.org/">https://okfn.org/</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="http://opendatahandbook.org/en/what-is-open-data/">http://opendatahandbook.org/en/what-is-open-data/</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Definición completa de "Abierto": <a href="http://opendefinition.org/od/">http://opendefinition.org/od/</a>&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p><a href="http://openkratio.org/">http://openkratio.org/</a>&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p><a href="http://www.civio.es/">http://www.civio.es/</a>&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p><a href="http://quehacenlosdiputados.net/">http://quehacenlosdiputados.net/</a>&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:9">
+<p><a href="http://sunlightfoundation.com/">http://sunlightfoundation.com/</a>&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+<li id="fn:10">
+<p><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197983369/Estructura_P/1215198328530/Detalle.html">http://www.mjusticia.gob.es/cs/Satellite/es/1215197983369/Estructura_P/1215198328530/Detalle.html</a>&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+</li>
+<li id="fn:11">
+<p><a href="http://registries.opencorporates.com/jurisdiction/es">http://registries.opencorporates.com/jurisdiction/es</a>&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 11 in the text">&#8617;</a></p>
+</li>
+<li id="fn:12">
+<p>Zara España SA: <a href="https://opencorporates.com/companies/es/15022510">https://opencorporates.com/companies/es/15022510</a>&#160;<a class="footnote-backref" href="#fnref:12" title="Jump back to footnote 12 in the text">&#8617;</a></p>
+</li>
+<li id="fn:13">
+<p>Google Inc.: <a href="https://opencorporates.com/companies/us_ca/C2474131">https://opencorporates.com/companies/us_ca/C2474131</a>&#160;<a class="footnote-backref" href="#fnref:13" title="Jump back to footnote 13 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+        </div><!-- /.entry-content -->
+<div class="comments">
+<h1>Comments !</h1>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'pablogme';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+</article>
+</section>
+
+        <aside id="sidebar">
+                <div class="widget social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate">RSS Feed</a></li>
+
+                            <li><a target="_blank" href="https://twitter.com/_pablog">Twitter</a></li>
+                            <li><a target="_blank" href="https://github.com/PabloCastellano">GitHub</a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/pablo-castellano-568549111/">LinkedIn</a></li>
+                        </ul>
+                </div><!-- /.social -->
+                <div class="widget">
+                        <h2>Blogroll</h2>
+                        <ul>
+                            <li><a target="_blank" href="https://guifi.net">Guifi.net</a></li>
+                            <li><a target="_blank" href="https://librebor.me">LibreBorme</a></li>
+                            <li><a target="_blank" href="http://autistici.org">Autistici/Inventati</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="widget">
+                        <h2>Categories</h2>
+                        <ul>
+                           <li ><a href="https://pablog.me/category/android">Android</a></li>
+                           <li ><a href="https://pablog.me/category/development">Development</a></li>
+                           <li ><a href="https://pablog.me/category/documentacion">Documentación</a></li>
+                           <li ><a href="https://pablog.me/category/electronics">Electronics</a></li>
+                           <li ><a href="https://pablog.me/category/free-software">Free software</a></li>
+                           <li ><a href="https://pablog.me/category/gsoc2012">GSoC2012</a></li>
+                           <li ><a href="https://pablog.me/category/guifinet">Guifi.net</a></li>
+                           <li ><a href="https://pablog.me/category/informatica">Informática</a></li>
+                           <li class="active"><a href="https://pablog.me/category/libreborme">LibreBorme</a></li>
+                           <li ><a href="https://pablog.me/category/linux">Linux</a></li>
+                           <li ><a href="https://pablog.me/category/misc">Misc</a></li>
+                           <li ><a href="https://pablog.me/category/politica">Política</a></li>
+                           <li ><a href="https://pablog.me/category/sociedad">Sociedad</a></li>
+                           <li ><a href="https://pablog.me/category/spain">Spain</a></li>
+                           <li ><a href="https://pablog.me/category/viajes">Viajes</a></li>
+                        </ul>
+                </div>
+                <div class="widget">
+                        <h2>Archives</h2>
+                        <ul>
+                            <li><a href="/blog/2015">2015</a></li>
+                            <li><a href="/blog/2012">2012</a></li>
+                            <li><a href="/blog/2011">2011</a></li>
+                            <li><a href="/blog/2010">2010</a></li>
+                            <li><a href="/blog/2009">2009</a></li>
+                        </ul>
+                </div>
+        </aside><!-- /#sidebar -->
+
+        <footer id="footer" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.<br>
+                </address><!-- /#about -->
+
+<!--                <p>The theme is «myidea-cms», a modified version of «notmyidea-cms», which is a modified version of «notmyidea», the default theme.</p> -->
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/by-sa-4.0-88x31.png" /></a><br />This blog is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        </footer><!-- /#footer -->
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.pablog.me/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+<noscript>
+<img src="https://matomo.pablog.me/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Matomo Code -->
+
+<!-- Image Modal -->
+<script src="//code.jquery.com/jquery-latest.js"></script>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>

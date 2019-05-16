@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>GSOC Report #7: Pencils down!</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://pablog.me/theme/css/main.css" type="text/css" />
+        <link href="https://pablog.me/" type="application/atom+xml" rel="alternate" title="pablog.me ATOM Feed" />
+        <link href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate" title="pablog.me RSS Feed" />
+        <!-- Image modal -->
+        <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://pablog.me/css/ie.css"/>
+                <script src="https://pablog.me/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://pablog.me/css/ie6.css"/><![endif]-->
+
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="https://pablog.me/blog/2012/08/gsoc-report-7-pencils-down/" />
+		<meta property="og:title" content="GSOC Report #7: Pencils down!" />
+		<meta property="og:description" content="This week has been the suggested 'Pencils down period'. I haven't done big changes but I have taken advantage of this time to test Guifi.net Studio deeply to detect and fix crashes and..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://pablog.me/index.html">pablog.me  <strong>$ cat << EOF >> /dev/blog</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://pablog.me">Home</a></li>
+                    <li ><a href="https://pablog.me/sobre-mi">Sobre mí</a></li>
+                <!-- <li><a href="https://pablog.me/">Archives</a></li> -->
+                </ul></nav>
+        </header><!-- /#banner -->
+
+<section id="content" class="body">
+<article>
+        <header> <h1 class="entry-title"><a href="https://pablog.me/blog/2012/08/gsoc-report-7-pencils-down/"
+        rel="bookmark" title="Permalink to GSOC Report #7: Pencils down!">GSOC Report #7: Pencils down!</a></h1>
+<abbr class="published" title="2012-08-19T00:00:00+02:00">
+    {"date": "Sun 19 August 2012",
+</abbr>
+<p> "category": "<a href="https://pablog.me/category/gsoc2012">GSoC2012</a>", </br>
+ "tags": ["<a href="https://pablog.me/tag/guifinet/">guifi.net</a>", "<a href="https://pablog.me/tag/gsoc2012/">gsoc2012</a>"]}</p>
+</p>
+
+<!-- /.post-info -->
+        </header>
+        <div class="entry-content">
+        <p>This week has been the suggested 'Pencils down period'.<br>
+I haven't done big changes but I have taken advantage of this time to test Guifi.net Studio deeply to detect and fix crashes and complete
+some easy features.</p>
+<p>But there have been big changes, especially those done two weeks ago.<br>
+The most important thing is that Guifi.net Studio is now usable :D<br>
+The User Experience is definitely better. One example is that now there's no need to manually download CNML files to visualize its content.
+Instead, you can use the CNML Download dialog which will download it for you to the specific folder.<br>
+You have a new option in the File menu bar called 'Change zone' which will automatically detect which zones you have downloaded and allows
+you to change between them quickly.<br>
+I must admit that I'm really proud of the final result :D</p>
+<p>Here is a summary of all the changes done during these two weeks:</p>
+<h1>GtkGuifinetMap</h1>
+<p>I refactored a bit more the code. Now it was the turn for the Guifi.net map. I have put together everything related to the map in a new
+class called GtkGuifinetMap.<br>
+This way, you can embed a GtkGuifinetMap in any GTK application and it will manage everything related to a 'Guifi.net Map'.<br>
+In the future you will be able to set its internals up and change thing like nodes color.</p>
+<h1>Guifi.net API</h1>
+<p>I have worked on it a little bit. The most valuable part is that there are more tests now. I did some minor changes and now it's less
+verbose (e.g. it won't print your password in the terminal when you login ;))</p>
+<h1>LibCNML</h1>
+<p>LibCNML supports now <a href="https://en.wikipedia.org/wiki/Document_Type_Definition">DTD</a> validation :)<br>
+<a href="https://gitorious.org/guifi-altres/guifinetstudio/blobs/master/tests/cnml.dtd">I wrote a DTD</a> for it and libCNML will use this file to
+validate cnml files against it. LibCNML will also print errors, if found.</p>
+<p>Thanks to this method I found two bugs in the Guifi.net World detailed CNML.<br>
+The first one is that the node with id 1647 (<a href="http://test.guifi.net/node/1647">Vic Jaume I</a>) doesn't contain the attribute called 'created'
+which should be mandatory.<br>
+The second one is that one of the links in the device with id 29880 (<a href="http://test.guifi.net/es/guifi/device/29880">VicVITST1</a>) doesn't
+contain the attribute 'id'.<br>
+Both things are curious and weird at the same time... inconsistency in the database maybe?</p>
+<h1>User Interface</h1>
+<ul>
+<li>Nodes are now colorful depending on their status (working, planned, building...) :D</li>
+<li>Added Wireless link calculator. I liked <a href="http://guifi.net/files/guificalculator.html">this one</a> and I have implemented the same in
+    Guifi.net Studio.</li>
+<li>Dialog to download zones is now working and finally it turned to be useful :)</li>
+<li>New dialog to change zones between downloaded ones</li>
+<li>Edit interface and edit link dialogs work but the server side of the API doesn't :( So it's unfinished.</li>
+</ul>
+<p>Other cool features are:</p>
+<ul>
+<li>View in website<br>
+    When you right-click a node in the Nodes view, a menu pops up and this option will open the node in the Guifi.net website</li>
+<li>View in map<br>
+    In the same popup menu, this option will take you to the selected node in the Map view</li>
+<li>Export to KML<br>
+    KML is the format used by Google (although it was designed by a different company that was then acquired by Google). You can export CNML
+    to KML and open it in Google's Earth for example.</li>
+<li>Node filtering<br>
+    The side panel in the Map view allows you to filter nodes as simple as typing</li>
+<li>Full screen<br>
+    You can run Guifi.net Studio in full screen.</li>
+</ul>
+<h1>Configuration manager</h1>
+<ul>
+<li>Added support for GNOME Keyring. Now your secrets are safe! :)</li>
+<li>Fixed invalid name for section "default". Now it's called "general"</li>
+</ul>
+<h1>Others</h1>
+<ul>
+<li>I fixed a lot of crashes when there are no cnml files available.</li>
+<li>Removed unused stuff: files and imports</li>
+</ul>
+<h1>Internationalization</h1>
+<p>The last but one of the most important things at this point is that I made the strings translatable and <a href="https://lists.guifi.net/pipermail/guifi-gtra/2012-August/000073.html">you can
+help</a> now to translate Guifi.net Studio into your language!</p>
+<p>I have created a new project in the transifex.com translation platform:<br>
+<a href="https://www.transifex.com/projects/p/guifinetstudio/">https://www.transifex.com/projects/p/guifinetstudio/</a></p>
+<p>Some people have already joined the project to help translating and the Galician translation is the first one that looks finished (99%).
+Kudos to the translators! :-D</p>
+<h1>What's next</h1>
+<p>The coding period is over! :O I have started to write a final report to explain what I have done during this period, what still needs to be
+done, what will be done, what won't be done...</p>
+<p>Some tasks that I want to finish in the next days:</p>
+<ul>
+<li>Translate Guifi.net Studio at least into 5 languages in August</li>
+<li>Create an user manual</li>
+<li>Improve documentation</li>
+<li>Spreading Guifi.net Studio<ul>
+<li>Create packages for the most typical GNU/Linux distributions and get them included in the main repositories.</li>
+<li>Prepare a talk for the new SAX (Guifi.net community annual event) which will take place at
+    <a href="https://en.wikipedia.org/wiki/Tortosa">Tortosa</a> (Tarragona) during 28-29 September. <a href="https://lists.guifi.net/pipermail/guifi-usuaris/2012-August/018762.html">More info
+    here</a>.</li>
+</ul>
+</li>
+</ul>
+<p><a href="http://flattr.com/thing/849700/GSOC-Report-7-Pencils-down"><img alt="Flattr
+this" src="http://api.flattr.com/button/flattr-badge-large.png" title="Flattr this"></a></p>
+        </div><!-- /.entry-content -->
+<div class="comments">
+<h1>Comments !</h1>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'pablogme';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+</article>
+</section>
+
+        <aside id="sidebar">
+                <div class="widget social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate">RSS Feed</a></li>
+
+                            <li><a target="_blank" href="https://twitter.com/_pablog">Twitter</a></li>
+                            <li><a target="_blank" href="https://github.com/PabloCastellano">GitHub</a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/pablo-castellano-568549111/">LinkedIn</a></li>
+                        </ul>
+                </div><!-- /.social -->
+                <div class="widget">
+                        <h2>Blogroll</h2>
+                        <ul>
+                            <li><a target="_blank" href="https://guifi.net">Guifi.net</a></li>
+                            <li><a target="_blank" href="https://librebor.me">LibreBorme</a></li>
+                            <li><a target="_blank" href="http://autistici.org">Autistici/Inventati</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="widget">
+                        <h2>Categories</h2>
+                        <ul>
+                           <li ><a href="https://pablog.me/category/android">Android</a></li>
+                           <li ><a href="https://pablog.me/category/development">Development</a></li>
+                           <li ><a href="https://pablog.me/category/documentacion">Documentación</a></li>
+                           <li ><a href="https://pablog.me/category/electronics">Electronics</a></li>
+                           <li ><a href="https://pablog.me/category/free-software">Free software</a></li>
+                           <li class="active"><a href="https://pablog.me/category/gsoc2012">GSoC2012</a></li>
+                           <li ><a href="https://pablog.me/category/guifinet">Guifi.net</a></li>
+                           <li ><a href="https://pablog.me/category/informatica">Informática</a></li>
+                           <li ><a href="https://pablog.me/category/libreborme">LibreBorme</a></li>
+                           <li ><a href="https://pablog.me/category/linux">Linux</a></li>
+                           <li ><a href="https://pablog.me/category/misc">Misc</a></li>
+                           <li ><a href="https://pablog.me/category/politica">Política</a></li>
+                           <li ><a href="https://pablog.me/category/sociedad">Sociedad</a></li>
+                           <li ><a href="https://pablog.me/category/spain">Spain</a></li>
+                           <li ><a href="https://pablog.me/category/viajes">Viajes</a></li>
+                        </ul>
+                </div>
+                <div class="widget">
+                        <h2>Archives</h2>
+                        <ul>
+                            <li><a href="/blog/2015">2015</a></li>
+                            <li><a href="/blog/2012">2012</a></li>
+                            <li><a href="/blog/2011">2011</a></li>
+                            <li><a href="/blog/2010">2010</a></li>
+                            <li><a href="/blog/2009">2009</a></li>
+                        </ul>
+                </div>
+        </aside><!-- /#sidebar -->
+
+        <footer id="footer" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.<br>
+                </address><!-- /#about -->
+
+<!--                <p>The theme is «myidea-cms», a modified version of «notmyidea-cms», which is a modified version of «notmyidea», the default theme.</p> -->
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/by-sa-4.0-88x31.png" /></a><br />This blog is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        </footer><!-- /#footer -->
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.pablog.me/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+<noscript>
+<img src="https://matomo.pablog.me/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Matomo Code -->
+
+<!-- Image Modal -->
+<script src="//code.jquery.com/jquery-latest.js"></script>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>

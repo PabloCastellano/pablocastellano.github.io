@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>pablog.me - seguridad</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://pablog.me/theme/css/main.css" type="text/css" />
+        <link href="https://pablog.me/" type="application/atom+xml" rel="alternate" title="pablog.me ATOM Feed" />
+        <link href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate" title="pablog.me RSS Feed" />
+        <!-- Image modal -->
+        <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://pablog.me/css/ie.css"/>
+                <script src="https://pablog.me/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://pablog.me/css/ie6.css"/><![endif]-->
+
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://pablog.me/tag/seguridad/index.html" />
+		<meta property="og:title" content="pablog.me" />
+		<meta property="og:description" content="Pablo Castellano's blog" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://pablog.me/index.html">pablog.me  <strong>$ cat << EOF >> /dev/blog</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://pablog.me">Home</a></li>
+                    <li ><a href="https://pablog.me/sobre-mi">Sobre mí</a></li>
+                <!-- <li><a href="https://pablog.me/">Archives</a></li> -->
+                </ul></nav>
+        </header><!-- /#banner -->
+
+     <section id="content" class="body">
+        <aside id="featured"><article>
+                <h1 class="entry-title"><a href="https://pablog.me/blog/2010/09/educacion-informatica-i-verificando-certificados-digitales/">Educación informática I (verificando certificados digitales)</a></h1>
+<abbr class="published" title="2010-09-10T00:00:00+02:00">
+    {"date": "Fri 10 September 2010",
+</abbr>
+<p> "category": "<a href="https://pablog.me/category/informatica">Informática</a>", </br>
+ "tags": ["<a href="https://pablog.me/tag/seguridad/">seguridad</a>", "<a href="https://pablog.me/tag/certificados-digitales/">certificados digitales</a>", "<a href="https://pablog.me/tag/muface/">muface</a>"]}</p>
+</p>
+
+<!-- /.post-info -->
+                <p>Ayer, dando vueltas por la página de <a href="http://muface.es">muface</a>, veo que puedes <a href="http://www.mpr.es/muface/oficina_virtual/solicitudes_por_internet/solicitudes_por_internet-ides-idweb.html">hacer
+solicitudes</a> por Internet, bien
+sea con certificado digital o sin él.<br>
+ Aceptan los certificados digitales: DNIe, FNMT, Camerfirma, ACCV, CatCert e IZENPE.</p>
+<p>Pero centrémonos en las solicitudes sin certificado digital.<br>
+Podemos pulsar en <a href="https://oval.muface.es/mut_sc/">ENTRAR</a> directamente o <a href="www.mpr.es/muface/oficina_virtual/common/ReqTecAccesoSC_EXT.pdf">descargar un
+PDF</a> con los requisitos técnicos. Me entra curiosidad y me descargo el PDF.</p>
+<p>Básicamente te cuenta que lo normal es que te salga una excepción de seguridad por no tener el certificado raíz de Camerfirma instalado en
+tu navegador. Te muestra capturas de pantalla de Firefox hasta el punto en que haces click en el botón de "Obtener certificado" y luego cito
+textualmente:</p>
+<blockquote>
+<p><em>Pulse "Ver..." para ver el certificado y, luego, confirme que quiere añadir la excepción de seguridad (pulsando Confirmar excepción de
+seguridad) para que le deje acceder a este servicio de Muface.</em></p>
+</blockquote>
+<p>¿¿Cómoooorll?? ¿Y para qué se cree el que ha hecho este tutorial que sirven los certificados?</p>
+<h1>El problema</h1>
+<p>El paso importante de añadir una excepción de seguridad es comprobar que el certificado es el original y que no ha sido falsificado con un
+<a href="http://es.wikipedia.org/wiki/Ataque_Man-in-the-middle">ataque MITM</a>. Además te dice "pulse ver para ver el certificado y luego confirme..."
+¡y se queda tan ancho! ¿Para qué quiere ver un usuario corriente el certificado?</p>
+<p>Los certificados digitales tienen una firma digital y una "huella digital" (del inglés fingerprint).<br>
+ Esta huella digital nos sirve para decidir si un certificado es verdadero o falso. Si al menos hubieran incluído una captura de pantalla de
+la ventana donde se ve la información del certificado podríamos validar la huella, pero tal como está, el usuario va a aceptar el
+certificado sea el que sea. <strong>ESTO ES MUY GRAVE</strong>, ya que no nos aseguramos de asegurar la página web y por lo tanto de que la conexión
+directamente con muface sea segura y esté cifrada, sino que podría haber algún "intermediario".</p>
+<p>De las secciones Linux y Macintosh mejor ni hablamos porque están vacías. Al menos se han dignado a nombrarlas.</p>
+<p>Para lo que valga, esta es la captura de pantalla perdida y tal como se puede ver, los fingerprints (los míos... porque no hay manera de
+asegurar que sean los reales, así que no te fíes) son:  </p>
+<blockquote>
+<p>SHA1: C9:8D:FC:49:15:BA:FB:53:C7:12:74:0E:81:EB:06:50:9D:7B:4C:7B<br>
+MD5: DE:7A:37:C9:97:36:78:BC:3B:1D:45:AD:25:34:A3:8D</p>
+</blockquote>
+<p><img alt="firefox certificado muface" src="/img/Screenshot-Certificate%20Viewer:&quot;oval.muface.es&quot;.png">   </p>
+<p>¿Sería muy descabellado pedir que este tipo de cosas las enseñaran en las asignaturas de informática de bachillerato? ¿Es más importante
+aprender a manejar una suite informática que entender esto?<br>
+La sociedad española actual no está preparada para esto y ni la misma unidad informática de Muface te ayuda.<br>
+Y la tecnología, si no se saber usar, es inútil y puede ser peligrosa.</p>
+        </article></aside><!-- /#featured -->
+</ol><!-- /#posts-list -->
+</section><!-- /#content -->
+
+        <aside id="sidebar">
+                <div class="widget social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate">RSS Feed</a></li>
+
+                            <li><a target="_blank" href="https://twitter.com/_pablog">Twitter</a></li>
+                            <li><a target="_blank" href="https://github.com/PabloCastellano">GitHub</a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/pablo-castellano-568549111/">LinkedIn</a></li>
+                        </ul>
+                </div><!-- /.social -->
+                <div class="widget">
+                        <h2>Blogroll</h2>
+                        <ul>
+                            <li><a target="_blank" href="https://guifi.net">Guifi.net</a></li>
+                            <li><a target="_blank" href="https://librebor.me">LibreBorme</a></li>
+                            <li><a target="_blank" href="http://autistici.org">Autistici/Inventati</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="widget">
+                        <h2>Categories</h2>
+                        <ul>
+                           <li ><a href="https://pablog.me/category/android">Android</a></li>
+                           <li ><a href="https://pablog.me/category/development">Development</a></li>
+                           <li ><a href="https://pablog.me/category/documentacion">Documentación</a></li>
+                           <li ><a href="https://pablog.me/category/electronics">Electronics</a></li>
+                           <li ><a href="https://pablog.me/category/free-software">Free software</a></li>
+                           <li ><a href="https://pablog.me/category/gsoc2012">GSoC2012</a></li>
+                           <li ><a href="https://pablog.me/category/guifinet">Guifi.net</a></li>
+                           <li ><a href="https://pablog.me/category/informatica">Informática</a></li>
+                           <li ><a href="https://pablog.me/category/libreborme">LibreBorme</a></li>
+                           <li ><a href="https://pablog.me/category/linux">Linux</a></li>
+                           <li ><a href="https://pablog.me/category/misc">Misc</a></li>
+                           <li ><a href="https://pablog.me/category/politica">Política</a></li>
+                           <li ><a href="https://pablog.me/category/sociedad">Sociedad</a></li>
+                           <li ><a href="https://pablog.me/category/spain">Spain</a></li>
+                           <li ><a href="https://pablog.me/category/viajes">Viajes</a></li>
+                        </ul>
+                </div>
+                <div class="widget">
+                        <h2>Archives</h2>
+                        <ul>
+                            <li><a href="/blog/2015">2015</a></li>
+                            <li><a href="/blog/2012">2012</a></li>
+                            <li><a href="/blog/2011">2011</a></li>
+                            <li><a href="/blog/2010">2010</a></li>
+                            <li><a href="/blog/2009">2009</a></li>
+                        </ul>
+                </div>
+        </aside><!-- /#sidebar -->
+
+        <footer id="footer" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.<br>
+                </address><!-- /#about -->
+
+<!--                <p>The theme is «myidea-cms», a modified version of «notmyidea-cms», which is a modified version of «notmyidea», the default theme.</p> -->
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/by-sa-4.0-88x31.png" /></a><br />This blog is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        </footer><!-- /#footer -->
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.pablog.me/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+<noscript>
+<img src="https://matomo.pablog.me/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Matomo Code -->
+
+<!-- Image Modal -->
+<script src="//code.jquery.com/jquery-latest.js"></script>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>

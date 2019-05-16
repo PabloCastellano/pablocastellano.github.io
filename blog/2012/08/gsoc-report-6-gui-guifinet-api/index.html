@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>GSOC Report #6: GUI + Guifi.net API</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://pablog.me/theme/css/main.css" type="text/css" />
+        <link href="https://pablog.me/" type="application/atom+xml" rel="alternate" title="pablog.me ATOM Feed" />
+        <link href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate" title="pablog.me RSS Feed" />
+        <!-- Image modal -->
+        <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://pablog.me/css/ie.css"/>
+                <script src="https://pablog.me/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://pablog.me/css/ie6.css"/><![endif]-->
+
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="https://pablog.me/blog/2012/08/gsoc-report-6-gui-guifinet-api/" />
+		<meta property="og:title" content="GSOC Report #6: GUI + Guifi.net API" />
+		<meta property="og:description" content="Another report for the last 2 weeks. The most of the work has been the Graphic User Interface. So far it's possible to create nodes, zones, devices and radios in the remote host..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://pablog.me/index.html">pablog.me  <strong>$ cat << EOF >> /dev/blog</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://pablog.me">Home</a></li>
+                    <li ><a href="https://pablog.me/sobre-mi">Sobre mí</a></li>
+                <!-- <li><a href="https://pablog.me/">Archives</a></li> -->
+                </ul></nav>
+        </header><!-- /#banner -->
+
+<section id="content" class="body">
+<article>
+        <header> <h1 class="entry-title"><a href="https://pablog.me/blog/2012/08/gsoc-report-6-gui-guifinet-api/"
+        rel="bookmark" title="Permalink to GSOC Report #6: GUI + Guifi.net API">GSOC Report #6: GUI + Guifi.net API</a></h1>
+<abbr class="published" title="2012-08-06T00:00:00+02:00">
+    {"date": "Mon 06 August 2012",
+</abbr>
+<p> "category": "<a href="https://pablog.me/category/gsoc2012">GSoC2012</a>", </br>
+ "tags": ["<a href="https://pablog.me/tag/guifinet/">guifi.net</a>", "<a href="https://pablog.me/tag/gsoc2012/">gsoc2012</a>"]}</p>
+</p>
+
+<!-- /.post-info -->
+<a href="https://flattr.com/submit/auto?user_id=pablog&url=http://flattr.com/thing/814187/GSOC-Report-6-GUI-Guifi-net-API" target="_blank"><img src="//api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>
+        </header>
+        <div class="entry-content">
+        <p>Another report for the last 2 weeks.</p>
+<p>The most of the work has been the <strong>Graphic User Interface</strong>.</p>
+<p>So far it's possible to create nodes, zones, devices and radios in the remote host (test.guifi.net in this case) from the application.</p>
+<p>You will also have the chance to create it locally, that is, modifying your own CNML file and keeping the changes without pushing them to
+the server but this is not working at the moment.</p>
+<p>The dialogs to create new entities will inform you about the success or failure of the operation with message dialogs. I think they are
+quite intuitive</p>
+<p>I have beautified the dialogs a lot. Some examples here:</p>
+<p><img alt="Dialog create device" src="/img/pantallazos/guifinetstudio/dialog_createdevice.png">
+<img alt="Dialog create device 2" src="/img/pantallazos/guifinetstudio/dialog_createdevice2.png"></p>
+<p><img alt="Dialog create node" src="/img/pantallazos/guifinetstudio/dialog_createnode.png">
+<img alt="Dialog create node 2" src="/img/pantallazos/guifinetstudio/dialog_createnode2.png"></p>
+<p><img alt="Dialog create zone" src="/img/pantallazos/guifinetstudio/dialog_createzone.png">
+<img alt="Dialog create zone 2" src="/img/pantallazos/guifinetstudio/dialog_createzone2.png"></p>
+<p>I'm trying a new widget that allows the enduser picking up a zone from all of them without having to use the huge combobox.
+It's a GtkEntry widget that uses autocompletion and so, you get suggestions as you type. You can see it in the "create zone" dialog.</p>
+<h1>Configuration Manager</h1>
+<p>Now there's a cache directory where CNML files are saved.
+My initial idea is that you can download the CNML file for the zone/node you want through a dialog window. Then you can change between those
+that you have downloaded previously and so, you can visualize different zones without having to load the whole Guifi.net World.
+It's almost working although I'm not sure if it will be really useful... we will see :D</p>
+<p><img alt="dialog cnml" src="/img/pantallazos/guifinetstudio/dialog_cnml.png"></p>
+<h1>Preferences</h1>
+<p>The Preferences dialog works now and the changes you make get saved to the config file when you close the dialog window.
+I have also added new settings to be saved like zone_type, token and token_date, Guifi.net host...
+Now you can also define which is your <strong>default zone</strong> and the application will autoload it when it's launched.</p>
+<h1>Guifi.net API</h1>
+<p>I have added more methods to the API and more examples-snippets: getFirmwares.py, getModels.py, getChannels.py, getProtocols.py,
+addRadio.py, removeRadio.py, addDevice.py, removeDevice.py.</p>
+<p>They are easy to read and understand and so, the Guifi.net community could start now creating useful scripts to maintain their nodes/zones
+:)</p>
+<h1>Code structure</h1>
+<p>The code of Guifi·net Studio was becoming <a href="https://en.wikipedia.org/wiki/Spaghetti_code">Spaghetti code</a> and I did a lot of refactoring.
+For example I separated the main .ui file with all the glade interfaces into different files (each one is one dialog) and now there's a
+class for each dialog.</p>
+<p>I have not pushed these last changes because I don't know how the heck can I configure git to push the changes through a SOCKS proxy
+server.
+I have read different solutions but none of those worked to me :-(. I hope to be able to push them this evening.</p>
+<p><a href="http://flattr.com/thing/814187/GSOC-Report-6-GUI-Guifi-net-API"><img alt="Flattr
+this" src="http://api.flattr.com/button/flattr-badge-large.png" title="Flattr this"></a></p>
+        </div><!-- /.entry-content -->
+<div class="comments">
+<h1>Comments !</h1>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'pablogme';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+</article>
+</section>
+
+        <aside id="sidebar">
+                <div class="widget social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate">RSS Feed</a></li>
+
+                            <li><a target="_blank" href="https://twitter.com/_pablog">Twitter</a></li>
+                            <li><a target="_blank" href="https://github.com/PabloCastellano">GitHub</a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/pablo-castellano-568549111/">LinkedIn</a></li>
+                        </ul>
+                </div><!-- /.social -->
+                <div class="widget">
+                        <h2>Blogroll</h2>
+                        <ul>
+                            <li><a target="_blank" href="https://guifi.net">Guifi.net</a></li>
+                            <li><a target="_blank" href="https://librebor.me">LibreBorme</a></li>
+                            <li><a target="_blank" href="http://autistici.org">Autistici/Inventati</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="widget">
+                        <h2>Categories</h2>
+                        <ul>
+                           <li ><a href="https://pablog.me/category/android">Android</a></li>
+                           <li ><a href="https://pablog.me/category/development">Development</a></li>
+                           <li ><a href="https://pablog.me/category/documentacion">Documentación</a></li>
+                           <li ><a href="https://pablog.me/category/electronics">Electronics</a></li>
+                           <li ><a href="https://pablog.me/category/free-software">Free software</a></li>
+                           <li class="active"><a href="https://pablog.me/category/gsoc2012">GSoC2012</a></li>
+                           <li ><a href="https://pablog.me/category/guifinet">Guifi.net</a></li>
+                           <li ><a href="https://pablog.me/category/informatica">Informática</a></li>
+                           <li ><a href="https://pablog.me/category/libreborme">LibreBorme</a></li>
+                           <li ><a href="https://pablog.me/category/linux">Linux</a></li>
+                           <li ><a href="https://pablog.me/category/misc">Misc</a></li>
+                           <li ><a href="https://pablog.me/category/politica">Política</a></li>
+                           <li ><a href="https://pablog.me/category/sociedad">Sociedad</a></li>
+                           <li ><a href="https://pablog.me/category/spain">Spain</a></li>
+                           <li ><a href="https://pablog.me/category/viajes">Viajes</a></li>
+                        </ul>
+                </div>
+                <div class="widget">
+                        <h2>Archives</h2>
+                        <ul>
+                            <li><a href="/blog/2015">2015</a></li>
+                            <li><a href="/blog/2012">2012</a></li>
+                            <li><a href="/blog/2011">2011</a></li>
+                            <li><a href="/blog/2010">2010</a></li>
+                            <li><a href="/blog/2009">2009</a></li>
+                        </ul>
+                </div>
+        </aside><!-- /#sidebar -->
+
+        <footer id="footer" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.<br>
+                </address><!-- /#about -->
+
+<!--                <p>The theme is «myidea-cms», a modified version of «notmyidea-cms», which is a modified version of «notmyidea», the default theme.</p> -->
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/by-sa-4.0-88x31.png" /></a><br />This blog is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        </footer><!-- /#footer -->
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.pablog.me/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+<noscript>
+<img src="https://matomo.pablog.me/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Matomo Code -->
+
+<!-- Image Modal -->
+<script src="//code.jquery.com/jquery-latest.js"></script>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>

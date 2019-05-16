@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>GSOC Report #3: unsolclic and libcnml</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://pablog.me/theme/css/main.css" type="text/css" />
+        <link href="https://pablog.me/" type="application/atom+xml" rel="alternate" title="pablog.me ATOM Feed" />
+        <link href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate" title="pablog.me RSS Feed" />
+        <!-- Image modal -->
+        <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://pablog.me/css/ie.css"/>
+                <script src="https://pablog.me/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://pablog.me/css/ie6.css"/><![endif]-->
+
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="https://pablog.me/blog/2012/07/gsoc-report-3-unsolclic-and-libcnml/" />
+		<meta property="og:title" content="GSOC Report #3: unsolclic and libcnml" />
+		<meta property="og:description" content="I'm back! No more exams for a while. I'm happy to have much more time to spend working on Guifi.net Studio. These are the improvements so far: Prettier GUI Guifi.net Studio is prettier now,..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://pablog.me/index.html">pablog.me  <strong>$ cat << EOF >> /dev/blog</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://pablog.me">Home</a></li>
+                    <li ><a href="https://pablog.me/sobre-mi">Sobre mí</a></li>
+                <!-- <li><a href="https://pablog.me/">Archives</a></li> -->
+                </ul></nav>
+        </header><!-- /#banner -->
+
+<section id="content" class="body">
+<article>
+        <header> <h1 class="entry-title"><a href="https://pablog.me/blog/2012/07/gsoc-report-3-unsolclic-and-libcnml/"
+        rel="bookmark" title="Permalink to GSOC Report #3: unsolclic and libcnml">GSOC Report #3: unsolclic and libcnml</a></h1>
+<abbr class="published" title="2012-07-03T00:00:00+02:00">
+    {"date": "Tue 03 July 2012",
+</abbr>
+<p> "category": "<a href="https://pablog.me/category/gsoc2012">GSoC2012</a>", </br>
+ "tags": ["<a href="https://pablog.me/tag/guifinet/">guifi.net</a>", "<a href="https://pablog.me/tag/gsoc2012/">gsoc2012</a>"]}</p>
+</p>
+
+<!-- /.post-info -->
+        </header>
+        <div class="entry-content">
+        <p>I'm back! No more exams for a while. I'm happy to have much more time to spend working on Guifi.net Studio.<br>
+These are the improvements so far:</p>
+<h1>Prettier GUI</h1>
+<p>Guifi.net Studio is prettier now, that's the first thing you can notice :)<br>
+Now it has an user interface quite similar to <a href="http://projects.gnome.org/emerillon/">Emerillon</a> which is very intuitive, well-though and
+gives a good user experience.<br>
+I basically copied their hide-able <strong>sidebar</strong> and included the search bar on the top:</p>
+<p><a href="/img/guifinetstudio5.png"><img alt="" src="/img/guifinetstudio5.png"></a></p>
+<h1>libcnml.py</h1>
+<p>The first prototype of a library to read, parse and query CNML files is ready. It's not finished and I'll rewrite to use classes for
+entities (Zone, Node, Device...). At the moment the data structure is like a dictionary of dictionaries and it has its own limitations (lack
+of pointers to: other nodes, parent zone, etc...).<br>
+Here's an example of how to use it (notice again that the API will change after it's rewritten):</p>
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">libcnml</span> <span class="kn">import</span> <span class="n">CNMLParser</span>
+<span class="n">filename</span> <span class="o">=</span> <span class="s1">&#39;test.cnml&#39;</span>
+<span class="n">cnmlp</span> <span class="o">=</span> <span class="n">CNMLParser</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+
+<span class="k">print</span> <span class="n">cnmlp</span><span class="o">.</span><span class="n">nodes</span><span class="p">[</span><span class="mi">99</span><span class="p">][</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="c1">#name of node with id 99</span>
+<span class="k">print</span> <span class="n">cnmlp</span><span class="o">.</span><span class="n">nodes</span><span class="p">[</span><span class="mi">99</span><span class="p">][</span><span class="s1">&#39;lat&#39;</span><span class="p">]</span> <span class="c1">#latitude of node with id 99</span>
+<span class="k">print</span> <span class="n">cnmlp</span><span class="o">.</span><span class="n">nodes</span><span class="p">[</span><span class="mi">99</span><span class="p">][</span><span class="s1">&#39;lon&#39;</span><span class="p">]</span> <span class="c1">#longitude of node with id 99</span>
+<span class="k">print</span> <span class="n">cnmlp</span><span class="o">.</span><span class="n">nodes</span><span class="p">[</span><span class="mi">99</span><span class="p">][</span><span class="s1">&#39;devices&#39;</span><span class="p">][</span><span class="mi">77</span><span class="p">][</span><span class="s1">&#39;firmware&#39;</span><span class="p">]</span> <span class="c1">#firmware of device id 77 that belongs to node 99</span>
+
+<span class="n">root</span> <span class="o">=</span> <span class="n">cnmlp</span><span class="o">.</span><span class="n">rootzone</span> <span class="c1"># id of root zone of cnml file loaded</span>
+<span class="k">print</span> <span class="n">cnmlp</span><span class="o">.</span><span class="n">zones</span><span class="p">[</span><span class="n">root</span><span class="p">][</span><span class="s1">&#39;title&#39;</span><span class="p">]</span> <span class="c1"># title of root zone</span>
+<span class="k">print</span> <span class="n">cnmlp</span><span class="o">.</span><span class="n">zones</span><span class="p">[</span><span class="mi">3996</span><span class="p">][</span><span class="s1">&#39;nlinks&#39;</span><span class="p">]</span> <span class="c1"># number of links between nodes in zone with id 3996</span>
+<span class="k">print</span> <span class="n">cnmlp</span><span class="o">.</span><span class="n">zones</span><span class="p">[</span><span class="mi">3996</span><span class="p">][</span><span class="s1">&#39;nservices&#39;</span><span class="p">]</span> <span class="c1"># number of services in zone with id 3996</span>
+</pre></div>
+
+
+<h1></h1>
+<h1>Unsolclic</h1>
+<p>Unsolclic is almost usable. I should have finished it according to my schedule but having libcnml is a pre-requisite.<br>
+I will finish it in the next days.<br>
+There's a new User Interface to generate unsolclic configuration from the application (always off-line, remember it as is one of the top
+features) ;-)</p>
+<p><a href="/img/guifinetstudio3.png"><img alt="" src="/img/guifinetstudio3.png"></a></p>
+<p><a href="/img/guifinetstudio4.png"><img alt="" src="/img/guifinetstudio4.png"></a><br>
+</p>
+<h1>Meeting with my mentor</h1>
+<p>Roger and I met last week.</p>
+<p>One interesting things we talked about is a new use case:<br>
+Let's say that somebody wants to deploy Guifi.net in a zone and he won't have access to the Internets during the work.<br>
+He can download the CNML file of the zone before moving. What we decided to include a new feature so that he can create new nodes, edit its
+properties and get also unsolclic <strong>still off-line</strong>.<br>
+When he arrives home, he synchronizes the new nodes with the Guifi.net website.</p>
+<p>The problem to face is that during the deployment there could be someone that does changes in the same zone and there could be collisions of
+data (ex. IP address auto-generated off-line that is already used in Guifi.net).<br>
+Although this is quite unlikely to happen, in this case Guifi.net Studio would show a message box warning the user about this problem and
+given him two solutions: getting the newest configurations or discard the changes. Ideally the installer would choose getting the newest
+configurations and would re-run unsolclic in the nodes affected by the incoherence of data.</p>
+<h1>Libchamplain</h1>
+<p>I <a href="https://mail.gnome.org/archives/libchamplain-list/2012-June/msg00003.html">introduced myself</a> in their mailing list. I have also read
+more than 50% of their archive.<br>
+I reported the bug about <a href="https://mail.gnome.org/archives/libchamplain-list/2012-June/msg00004.html">resizing points in a
+<em>ChamplainMarkerLayer</em></a> and it's already <a href="http://git.gnome.org/browse/libchamplain/commit/?id=8c769a60905b7655ac5087ca0f63f6b6d8a4779e">fixed in the master
+branch</a> :-D</p>
+<h1>This week</h1>
+<p>I will start working on extending the CNML specification to support Optic Fiber links.<br>
+I have another meeting with people from the Guifi.net Fundation.<br>
+Midterm evaluation is next week.</p>
+<p><a href="http://flattr.com/thing/732582/GSOC-Report-3-unsolclic-and-libcnml"><img alt="Flattr
+this" src="http://api.flattr.com/button/flattr-badge-large.png" title="Flattr this"></a></p>
+        </div><!-- /.entry-content -->
+<div class="comments">
+<h1>Comments !</h1>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'pablogme';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+</article>
+</section>
+
+        <aside id="sidebar">
+                <div class="widget social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate">RSS Feed</a></li>
+
+                            <li><a target="_blank" href="https://twitter.com/_pablog">Twitter</a></li>
+                            <li><a target="_blank" href="https://github.com/PabloCastellano">GitHub</a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/pablo-castellano-568549111/">LinkedIn</a></li>
+                        </ul>
+                </div><!-- /.social -->
+                <div class="widget">
+                        <h2>Blogroll</h2>
+                        <ul>
+                            <li><a target="_blank" href="https://guifi.net">Guifi.net</a></li>
+                            <li><a target="_blank" href="https://librebor.me">LibreBorme</a></li>
+                            <li><a target="_blank" href="http://autistici.org">Autistici/Inventati</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="widget">
+                        <h2>Categories</h2>
+                        <ul>
+                           <li ><a href="https://pablog.me/category/android">Android</a></li>
+                           <li ><a href="https://pablog.me/category/development">Development</a></li>
+                           <li ><a href="https://pablog.me/category/documentacion">Documentación</a></li>
+                           <li ><a href="https://pablog.me/category/electronics">Electronics</a></li>
+                           <li ><a href="https://pablog.me/category/free-software">Free software</a></li>
+                           <li class="active"><a href="https://pablog.me/category/gsoc2012">GSoC2012</a></li>
+                           <li ><a href="https://pablog.me/category/guifinet">Guifi.net</a></li>
+                           <li ><a href="https://pablog.me/category/informatica">Informática</a></li>
+                           <li ><a href="https://pablog.me/category/libreborme">LibreBorme</a></li>
+                           <li ><a href="https://pablog.me/category/linux">Linux</a></li>
+                           <li ><a href="https://pablog.me/category/misc">Misc</a></li>
+                           <li ><a href="https://pablog.me/category/politica">Política</a></li>
+                           <li ><a href="https://pablog.me/category/sociedad">Sociedad</a></li>
+                           <li ><a href="https://pablog.me/category/spain">Spain</a></li>
+                           <li ><a href="https://pablog.me/category/viajes">Viajes</a></li>
+                        </ul>
+                </div>
+                <div class="widget">
+                        <h2>Archives</h2>
+                        <ul>
+                            <li><a href="/blog/2015">2015</a></li>
+                            <li><a href="/blog/2012">2012</a></li>
+                            <li><a href="/blog/2011">2011</a></li>
+                            <li><a href="/blog/2010">2010</a></li>
+                            <li><a href="/blog/2009">2009</a></li>
+                        </ul>
+                </div>
+        </aside><!-- /#sidebar -->
+
+        <footer id="footer" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.<br>
+                </address><!-- /#about -->
+
+<!--                <p>The theme is «myidea-cms», a modified version of «notmyidea-cms», which is a modified version of «notmyidea», the default theme.</p> -->
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/by-sa-4.0-88x31.png" /></a><br />This blog is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        </footer><!-- /#footer -->
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.pablog.me/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+<noscript>
+<img src="https://matomo.pablog.me/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Matomo Code -->
+
+<!-- Image Modal -->
+<script src="//code.jquery.com/jquery-latest.js"></script>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>

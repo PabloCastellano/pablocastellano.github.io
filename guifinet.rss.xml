@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>pablog.me - Guifi.net</title><link>https://pablog.me/</link><description>$ cat &lt;&lt; EOF &gt;&gt; /dev/blog</description><lastBuildDate>Sun, 12 Feb 2012 00:00:00 +0100</lastBuildDate><item><title>Antenas, campos electromagnéticos y salud</title><link>https://pablog.me/blog/2012/02/antenas-campos-electromagneticos-y-salud/</link><description>&lt;p&gt;&lt;img alt="Sombreros de aluminio" src="/img/Sombreros_de_aluminio.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;He empezado &lt;a href="http://es.wiki.guifi.net/wiki/Salud"&gt;un artículo&lt;/a&gt; sobre salud en el &lt;a href="http://es.wiki.guifi.net"&gt;wiki de guifi.net&lt;/a&gt;, al que llevo
+ya tiempo dándole un tironcillo. Dejo los mismos bits de texto aquí para animar un poco el blog.&lt;br&gt;
+&lt;strong&gt;Puedes colaborar editando tú mismo el artículo, ¡para eso es un wiki!&lt;/strong&gt; :-D&lt;/p&gt;
+&lt;h1&gt;Introducción&lt;/h1&gt;
+&lt;p&gt;El motivo de …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Sun, 12 Feb 2012 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:pablog.me,2012-02-12:/blog/2012/02/antenas-campos-electromagneticos-y-salud/</guid><category>salud</category><category>magufismo</category></item><item><title>Estadísticas sobre los dispositivos más usados para nodos y supernodos en guifi.net</title><link>https://pablog.me/blog/2010/08/estadisticas-sobre-los-dispositivos-mas-usados-para-nodos-y-supernodos-en-guifinet/</link><description>&lt;p&gt;Me gusta hacer estadísticas y esta mañana se me ha ocurrido hacer un pequeño script Python que usando el &lt;a href="http://guifi.net/es/guifi/cnml/3671"&gt;cnml de guifi
+world&lt;/a&gt; sirva para ver qué tipo de dipositivos/trastos son los más usados sin distinguir nodos de
+supernodos. Este es el resultado:&lt;/p&gt;
+&lt;p&gt;1 Alix1&lt;br&gt;
+ 1 Prestige 650HW-31E&lt;br&gt;
+ 1 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Fri, 20 Aug 2010 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2010-08-20:/blog/2010/08/estadisticas-sobre-los-dispositivos-mas-usados-para-nodos-y-supernodos-en-guifinet/</guid><category>estadísticas</category></item><item><title>Hello guifi (Mi presentación en guifi.net)</title><link>https://pablog.me/blog/2010/08/hello-guifi-mi-presentacion-en-guifinet/</link><description>&lt;p&gt;Hola a todos! Me presento... soy Pablo, futuro guifero de Málaga.&lt;/p&gt;
+&lt;p&gt;Hace unos días me dieron permisos de colaborador y traductor en guifi.net y también cuenta en el repositorio.&lt;br&gt;
+Intentaré echar una mano en todo lo que sea de desarrollo. &lt;br&gt;
+De momento estoy intentando que los módulos de drupal …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pablo Castellano</dc:creator><pubDate>Fri, 13 Aug 2010 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:pablog.me,2010-08-13:/blog/2010/08/hello-guifi-mi-presentacion-en-guifinet/</guid><category>presentación</category></item></channel></rss>

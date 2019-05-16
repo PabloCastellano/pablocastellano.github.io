@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>GSOC Report #0: Documentation</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://pablog.me/theme/css/main.css" type="text/css" />
+        <link href="https://pablog.me/" type="application/atom+xml" rel="alternate" title="pablog.me ATOM Feed" />
+        <link href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate" title="pablog.me RSS Feed" />
+        <!-- Image modal -->
+        <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://pablog.me/css/ie.css"/>
+                <script src="https://pablog.me/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://pablog.me/css/ie6.css"/><![endif]-->
+
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="https://pablog.me/blog/2012/05/gsoc-report-0-documentation/" />
+		<meta property="og:title" content="GSOC Report #0: Documentation" />
+		<meta property="og:description" content="-Note: I forgot to say in my last post that all coming posts about GSOC will be in English- Well, the coding period started yesterday. Here is what I've been doing meanwhile during the..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://pablog.me/index.html">pablog.me  <strong>$ cat << EOF >> /dev/blog</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://pablog.me">Home</a></li>
+                    <li ><a href="https://pablog.me/sobre-mi">Sobre mí</a></li>
+                <!-- <li><a href="https://pablog.me/">Archives</a></li> -->
+                </ul></nav>
+        </header><!-- /#banner -->
+
+<section id="content" class="body">
+<article>
+        <header> <h1 class="entry-title"><a href="https://pablog.me/blog/2012/05/gsoc-report-0-documentation/"
+        rel="bookmark" title="Permalink to GSOC Report #0: Documentation">GSOC Report #0: Documentation</a></h1>
+<abbr class="published" title="2012-05-22T00:00:00+02:00">
+    {"date": "Tue 22 May 2012",
+</abbr>
+<p> "category": "<a href="https://pablog.me/category/gsoc2012">GSoC2012</a>", </br>
+ "tags": ["<a href="https://pablog.me/tag/guifinet/">guifi.net</a>", "<a href="https://pablog.me/tag/gsoc2012/">gsoc2012</a>"]}</p>
+</p>
+
+<!-- /.post-info -->
+        </header>
+        <div class="entry-content">
+        <p>-Note: I forgot to say in my last post that all coming posts about GSOC will be in English-<br>
+Well, the coding period started yesterday. Here is what I've been doing meanwhile during the documentation period:</p>
+<h1>Project name</h1>
+<p>First, I decided to change the project name from "<em>CNML Explorer</em>" to "<strong>Guifi.net Studio</strong>".</p>
+<p>Why? <em>CNML Explorer</em> was the main idea of creating an application to visualize CNML files offline. Now the project is more generic and has
+more features apart from visualizing CNML files so I felt like the name wasn't accurate anymore. Guifi.net Studio aims to be a the Guifi.net
+desktop tool, for example, it will also interact with the Guifi.net web API and will contain more features to make life easier to the
+Guifi.net community ;)</p>
+<p>I prefer this name, but let me know if you have an even better one! I'm still not 100% convinced about it so I'm open to new suggestions.</p>
+<h1>Rendering maps</h1>
+<p>There are several libraries to render Open Street Maps into GTK+. I had several candidates for this position and finally, the winner is
+called <strong>libchamplain</strong>!</p>
+<p>Libchamplain is written in C but it takes advantage of GNOME's <strong><a href="https://live.gnome.org/GObjectIntrospection">GObject Introspection</a></strong> to
+get the Python (and other languages) bindings for free! Cool tech :) (Generating Python bindings manually belongs to the past now).</p>
+<p>I chose it because it's easy to install (it's included in the Debian/Ubuntu repostiories), it has the enough features that I need at the
+moment and the development looks active.</p>
+<p>Actually there are some <a href="https://live.gnome.org/libchamplain/applications">apps using libchamplain</a> like
+<a href="http://projects.gnome.org/emerillon/index.html">emerillon</a> (map viewer,
+<a href="http://projects.gnome.org/emerillon/screenshots.html">screenshots</a>), which is also a good sign.</p>
+<p><a href="http://projects.gnome.org/libchamplain/reference.html">Code example</a> (Python snippet are available <a href="http://git.gnome.org/browse/libchamplain/tree/demos/launcher-gtk.py">in the Git
+repository</a>)
+and <a href="http://developer.gnome.org/libchamplain/">documentation</a> are also available.</p>
+<p>Other utilities found in the way are:</p>
+<ul>
+<li><a href="http://dev.omniscale.net/imposm.parser/">python-imposm-parser</a></li>
+<li><a href="http://trac.openstreetmap.ch/trac/memphis/wiki/LibMemphis">libmemphis</a></li>
+<li><a href="http://gosm.sourceforge.net/req.html">gosm</a> (webkit)</li>
+<li><a href="http://nzjrs.github.com/osm-gps-map/docs/reference/html/OsmGpsMap.html">python-osmgpsmap</a></li>
+</ul>
+<p>Due to some <a href="https://bugs.launchpad.net/ubuntu/+source/cheese/+bug/890503">annoying bug in the Clutter version</a>, I had to upgrade to Ubuntu
+12.04. If you use Ubuntu and you want to test Guifi.net Studio you will probably have to upgrade too.</p>
+<h1>Community</h1>
+<p>I have <a href="https://lists.funkfeuer.at/pipermail/interop-dev/2012-May/000096.html">chatted</a> and got in contact with people from other wireless
+communities in Europe (FunkFeuer and Ninux this time) that are also interested in the interoperability subject. I got good impressions :-)</p>
+<p>If you are interested in interoperability too, you should subscribe to the <a href="https://lists.funkfeuer.at/mailman/listinfo/interop-dev">interop-dev mailing
+list</a>. We will meet there.</p>
+<p>I will possibly meet some of them at the <a href="http://it.hackmeeting.org/">Italian Hackmeeting 2012</a> (end of June) in
+<a href="https://es.wikipedia.org/wiki/L'Aquila">L'Aquila</a>.</p>
+<h1>Status of Hybrid Nodes</h1>
+<p>Hybrid nodes have become definitely more popular than old supernodes when you had to deal with miniPCI radios and routerboards.</p>
+<p>This new prototype is easier to build and gives better performance. </p>
+<p>I didn't know exactly how they were technically configured, now I have understood :-)</p>
+<p>Unsolclick configuration is not available for hybrid nodes at the moment. The work is done but the code isn't merged :(. I will also try to
+push it forward.</p>
+<p>Here there is some documentation about hybrid nodes that helped me to understand them:</p>
+<ul>
+<li>in the <a href="http://acacha.org/mediawiki/index.php/Model_h%C3%ADbrid_guifi.net">acacha wiki</a> (Catalan, but self-explainatory thanks to
+    the screenshots)</li>
+<li><a href="http://es.wiki.guifi.net/wiki/Modelo_h%C3%ADbrido_guifi.net">Guifi.net wiki</a> (same but translated into Spanish)</li>
+<li><a href="http://blackhold.nusepas.com/2011/04/nodos-hibridos-guifi-net/">Blackhold's blog</a> (the best, Spanish)</li>
+<li>And <a href="http://blip.tv/guifimedia/9a-conferencia-sax-2011-wireless-battle-of-the-mesh-v4-5024864">this conference</a> during SAX 2011 (Catalan
+    and Miquel specially speaks quite fast :-P):</li>
+</ul>
+<h1>API</h1>
+<p>I have familiarized myself with the Guifi.net API. Isidro is also a student that is doing a project that interacts with the API from
+Android. He has done a great work too, testing it and <a href="http://trac.guifi.net/query?status=!closed&amp;component=Web+guifi.net+%3A+API">reporting a lot of bugs and
+improvements</a>.</p>
+<h1>Optic Fiber</h1>
+<p>Ramón Roca gave me access to the <a href="http://workspaces.guifi.net">Alfresco platform</a>, where there are a lot of interesting documents about
+Guifi.net!<br>
+I have seen how the optic fiber links are documented and I have some ideas to generate cute SVG graphs automatically from the data.<br>
+According to my calendar, I will work on it in July.</p>
+<h1>Development</h1>
+<p>I have started a <a href="https://gitorious.org/guifi-altres/guifinetstudio">new repository</a> in Gitorious, where all the Guifi.net development takes
+place. At the moment there's only the code made during last summer as proof of concept.</p>
+<p>You can get it by typing:</p>
+<blockquote>
+<p>git clone git://gitorious.org/guifi-altres/guifinetstudio.git</p>
+</blockquote>
+<p>There's also a new component at <a href="http://trac.guifi.net%20">trac.guifi.net</a>, so the bug tracking will happen there.</p>
+<h1>This week</h1>
+<p>I will be working in the user interface and unsolclick configuration for simple nodes. <a href="https://gitorious.org/~albertsarle">Albert Sarlé</a>
+(who I met two weeks ago) has done a great work about it during his final project in the university. He made the configuration possible
+using templates (among other things).</p>
+<p>Unfortunately my final exams are close and I won't be able to spend all the time I would like on it :(<br>
+Have a good week!</p>
+<p><a href="http://flattr.com/thing/690146/Guifi-net-Studio-GSOC-Report-0-Documentation"><img alt="Flattr
+this" src="http://api.flattr.com/button/flattr-badge-large.png" title="Flattr this"></a></p>
+        </div><!-- /.entry-content -->
+<div class="comments">
+<h1>Comments !</h1>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'pablogme';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+</article>
+</section>
+
+        <aside id="sidebar">
+                <div class="widget social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate">RSS Feed</a></li>
+
+                            <li><a target="_blank" href="https://twitter.com/_pablog">Twitter</a></li>
+                            <li><a target="_blank" href="https://github.com/PabloCastellano">GitHub</a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/pablo-castellano-568549111/">LinkedIn</a></li>
+                        </ul>
+                </div><!-- /.social -->
+                <div class="widget">
+                        <h2>Blogroll</h2>
+                        <ul>
+                            <li><a target="_blank" href="https://guifi.net">Guifi.net</a></li>
+                            <li><a target="_blank" href="https://librebor.me">LibreBorme</a></li>
+                            <li><a target="_blank" href="http://autistici.org">Autistici/Inventati</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="widget">
+                        <h2>Categories</h2>
+                        <ul>
+                           <li ><a href="https://pablog.me/category/android">Android</a></li>
+                           <li ><a href="https://pablog.me/category/development">Development</a></li>
+                           <li ><a href="https://pablog.me/category/documentacion">Documentación</a></li>
+                           <li ><a href="https://pablog.me/category/electronics">Electronics</a></li>
+                           <li ><a href="https://pablog.me/category/free-software">Free software</a></li>
+                           <li class="active"><a href="https://pablog.me/category/gsoc2012">GSoC2012</a></li>
+                           <li ><a href="https://pablog.me/category/guifinet">Guifi.net</a></li>
+                           <li ><a href="https://pablog.me/category/informatica">Informática</a></li>
+                           <li ><a href="https://pablog.me/category/libreborme">LibreBorme</a></li>
+                           <li ><a href="https://pablog.me/category/linux">Linux</a></li>
+                           <li ><a href="https://pablog.me/category/misc">Misc</a></li>
+                           <li ><a href="https://pablog.me/category/politica">Política</a></li>
+                           <li ><a href="https://pablog.me/category/sociedad">Sociedad</a></li>
+                           <li ><a href="https://pablog.me/category/spain">Spain</a></li>
+                           <li ><a href="https://pablog.me/category/viajes">Viajes</a></li>
+                        </ul>
+                </div>
+                <div class="widget">
+                        <h2>Archives</h2>
+                        <ul>
+                            <li><a href="/blog/2015">2015</a></li>
+                            <li><a href="/blog/2012">2012</a></li>
+                            <li><a href="/blog/2011">2011</a></li>
+                            <li><a href="/blog/2010">2010</a></li>
+                            <li><a href="/blog/2009">2009</a></li>
+                        </ul>
+                </div>
+        </aside><!-- /#sidebar -->
+
+        <footer id="footer" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.<br>
+                </address><!-- /#about -->
+
+<!--                <p>The theme is «myidea-cms», a modified version of «notmyidea-cms», which is a modified version of «notmyidea», the default theme.</p> -->
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/by-sa-4.0-88x31.png" /></a><br />This blog is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        </footer><!-- /#footer -->
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.pablog.me/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+<noscript>
+<img src="https://matomo.pablog.me/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Matomo Code -->
+
+<!-- Image Modal -->
+<script src="//code.jquery.com/jquery-latest.js"></script>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>

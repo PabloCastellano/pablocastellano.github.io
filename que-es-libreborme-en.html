@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>What is LibreBorme</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://pablog.me/theme/css/main.css" type="text/css" />
+        <link href="https://pablog.me/" type="application/atom+xml" rel="alternate" title="pablog.me ATOM Feed" />
+        <link href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate" title="pablog.me RSS Feed" />
+        <!-- Image modal -->
+        <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://pablog.me/css/ie.css"/>
+                <script src="https://pablog.me/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://pablog.me/css/ie6.css"/><![endif]-->
+
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="https://pablog.me/que-es-libreborme-en.html" />
+		<meta property="og:title" content="What is LibreBorme" />
+		<meta property="og:description" content="LibreBorme is my dissertation and it will be mentored by Carlos Canal from Universidad de Málaga and David Cabo from Fundación Ciudadana Civio. Progress can be seen in the GitHub repository:..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://pablog.me/index.html">pablog.me  <strong>$ cat << EOF >> /dev/blog</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://pablog.me">Home</a></li>
+                    <li ><a href="https://pablog.me/sobre-mi">Sobre mí</a></li>
+                <!-- <li><a href="https://pablog.me/">Archives</a></li> -->
+                </ul></nav>
+        </header><!-- /#banner -->
+
+<section id="content" class="body">
+<article>
+        <header> <h1 class="entry-title"><a href="https://pablog.me/que-es-libreborme-en.html"
+        rel="bookmark" title="Permalink to What is LibreBorme">What is LibreBorme</a></h1>
+<abbr class="published" title="2015-02-25T00:20:00+01:00">
+    {"date": "Wed 25 February 2015",
+</abbr>
+<p> "category": "<a href="https://pablog.me/category/libreborme">LibreBorme</a>", </br>
+ "tags": ["<a href="https://pablog.me/tag/libreborme/">libreborme</a>", "<a href="https://pablog.me/tag/opendata/">opendata</a>", "<a href="https://pablog.me/tag/registro-mercantil/">registro mercantil</a>", "<a href="https://pablog.me/tag/proyecto-de-fin-de-carrera/">proyecto de fin de carrera</a>", "<a href="https://pablog.me/tag/civio/">civio</a>"]}</p>
+</p>
+
+    Este artículo está también disponible en otros idiomas:
+        <a href="https://pablog.me/blog/2015/02/que-es-libreborme/">es</a>
+    .
+<!-- /.post-info -->
+        </header>
+        <div class="entry-content">
+        <p>LibreBorme is my dissertation and it will be mentored by <a href="http://www.lcc.uma.es/~canal/">Carlos Canal</a> from Universidad de Málaga
+and <a href="https://twitter.com/dcabo">David Cabo</a> from <a href="http://www.civio.es/">Fundación Ciudadana Civio</a>.</p>
+<p>Progress can be seen in the GitHub repository: <a href="https://github.com/PabloCastellano/libreborme">libreborme</a>, although
+right now the last commit is from October, when my draft hadn't even been approved. In the coming days I will upload the latest changes
+to reflect the current state.</p>
+<p>I have submitted libreBorme to two different competitions about Free Software, that is, <a href="http://www.concursosoftwarelibre.org/1415/">Concurso Universitario de Software Libre</a>
+and <a href="http://osl.ugr.es/2014/09/26/premios-a-proyectos-libres-de-la-ugr/">Certamen de Proyectos Libres</a> which is organized this year by
+the Free Software Office of Universidad de Granada (UGR). I expect to have a functional and pretty version for the deadlines!</p>
+<p>The following is the text of the draft that was approved last November.</p>
+<h1>BORME queries and analysis web platform</h1>
+<h1>Motivation</h1>
+<p>In recent years, transparency is a booming subject in the political-institutional field. However, the devil is in the detail and most of
+the times the word "transparency" is used in a corrupted way because it's a fashion subject and sounds well, independently if the institution
+is considered to be transparent or not. Or maybe it's just because the definition of this term is different for both parts.</p>
+<p>Another common problem is misunderstanding "open data" with "transparency", when reality is that the first one can be used as a tool to get
+the second, but not necessarily: publishing bus timetables as open data doesn't improve transparency (but it has other benefits).<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>
+In the moment where this document was written, it's less than one year that Spain passed its own Transparency Act<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. So far it was the
+only European country with more than a million inhabitants without one.</p>
+<p>The passing was without any doubt an important and long waited fact. However, during the debate period they started to hear conflicting
+voices about this Act.</p>
+<p>The <em>Open Knowledge Foundation</em><sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>, one of the most important international non for profit organizations and model for its background in
+the fight for transparency, provides in their «Open Data Handbook» a definition, with a number of conditions that a dataset must accomplish
+in order to be considered "Open Data".<sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup><sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> The definition is large but it can be summed up as three facts:</p>
+<ul>
+<li><strong>Availability and Access</strong>. the data must be available as a whole and at no more than a reasonable reproduction cost, preferably by
+downloading over the internet. The data must also be available in a convenient and modifiable form.</li>
+<li><strong>Reuse and Redistribution</strong>. the data must be provided under terms that permit reuse and redistribution including the intermixing with other datasets.</li>
+<li><strong>Universal Participation</strong>. everyone must be able to use, reuse and redistribute - there should be no discrimination against fields of endeavour
+or against persons or groups. For example, 'non-commercial' restrictions that would prevent 'commercial' use, or restrictions of use for certain
+purposes (e.g. only in education), are not allowed.</li>
+</ul>
+<p>Nowadays there isn't a serious bet about it and only a few institutions apply to the definition when they speak about open data.</p>
+<p>Nonetheless in the last years, we have seen that one of the clear strengths of our country, Spain, is that in spite of the general dissatisfaction
+of institutional politics, civil society organizes and they start to form groups to specialize and work in a proactive way to change things.</p>
+<p>In this case, civil society has been organizing for a while to demand true transparency, giving as example transparency exiting in our surrounding
+countries that are considered model in regards of open data as is the United Kingdom, and they are achieving to speed up the process of transparency
+in public institutions by doing the work that they should be in the charge of but unfortunately don't do, by making true open datasets.</p>
+<p>Some examples of these organizations are <em>OpenKratio</em><sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>, <em>Fundación Ciudadana Civio</em><sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup> or <em>Qué Hacen Los Diputados</em><sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup> (the first one,
+based in Seville and the rest based in Madrid). At international level we can find, among others, <em>Sunlight Foundation</em><sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup> or
+<em>Open Knowledge Foundation</em> (OKFN), previously quoted.</p>
+<p>Their activities program is public and we can find in it: meeting with regional government staff in order to offer advising and collaborate in
+an altruistic way; organizing conferences about transparency and Open Data in public universities with international speakers that explain the
+point of view from other countries; collaboration with public administrations to open and visualize datasets; organizing and participating in
+competitions and <em>hackathons</em> for developing new APIs, mobile apps, etc.</p>
+<p>In this context the following project is planned with the goal of address public data of the Mercantile Register in order to <em>open</em> them in a
+way closer to the OKFN definition and offer them to everyone (be it a human or a Internet robot) willing to make use of them.</p>
+<h1>Boletín Oficial del Registro Mercantil (BORME)</h1>
+<p><em>Registro Mercantil Central</em> (RMC) is the organization in charge of publishing <em>BORME</em>, which in Spanish stands for "Mercantile Register Official Bulletin".
+BORME publishes newly created societies, societies that have broken up, and some other data the companies must communicate.</p>
+<p>Since 2009 it is also published in electronic format. This is a big step, but BORME only contain changes, that is, if we read BORME we can know
+that a a society has dissolved today, but it will be really hard to know when it was established, since the website doesn't provide a search
+engine that allows us to find it. Besides, if the constitution date is previous to 2009, it will be even more difficult, since there doesn't
+exist a document in electronic format and we should request to RMC a paper photocopy of the original document, indicating previously the page
+number in the BORME, which is also something we must know beforehand. However these datasets are already computerized somewhere. In order to access
+the history of a company we can use a service provided by _Colegio de Registradores, _which are the Official Registrars and to pay them in concept
+of professional fees, depending on how many requests we can to realize.</p>
+<p>This procedure doesn't meet the definition of open data by OKFN and is contradictory and counter-productive because of the following reasons:</p>
+<ul>
+<li>It doesn't make sense that it's a closed service, since the main goal of Registro Mercantil is to be a public advertisement instrument of the companies.<sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup></li>
+<li>The fact of collecting money makes it harder and contradicts its own function of advertisement.</li>
+<li>It is an obsolete model of work that should have been renewed more than a decade ago. In those days you had to pay a person in charge of finding
+the requested information in thousand of sheets of hundreds of volumes, but nowadays we live in the Information Society, where it already exists
+the Internet, where this information is already computerized somewhere and the real cost of that request is near 0€.</li>
+</ul>
+<p>Nonetheless, it keeps making sense that they collect money for the services of certificates expedition (another service offered by Colegio de
+Registradores) since they require a mercantile registrar to certify the data.</p>
+<p>Unfortunately on the other hand,the search engine of BORME is only active for section II, which is where they publish Legal Notices, when the really
+interesting part is section I, where they publish registration data and other data concerning to companies. Finally BORME publishing format is only PDF,
+where other official documents are published also in XML format and before the beginning of this project the Author contacted the webmaster of BORME,
+who claimed that this behavior was not going to change in a short time because of <em>«the current agreement and legislation of the Mercantile Register»</em>.</p>
+<h1>Goal and scope of this project</h1>
+<p>The goal of this project is developing a platform that automatedly downloads BORME files from January 2nd 2009, the day when they started to
+publish BORME in electronic format, in order to process them and build its own database with the contained data.</p>
+<p>The automatic processing will extract every useful information of the PDF files, by identifying entities and actions. Once the database is generated,
+the potential will be in the ability of performing queries by fields or even semantic queries.</p>
+<p>For example:
+What other societies do administer the administrators of this company? How many companies closed in 2011?</p>
+<p>In order to ease the queries it will be developed additionally a web platform hosted in the cloud using the Django framework with the programming language Python.</p>
+<p>The platform will be compatible with OpenStack and Cloud Foundry, both solutions for cloud computing, IaaS and PaaS respectively. Both solutions
+were chosen of among all existing solutions because these are free software and because of the trust on the organizations supporting them as "cloud standards".</p>
+<p>The goal is that the service will be kept online after the project is finished. The author contacted to Fundación Ciudadana Civio and they showed
+their interest in maintaining the service and to make use of it together with the author. The platform will be autonomous, in the sense that it will
+be developed and will remain ready to look for new BORMES daily to incorporate new information to the database. This way it will be possible to
+query the website with the latest information available to the moment.</p>
+<p>The source code of the platform will be released with a free software license, since the idea of this project is that as many entities as possible
+make use of it and we create a community around it.</p>
+<p>Eventually, collected data will be given to OpenCorporates. OpenCorporates is an initiative that aims to free companies data worldwide and to
+"assign an URL to every company in the world", since data from Spanish companies and corporations available are poor compared to those
+available for other countries.<sup id="fnref:11"><a class="footnote-ref" href="#fn:11">11</a></sup><sup id="fnref:12"><a class="footnote-ref" href="#fn:12">12</a></sup><sup id="fnref:13"><a class="footnote-ref" href="#fn:13">13</a></sup></p>
+<h1>References</h1>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The New Ambiguity of "Open Government", 2012: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2012489&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="http://www.20minutos.es/noticia/1991399/0/ley-de-transparencia/actitudes-politicas/congreso/">http://www.20minutos.es/noticia/1991399/0/ley-de-transparencia/actitudes-politicas/congreso/</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://okfn.org/">https://okfn.org/</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="http://opendatahandbook.org/en/what-is-open-data/">http://opendatahandbook.org/en/what-is-open-data/</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Definición completa de "Abierto": <a href="http://opendefinition.org/od/">http://opendefinition.org/od/</a>&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p><a href="http://openkratio.org/">http://openkratio.org/</a>&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p><a href="http://www.civio.es/">http://www.civio.es/</a>&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p><a href="http://quehacenlosdiputados.net/">http://quehacenlosdiputados.net/</a>&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:9">
+<p><a href="http://sunlightfoundation.com/">http://sunlightfoundation.com/</a>&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+<li id="fn:10">
+<p><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197983369/Estructura_P/1215198328530/Detalle.html">http://www.mjusticia.gob.es/cs/Satellite/es/1215197983369/Estructura_P/1215198328530/Detalle.html</a>&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+</li>
+<li id="fn:11">
+<p><a href="http://registries.opencorporates.com/jurisdiction/es">http://registries.opencorporates.com/jurisdiction/es</a>&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 11 in the text">&#8617;</a></p>
+</li>
+<li id="fn:12">
+<p>Zara España SA: <a href="https://opencorporates.com/companies/es/15022510">https://opencorporates.com/companies/es/15022510</a>&#160;<a class="footnote-backref" href="#fnref:12" title="Jump back to footnote 12 in the text">&#8617;</a></p>
+</li>
+<li id="fn:13">
+<p>Google Inc.: <a href="https://opencorporates.com/companies/us_ca/C2474131">https://opencorporates.com/companies/us_ca/C2474131</a>&#160;<a class="footnote-backref" href="#fnref:13" title="Jump back to footnote 13 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+        </div><!-- /.entry-content -->
+<div class="comments">
+<h1>Comments !</h1>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'pablogme';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+</article>
+</section>
+
+        <aside id="sidebar">
+                <div class="widget social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="https://pablog.me/rss.xml" type="application/rss+xml" rel="alternate">RSS Feed</a></li>
+
+                            <li><a target="_blank" href="https://twitter.com/_pablog">Twitter</a></li>
+                            <li><a target="_blank" href="https://github.com/PabloCastellano">GitHub</a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/pablo-castellano-568549111/">LinkedIn</a></li>
+                        </ul>
+                </div><!-- /.social -->
+                <div class="widget">
+                        <h2>Blogroll</h2>
+                        <ul>
+                            <li><a target="_blank" href="https://guifi.net">Guifi.net</a></li>
+                            <li><a target="_blank" href="https://librebor.me">LibreBorme</a></li>
+                            <li><a target="_blank" href="http://autistici.org">Autistici/Inventati</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="widget">
+                        <h2>Categories</h2>
+                        <ul>
+                           <li ><a href="https://pablog.me/category/android">Android</a></li>
+                           <li ><a href="https://pablog.me/category/development">Development</a></li>
+                           <li ><a href="https://pablog.me/category/documentacion">Documentación</a></li>
+                           <li ><a href="https://pablog.me/category/electronics">Electronics</a></li>
+                           <li ><a href="https://pablog.me/category/free-software">Free software</a></li>
+                           <li ><a href="https://pablog.me/category/gsoc2012">GSoC2012</a></li>
+                           <li ><a href="https://pablog.me/category/guifinet">Guifi.net</a></li>
+                           <li ><a href="https://pablog.me/category/informatica">Informática</a></li>
+                           <li class="active"><a href="https://pablog.me/category/libreborme">LibreBorme</a></li>
+                           <li ><a href="https://pablog.me/category/linux">Linux</a></li>
+                           <li ><a href="https://pablog.me/category/misc">Misc</a></li>
+                           <li ><a href="https://pablog.me/category/politica">Política</a></li>
+                           <li ><a href="https://pablog.me/category/sociedad">Sociedad</a></li>
+                           <li ><a href="https://pablog.me/category/spain">Spain</a></li>
+                           <li ><a href="https://pablog.me/category/viajes">Viajes</a></li>
+                        </ul>
+                </div>
+                <div class="widget">
+                        <h2>Archives</h2>
+                        <ul>
+                            <li><a href="/blog/2015">2015</a></li>
+                            <li><a href="/blog/2012">2012</a></li>
+                            <li><a href="/blog/2011">2011</a></li>
+                            <li><a href="/blog/2010">2010</a></li>
+                            <li><a href="/blog/2009">2009</a></li>
+                        </ul>
+                </div>
+        </aside><!-- /#sidebar -->
+
+        <footer id="footer" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.<br>
+                </address><!-- /#about -->
+
+<!--                <p>The theme is «myidea-cms», a modified version of «notmyidea-cms», which is a modified version of «notmyidea», the default theme.</p> -->
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/by-sa-4.0-88x31.png" /></a><br />This blog is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        </footer><!-- /#footer -->
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.pablog.me/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+<noscript>
+<img src="https://matomo.pablog.me/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Matomo Code -->
+
+<!-- Image Modal -->
+<script src="//code.jquery.com/jquery-latest.js"></script>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>
