@@ -1,6 +1,8 @@
 +++
 date = '2015-02-25T00:20:00+02:00'
 title = 'What is LibreBorme'
+slug = 'what-is-libreborme'
+aliases = 'que-es-libreborme'
 categories = ['LibreBorme']
 tags = ['libreborme', 'opendata', 'registro mercantil', 'proyecto de fin de carrera', 'civio']
 +++
