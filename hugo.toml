@@ -33,7 +33,7 @@ unsafe = true
 author = "Pablo Castellano"
 license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Blog de Pablo Castellano"
-keywords = "blog,developer,personal"
+keywords = "blog,free software,devops,librebor,libreborme"
 info = ["Freelance Software Engineer and DevOps"]
 avatarURL = "img/avatar1.jpg"
 dateFormat = "2, January 2006"
